@@ -1,5 +1,8 @@
+@use '../../shared/styles/variables' as *;
+
 .wrapper {
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 
 .info_hero {
@@ -11,9 +14,9 @@
 }
 
 .name_text {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
-  max-width: 350px;
+  max-width: 450px;
   margin-bottom: 20px;
 
   .name_accent {
@@ -23,40 +26,41 @@
 }
 
 .name {
-  font-size: 52px;
+  font-size: 64px;
   font-weight: 800;
-  max-width: 350px;
+  max-width: 600px;
   text-transform: uppercase;
+  animation: lighting 2000ms alternate infinite ease;
+  // text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
+}
+
+@keyframes lighting{
+  0%,85%{
+      color: $primary-text-color;
+      text-shadow: none;
+  }
+  100%{
+      color: #f6c2b6;
+      text-shadow: 0 0 5px #f6c2b6, 0 0 3px #f6c2b6;
+  }
 }
 
 .text {
+  font-family: $primary-font;
   text-align: center;
-  font-size: 16px;
+  transform: translateY(100px);
+  font-size: 52px;
   font-weight: 400;
   max-width: 250px;
-  margin-left: auto;
   margin-right: auto;
-
-  .text_accent {
-    display: block;
-    font-weight: 800;
-  }
+  transform: translate(-150px, 180px);
+  position: relative;
+  z-index: 2;
+  text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
 }
 
 .btn_group {
   transform: translate(10px, 0) rotate(-90deg);
-}
-
-.hero {
-  min-height: 350px;
-  border-radius: 10px;
-
-  background-image: url('../../../promo/IMG_1277.JPG');
-  background-repeat: no-repeat;
-  background-position: 50% 30%;
-  background-size: cover;
-
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media screen and (max-width: 767px) {
@@ -96,4 +100,16 @@
       font-weight: 800;
     }
   }
+}
+
+
+.heroImg{
+  position: absolute;
+  top: -20px;
+  right: 100px;
+
+  pointer-events: none;
+
+  mask-image: linear-gradient(to top, rgba(0,0,0, 0) 0%, rgba(0,0,0, 0.8) 50%);
+   -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 50%);
 }

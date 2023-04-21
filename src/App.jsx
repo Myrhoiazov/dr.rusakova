@@ -15,12 +15,12 @@ const Contact = lazy(() => import('./pages/Contact'));
 export const App = () => {
   return (
     //basename="/denis-myrhoiazov"
-    <BrowserRouter> 
+    <BrowserRouter>
       <Routes>
         <Route element={<Header />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutMe />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/courses" element={<Skills />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolio/:id" element={<PortfolioItem />} />
           <Route path="/contact" element={<Contact />} />

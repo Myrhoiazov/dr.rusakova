@@ -1,31 +1,16 @@
 @font-face {
-  font-family: 'Futura-pt';
-  src: url('../../assets/fonts/futura-pt-light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: 'Futura-pt';
-  src: url('../../assets/fonts/futura-pt-medium.ttf') format('truetype');
+  font-family: 'Ametrine';
+  src: url('../../assets/fonts/ametrine.woff2') format('woff2'),
+      url('../../assets/fonts/ametrine.woff') format('woff'); 
   font-weight: 400;
   font-style: normal;
-  font-stretch: normal;
 }
 
 @font-face {
-  font-family: 'Futura-pt';
-  src: url('../../assets/fonts/futura-pt-bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
+  font-family: 'Ametrine';
+  src: url('../../assets/fonts/ametrine_italic.woff2') format('woff2'),
+    url('../../assets/fonts/ametrine.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
 }
 
-@font-face {
-  font-family: 'Futura-pt';
-  src: url('../../assets/fonts/futura-pt-extra-bold.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-}

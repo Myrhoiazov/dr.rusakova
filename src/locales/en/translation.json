@@ -1,16 +1,14 @@
 {
   "Home": "Home",
   "About me": "About me",
-  "Skills": "Skills",
-  "Portfolio": "Portfolio",
+  "Skills": "Сourses",
   "Contact": "Contact",
 
   "hero": {
-    "hello": "Hello!",
-    "hello-accent": "I'm",
-    "name": "Dr. Rusakova",
-    "text": "FrontEnd developer",
-    "country": "Ukraine"
+    "hello": "The best and most effective facial correction techniques from a trainer",
+    "hello-accent": "international level",
+    "name": "Online course in contouring",
+    "text": "Dr. Rusakova"
   },
 
   "about": {

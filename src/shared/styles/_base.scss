@@ -1,4 +1,4 @@
-@import './variables';
+@use './variables' as *;
 
 *,
 *::before,
@@ -11,18 +11,6 @@ body {
   font-style: normal;
   margin: 0;
   overflow: auto;
-}
-
-body {
-  --main-bg: #f5f4fd;
-  --item-hover: #f9f8fb;
-  --secondary-bg: #251d33;
-  --main-container-bg: #fff;
-  --container-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  --text-color: #00071d;
-}
-
-body {
   color: $primary-text-color;
   background-color: $primary-bg-color;
   transition: 0.3s ease-in-out;

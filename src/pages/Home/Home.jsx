@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import '../../i18next';
 import Container from 'components/container';
 import s from './Home.module.scss';
+import Liza from '../../assets/IMG_0419.JPG';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -18,12 +19,10 @@ const Home = () => {
             <h1 className={s.name}>{t('hero.name')}</h1>
           </div>
 
-          <p className={s.text}>
-            {t('hero.text')}
-            <span className={s.text_accent}>{t('hero.country')}</span>
-          </p>
+          <p className={s.text}>{t('hero.text')}</p>
         </div>
         <div className={s.hero}></div>
+        <img src={Liza} alt="Фото Лизы" width="500" className={s.heroImg} />
       </section>
     </Container>
   );

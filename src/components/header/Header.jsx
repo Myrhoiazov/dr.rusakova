@@ -2,7 +2,7 @@ import { useState, memo, Suspense } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import MenuIcon from '@mui/icons-material/Menu';
-import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import CloseIcon from '@mui/icons-material/Close';
 import { useTranslation } from 'react-i18next';
 import s from '../header/header.module.scss';
 import headerMenu from './headermenu';
@@ -89,7 +89,7 @@ const Header = () => {
                         className={s.btn_close}
                         onClick={onHandleShow}
                       >
-                        <HighlightOffIcon color="inherit" fontSize="large" />
+                        <CloseIcon color="inherit" fontSize="large" />
                       </button>
                     }
                     <div style={{ marginBottom: 40, paddingTop: 20 }}>
@@ -99,7 +99,12 @@ const Header = () => {
                     {headerMenu.map(({ name, to }) => {
                       return (
                         <div key={name} className={s.link_items}>
-                          <NavLink to={to} end className={getActiveMobileClass}>
+                          <NavLink
+                            to={to}
+                            end
+                            className={getActiveMobileClass}
+                            onClick={onHandleShow}
+                          >
                             {t(name)}
                           </NavLink>
                         </div>
@@ -113,7 +118,7 @@ const Header = () => {
           <main className={s.main}>
             <Suspense fallback={<Loader />}>{<Outlet />}</Suspense>
           </main>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Container>
     </>
