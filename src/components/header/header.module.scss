@@ -3,7 +3,6 @@
 .flexWrapper {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .main {
@@ -78,7 +77,7 @@
 
 .nav_mobile_wrapper {
   position: absolute;
-  z-index: 2;
+  z-index: 999;
   top: 0;
   right: 0;
   transform: translateX(100%);
@@ -93,6 +92,13 @@
 
   &.show {
     transform: translateX(0);
+  }
+
+  .mobileLogo{
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
   }
 }
 

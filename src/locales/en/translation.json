@@ -1,26 +1,51 @@
 {
-  "Home": "Home",
-  "About me": "About me",
-  "Skills": "Сourses",
-  "Contact": "Contact",
-
-  "hero": {
-    "hello": "The best and most effective facial correction techniques from a trainer",
-    "hello-accent": "international level",
-    "name": "Online course in contouring",
-    "text": "Dr. Rusakova"
-  },
-
-  "about": {
-    "title": "About me",
-    "text1": "Hi, I'm Denis – FrontEnd developer from Ukraine. I focus on HTML5, CSS3, JS, React.",
-    "text2": "Development, practice and work for the result are important for me. I intend to develop innovative technologies and deliver value to people. I have experience with implementation of both individual and team projects.",
-    "text3": "Ready to implement excellent projects with wonderful people."
-  },
-
-  "skills": {
-    "title": "Skills",
-    "text1": "Technologies in programming that I have studied and in the process of studying",
-    "text2": "Other technologies that I own."
-  }
+	"Home": "Home",
+	"About me": "About me",
+	"Courses": "Сourses",
+	"Contact": "Contact",
+	"hero": {
+		"hello": "The best and most effective facial correction techniques from a trainer",
+		"hello-accent": "international level",
+		"name": "Online course in contouring",
+		"text": "Dr. Rusakova"
+	},
+	"button": {
+		"buy": "Buy training videos"
+	},
+	"action": {
+		"splide": "Buy 2 items and get 10% discount"
+	},
+	"about": {
+		"title": "About me",
+		"text1": "Elizaveta Rusakova Dermatovenereologist, cosmetologist, owner of a popular clinic in the city of Dnipro. Elizaveta has passed more than 30 advanced trainings, not only from Ukrainian specialists, but also from the European",
+		"text2": "Owns personal safety techniques",
+		"text3": "In this course, Elizaveta has invested the basic and individual developments of her work. The course was created for cosmetologists to share information and experience, for specialists who cannot attend training in person. The courses are introductory in nature with the technique of a cosmetologist."
+	},
+	"section": {
+		"products": "Products"
+	},
+	"course_1": {
+		"title": "Facial contouring course",
+		"text": "Theoretical part, analysis of preparations, review of needles, insertion techniques, analysis of correction methods, demonstration on models.",
+		"buy": "Add to basket",
+		"link": "Connect with us" 
+	},
+	"course_2": {
+		"title": "Flat bow technique course",
+		"text": "Theoretical part, disassembly of drugs, injection techniques, schematic demonstration, demonstration on models.",
+		"buy": "Add to basket",
+		"link": "Connect with us" 
+	},
+	"course_3": {
+		"title": "Botulinum therapy course",
+		"text": "Theoretical part, dosage calculation, counting the number of units, injection anatomy for botulinum toxin, demonstration on models.",
+		"buy": "Add to basket",
+		"link": "Connect with us" 
+	},
+	"course_4": {
+		"title": "Course of biorevitalization, lipolytics, scalp mesotherapy",
+		"text": "Theoretical part, analysis of drugs, subject of choice for the patient, mechanism of action, demonstration on the model.",
+		"buy": "Add to basket",
+		"link": "Connect with us" 
+	}
 }
