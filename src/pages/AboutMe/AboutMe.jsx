@@ -1,12 +1,12 @@
+import { useState } from 'react';
 import ReactPlayer from 'react-player';
 import Container from 'components/container';
 import { useTranslation } from 'react-i18next';
 import SplideComponent from 'components/Splide/SplideComponent';
 import '../../i18next';
 import Video from '../../assets/Promo_Insta.mp4';
-import logo from '../../assets/IMG_9363.PNG';
+import bckGround from '../../assets/bcg-video.png';
 import s from './AboutMe.module.scss';
-import { useState } from 'react';
 
 const AboutMe = () => {
 	const [isPlay, setIsPlay] = useState(false);
@@ -30,7 +30,7 @@ const AboutMe = () => {
 									width="300px"
 									height="540px"
 									playing={isPlay}
-									// light={logo}
+									light={bckGround}
 								/>
 							</div>
 						</div>

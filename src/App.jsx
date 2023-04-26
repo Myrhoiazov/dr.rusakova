@@ -13,7 +13,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 export const App = () => {
 	return (
 		//basename="/denis-myrhoiazov"
-		<BrowserRouter>
+		<BrowserRouter basename="/dr-rusakova">
 			<Routes>
 				<Route element={<Header />}>
 					<Route path="/" element={<HomePage />} />

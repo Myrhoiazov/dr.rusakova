@@ -16,11 +16,16 @@ const SplideComponent = () => {
 					drag: 'free',
 					perPage: 3,
 					pagination: false,
+					arrows: false,
 					autoScroll: {
 						rewind: false,
 						speed: 0.5,
 					},
-					arrows: false,
+					breakpoints: {
+						640: {
+							perPage: 1,
+						},
+					},
 				}}
 				extensions={{ AutoScroll }}
 			>

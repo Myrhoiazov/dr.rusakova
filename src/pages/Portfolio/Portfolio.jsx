@@ -1,5 +1,7 @@
+import AOS from 'aos';
 import { useTranslation } from 'react-i18next';
 import { Box, Typography } from '@mui/material';
+import { useEffect } from 'react';
 import Container from 'components/container';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -11,6 +13,17 @@ import '../../i18next';
 
 const Portfolio = () => {
 	const { t } = useTranslation();
+
+	useEffect(() => {
+		AOS.init({
+			offset: 120,
+			delay: 500,
+			duration: 1500,
+			easing: 'ease',
+			once: false,
+			mirror: false,
+		});
+	}, []);
 	return (
 		<section id="courses">
 			<Container>
@@ -27,7 +40,6 @@ const Portfolio = () => {
 						variant="h4"
 						sx={{
 							fontSize: '48px',
-							marginBottom: 3,
 							textAlign: 'center',
 							fontWeight: 700,
 							marginBottom: '60px',
@@ -44,7 +56,11 @@ const Portfolio = () => {
 							gap: 3,
 						}}
 					>
-						<Card sx={{ maxWidth: 400 }}>
+						<Card
+							sx={{ maxWidth: 400 }}
+							data-aos="fade-up"
+							data-aos-delay="300"
+						>
 							<CardMedia
 								component="img"
 								alt={t('course_1.title')}
@@ -79,7 +95,11 @@ const Portfolio = () => {
 								</Button>
 							</CardActions>
 						</Card>
-						<Card sx={{ maxWidth: 400 }}>
+						<Card
+							sx={{ maxWidth: 400 }}
+							data-aos="fade-up"
+							data-aos-delay="400"
+						>
 							<CardMedia
 								component="img"
 								alt={t('course_2.title')}
@@ -115,7 +135,11 @@ const Portfolio = () => {
 								</Button>
 							</CardActions>
 						</Card>
-						<Card sx={{ maxWidth: 400 }}>
+						<Card
+							sx={{ maxWidth: 400 }}
+							data-aos="fade-up"
+							data-aos-delay="500"
+						>
 							<CardMedia
 								component="img"
 								alt={t('course_3.title')}
@@ -151,7 +175,11 @@ const Portfolio = () => {
 								</Button>
 							</CardActions>
 						</Card>
-						<Card sx={{ maxWidth: 400 }}>
+						<Card
+							sx={{ maxWidth: 400 }}
+							data-aos="fade-up"
+							data-aos-delay="600"
+						>
 							<CardMedia
 								component="img"
 								alt={t('course_4.title')}
