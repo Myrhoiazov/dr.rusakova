@@ -43,6 +43,7 @@ const Portfolio = () => {
 							textAlign: 'center',
 							fontWeight: 700,
 							marginBottom: '60px',
+							textTransform: 'uppercase',
 						}}
 					>
 						{t('section.products')}
@@ -57,7 +58,11 @@ const Portfolio = () => {
 						}}
 					>
 						<Card
-							sx={{ maxWidth: 400 }}
+							sx={{
+								maxWidth: 400,
+								backgroundColor: 'transparent',
+								paddingBottom: 2,
+							}}
 							data-aos="fade-up"
 							data-aos-delay="300"
 						>
@@ -75,6 +80,7 @@ const Portfolio = () => {
 										marginBottom: 3,
 										fontWeight: 700,
 										textTransform: 'uppercase',
+										color: 'white',
 									}}
 								>
 									{t('course_1.title')}
@@ -82,21 +88,33 @@ const Portfolio = () => {
 								<Typography
 									variant="body2"
 									color="text.secondary"
+									sx={{
+										color: '#ffffff8a',
+									}}
 								>
 									{t('course_1.text')}
 								</Typography>
 							</CardContent>
-							<CardActions>
-								<Button size="small">
+							<CardActions
+								sx={{
+									display: 'flex',
+									justifyContent: 'space-between',
+								}}
+							>
+								<Button variant="outlined" size="small">
 									{t('course_1.buy')}
 								</Button>
-								<Button size="small">
+								<Button variant="outlined" size="small">
 									{t('course_1.link')}
 								</Button>
 							</CardActions>
 						</Card>
 						<Card
-							sx={{ maxWidth: 400 }}
+							sx={{
+								maxWidth: 400,
+								backgroundColor: 'transparent',
+								paddingBottom: 2,
+							}}
 							data-aos="fade-up"
 							data-aos-delay="400"
 						>
@@ -114,6 +132,8 @@ const Portfolio = () => {
 										marginBottom: 3,
 										fontWeight: 700,
 										textTransform: 'uppercase',
+										color: 'white',
+
 										minHeight: '72px',
 									}}
 								>
@@ -122,21 +142,33 @@ const Portfolio = () => {
 								<Typography
 									variant="body2"
 									color="text.secondary"
+									sx={{
+										color: '#ffffff8a',
+									}}
 								>
 									{t('course_2.text')}
 								</Typography>
 							</CardContent>
-							<CardActions>
-								<Button size="small">
+							<CardActions
+								sx={{
+									display: 'flex',
+									justifyContent: 'space-between',
+								}}
+							>
+								<Button variant="outlined" size="small">
 									{t('course_2.buy')}
 								</Button>
-								<Button size="small">
+								<Button variant="outlined" size="small">
 									{t('course_2.link')}
 								</Button>
 							</CardActions>
 						</Card>
 						<Card
-							sx={{ maxWidth: 400 }}
+							sx={{
+								maxWidth: 400,
+								backgroundColor: 'transparent',
+								paddingBottom: 2,
+							}}
 							data-aos="fade-up"
 							data-aos-delay="500"
 						>
@@ -154,6 +186,7 @@ const Portfolio = () => {
 										marginBottom: 3,
 										fontWeight: 700,
 										textTransform: 'uppercase',
+										color: 'white',
 										minHeight: '72px',
 									}}
 								>
@@ -162,21 +195,33 @@ const Portfolio = () => {
 								<Typography
 									variant="body2"
 									color="text.secondary"
+									sx={{
+										color: '#ffffff8a',
+									}}
 								>
 									{t('course_3.text')}
 								</Typography>
 							</CardContent>
-							<CardActions>
-								<Button size="small">
+							<CardActions
+								sx={{
+									display: 'flex',
+									justifyContent: 'space-between',
+								}}
+							>
+								<Button variant="outlined" size="small">
 									{t('course_3.buy')}
 								</Button>
-								<Button size="small">
+								<Button variant="outlined" size="small">
 									{t('course_3.link')}
 								</Button>
 							</CardActions>
 						</Card>
 						<Card
-							sx={{ maxWidth: 400 }}
+							sx={{
+								maxWidth: 400,
+								backgroundColor: 'transparent',
+								paddingBottom: 2,
+							}}
 							data-aos="fade-up"
 							data-aos-delay="600"
 						>
@@ -194,6 +239,8 @@ const Portfolio = () => {
 										marginBottom: 3,
 										fontWeight: 700,
 										textTransform: 'uppercase',
+										color: 'white',
+
 										minHeight: '72px',
 									}}
 								>
@@ -202,15 +249,23 @@ const Portfolio = () => {
 								<Typography
 									variant="body2"
 									color="text.secondary"
+									sx={{
+										color: '#ffffff8a',
+									}}
 								>
 									{t('course_4.text')}
 								</Typography>
 							</CardContent>
-							<CardActions>
-								<Button size="small">
+							<CardActions
+								sx={{
+									display: 'flex',
+									justifyContent: 'space-between',
+								}}
+							>
+								<Button variant="outlined" size="small">
 									{t('course_4.buy')}
 								</Button>
-								<Button size="small">
+								<Button variant="outlined" size="small">
 									{t('course_4.link')}
 								</Button>
 							</CardActions>
