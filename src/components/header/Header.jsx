@@ -17,7 +17,7 @@ const Header = () => {
 	const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
 	const isShowBurgerMenu = useMediaQuery({ query: '(max-width: 1279px)' });
 	const [isShowMenu, setIsShowMenu] = useState(false);
-	const [isActive, setIsActive] = useState('#home');
+	const [isActive, setIsActive] = useState('');
 
 	const linkTo = (to) => {
 		setIsActive(to);
@@ -47,7 +47,7 @@ const Header = () => {
 					<Container>
 						<div className={s.wrapper}>
 							<nav className={s.nav}>
-								<a href="/">
+								<a href="/dr.rusakova">
 									<img
 										src={Logo}
 										alt=""
@@ -146,7 +146,7 @@ const Header = () => {
 													</NavLink>
 
 													<a
-														href="/"
+														href="/dr.rusakova"
 														className={s.mobileLogo}
 													>
 														<img
@@ -166,7 +166,6 @@ const Header = () => {
 					</Container>
 				</header>
 			</div>
-
 			<main className={s.main}>
 				<Suspense fallback={<Loader />}>{<Outlet />}</Suspense>
 			</main>
