@@ -1,17 +1,10 @@
 {
   "files": {
-    "main.css": "/dr.rusakova/static/css/main.c7b06dcb.css",
-    "main.js": "/dr.rusakova/static/js/main.f63c9415.js",
-    "static/css/665.ef51570a.chunk.css": "/dr.rusakova/static/css/665.ef51570a.chunk.css",
-    "static/js/665.63887581.chunk.js": "/dr.rusakova/static/js/665.63887581.chunk.js",
-    "static/css/313.7114cb0a.chunk.css": "/dr.rusakova/static/css/313.7114cb0a.chunk.css",
-    "static/js/313.306b629d.chunk.js": "/dr.rusakova/static/js/313.306b629d.chunk.js",
-    "static/js/40.0eabc0d7.chunk.js": "/dr.rusakova/static/js/40.0eabc0d7.chunk.js",
-    "static/css/691.0d6fbeba.chunk.css": "/dr.rusakova/static/css/691.0d6fbeba.chunk.css",
-    "static/js/691.b7465690.chunk.js": "/dr.rusakova/static/js/691.b7465690.chunk.js",
-    "static/css/901.5947c9a7.chunk.css": "/dr.rusakova/static/css/901.5947c9a7.chunk.css",
-    "static/js/901.df0dac41.chunk.js": "/dr.rusakova/static/js/901.df0dac41.chunk.js",
-    "static/js/424.c60cfd2e.chunk.js": "/dr.rusakova/static/js/424.c60cfd2e.chunk.js",
+    "main.css": "/dr.rusakova/static/css/main.1a12e357.css",
+    "main.js": "/dr.rusakova/static/js/main.d9e8b458.js",
+    "static/css/567.2266547b.chunk.css": "/dr.rusakova/static/css/567.2266547b.chunk.css",
+    "static/js/567.8d88b70a.chunk.js": "/dr.rusakova/static/js/567.8d88b70a.chunk.js",
+    "static/js/779.6108f058.chunk.js": "/dr.rusakova/static/js/779.6108f058.chunk.js",
     "static/media/Promo_Insta.mp4": "/dr.rusakova/static/media/Promo_Insta.4c2d7cd863eb62bc261d.mp4",
     "static/media/bcg-video.png": "/dr.rusakova/static/media/bcg-video.842f517ec822489e31ac.png",
     "static/media/dr-rusakova.png": "/dr.rusakova/static/media/dr-rusakova.04d7b93d9d92447f59ea.png",
@@ -27,21 +20,14 @@
     "static/media/linkedin-bcg.svg": "/dr.rusakova/static/media/linkedin-bcg.0904bc36db6c39e2d4ee42a4d8995045.svg",
     "static/media/getFetch.cjs": "/dr.rusakova/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/facebook-bcg.svg": "/dr.rusakova/static/media/facebook-bcg.64835acfc86f43b23c0c99e8b5b8ff59.svg",
-    "main.c7b06dcb.css.map": "/dr.rusakova/static/css/main.c7b06dcb.css.map",
-    "main.f63c9415.js.map": "/dr.rusakova/static/js/main.f63c9415.js.map",
-    "665.ef51570a.chunk.css.map": "/dr.rusakova/static/css/665.ef51570a.chunk.css.map",
-    "665.63887581.chunk.js.map": "/dr.rusakova/static/js/665.63887581.chunk.js.map",
-    "313.7114cb0a.chunk.css.map": "/dr.rusakova/static/css/313.7114cb0a.chunk.css.map",
-    "313.306b629d.chunk.js.map": "/dr.rusakova/static/js/313.306b629d.chunk.js.map",
-    "40.0eabc0d7.chunk.js.map": "/dr.rusakova/static/js/40.0eabc0d7.chunk.js.map",
-    "691.0d6fbeba.chunk.css.map": "/dr.rusakova/static/css/691.0d6fbeba.chunk.css.map",
-    "691.b7465690.chunk.js.map": "/dr.rusakova/static/js/691.b7465690.chunk.js.map",
-    "901.5947c9a7.chunk.css.map": "/dr.rusakova/static/css/901.5947c9a7.chunk.css.map",
-    "901.df0dac41.chunk.js.map": "/dr.rusakova/static/js/901.df0dac41.chunk.js.map",
-    "424.c60cfd2e.chunk.js.map": "/dr.rusakova/static/js/424.c60cfd2e.chunk.js.map"
+    "main.1a12e357.css.map": "/dr.rusakova/static/css/main.1a12e357.css.map",
+    "main.d9e8b458.js.map": "/dr.rusakova/static/js/main.d9e8b458.js.map",
+    "567.2266547b.chunk.css.map": "/dr.rusakova/static/css/567.2266547b.chunk.css.map",
+    "567.8d88b70a.chunk.js.map": "/dr.rusakova/static/js/567.8d88b70a.chunk.js.map",
+    "779.6108f058.chunk.js.map": "/dr.rusakova/static/js/779.6108f058.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7b06dcb.css",
-    "static/js/main.f63c9415.js"
+    "static/css/main.1a12e357.css",
+    "static/js/main.d9e8b458.js"
   ]
 }
