@@ -59,7 +59,9 @@ const Portfolio = () => {
 					>
 						<Card
 							sx={{
-								maxWidth: 400,
+								maxWidth: 350,
+								display: 'flex',
+								flexDirection: 'column',
 								backgroundColor: 'transparent',
 								paddingBottom: 2,
 							}}
@@ -99,6 +101,7 @@ const Portfolio = () => {
 								sx={{
 									display: 'flex',
 									justifyContent: 'space-between',
+									marginTop: 'auto',
 								}}
 							>
 								<Button variant="outlined" size="small">
@@ -111,7 +114,9 @@ const Portfolio = () => {
 						</Card>
 						<Card
 							sx={{
-								maxWidth: 400,
+								maxWidth: 350,
+								display: 'flex',
+								flexDirection: 'column',
 								backgroundColor: 'transparent',
 								paddingBottom: 2,
 							}}
@@ -153,6 +158,7 @@ const Portfolio = () => {
 								sx={{
 									display: 'flex',
 									justifyContent: 'space-between',
+									marginTop: 'auto',
 								}}
 							>
 								<Button variant="outlined" size="small">
@@ -165,7 +171,9 @@ const Portfolio = () => {
 						</Card>
 						<Card
 							sx={{
-								maxWidth: 400,
+								maxWidth: 350,
+								display: 'flex',
+								flexDirection: 'column',
 								backgroundColor: 'transparent',
 								paddingBottom: 2,
 							}}
@@ -206,6 +214,7 @@ const Portfolio = () => {
 								sx={{
 									display: 'flex',
 									justifyContent: 'space-between',
+									marginTop: 'auto',
 								}}
 							>
 								<Button variant="outlined" size="small">
@@ -218,7 +227,9 @@ const Portfolio = () => {
 						</Card>
 						<Card
 							sx={{
-								maxWidth: 400,
+								maxWidth: 350,
+								display: 'flex',
+								flexDirection: 'column',
 								backgroundColor: 'transparent',
 								paddingBottom: 2,
 							}}
@@ -260,6 +271,7 @@ const Portfolio = () => {
 								sx={{
 									display: 'flex',
 									justifyContent: 'space-between',
+									marginTop: 'auto',
 								}}
 							>
 								<Button variant="outlined" size="small">
