@@ -31,17 +31,17 @@ const SplideComponent = () => {
 				extensions={{ AutoScroll }}
 			>
 				<SplideSlide>
-					<p>
+					<p className={s.splideTest}>
 						{t('action.splide')} <LoyaltyIcon className={s.icon} />
 					</p>
 				</SplideSlide>
 				<SplideSlide>
-					<p>
+					<p className={s.splideTest}>
 						{t('action.splide')} <LoyaltyIcon className={s.icon} />
 					</p>
 				</SplideSlide>
 				<SplideSlide>
-					<p>
+					<p className={s.splideTest}>
 						{t('action.splide')} <LoyaltyIcon className={s.icon} />
 					</p>
 				</SplideSlide>
