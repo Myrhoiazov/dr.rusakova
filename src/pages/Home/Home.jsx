@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import AOS from 'aos';
 import { useEffect } from 'react';
+import AOS from 'aos';
 import '../../i18next';
 import Container from 'components/container';
 import Liza from '../../assets/dr-rusakova.png';
@@ -9,6 +9,8 @@ import Contact from 'pages/Contact/Contact';
 import Portfolio from 'pages/Portfolio/Portfolio';
 import 'aos/dist/aos.css';
 import s from './Home.module.scss';
+import Footer from 'components/footer/Footer';
+import BasketBadge from 'components/BasketBadge/BasketBadge';
 
 const Home = () => {
 	const { t } = useTranslation();
@@ -26,6 +28,7 @@ const Home = () => {
 
 	return (
 		<>
+			<BasketBadge />
 			<Container>
 				<section className={s.wrapper}>
 					<div className={s.info_hero}>
@@ -64,6 +67,7 @@ const Home = () => {
 			<AboutMe />
 			<Portfolio />
 			<Contact />
+			<Footer />
 		</>
 	);
 };

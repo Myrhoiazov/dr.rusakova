@@ -7,9 +7,9 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import img3 from '../../assets/lips.jpg';
 import '../../i18next';
+import s from './Portfolio.module.scss'
 
 const Portfolio = () => {
 	const { t } = useTranslation();
@@ -104,12 +104,12 @@ const Portfolio = () => {
 									marginTop: 'auto',
 								}}
 							>
-								<Button variant="outlined" size="small">
+								<button className={s.buy}>
 									{t('course_1.buy')}
-								</Button>
-								<Button variant="outlined" size="small">
+								</button>
+								<button className={s.buy}>
 									{t('course_1.link')}
-								</Button>
+								</button>
 							</CardActions>
 						</Card>
 						<Card
@@ -161,12 +161,12 @@ const Portfolio = () => {
 									marginTop: 'auto',
 								}}
 							>
-								<Button variant="outlined" size="small">
-									{t('course_2.buy')}
-								</Button>
-								<Button variant="outlined" size="small">
-									{t('course_2.link')}
-								</Button>
+								<button className={s.buy}>
+									{t('course_1.buy')}
+								</button>
+								<button className={s.buy}>
+									{t('course_1.link')}
+								</button>
 							</CardActions>
 						</Card>
 						<Card
@@ -217,12 +217,12 @@ const Portfolio = () => {
 									marginTop: 'auto',
 								}}
 							>
-								<Button variant="outlined" size="small">
-									{t('course_3.buy')}
-								</Button>
-								<Button variant="outlined" size="small">
-									{t('course_3.link')}
-								</Button>
+								<button className={s.buy}>
+									{t('course_1.buy')}
+								</button>
+								<button className={s.buy}>
+									{t('course_1.link')}
+								</button>
 							</CardActions>
 						</Card>
 						<Card
@@ -274,12 +274,12 @@ const Portfolio = () => {
 									marginTop: 'auto',
 								}}
 							>
-								<Button variant="outlined" size="small">
-									{t('course_4.buy')}
-								</Button>
-								<Button variant="outlined" size="small">
-									{t('course_4.link')}
-								</Button>
+								<button className={s.buy}>
+									{t('course_1.buy')}
+								</button>
+								<button className={s.buy}>
+									{t('course_1.link')}
+								</button>
 							</CardActions>
 						</Card>
 					</Box>
