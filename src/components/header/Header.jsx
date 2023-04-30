@@ -1,4 +1,4 @@
-import { useState, memo, Suspense } from 'react';
+import { useState, memo, Suspense, useEffect } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { useTranslation } from 'react-i18next';
@@ -39,6 +39,16 @@ const Header = () => {
 			setIsShowMenu(!isShowMenu);
 		}
 	};
+
+	useEffect(()=>{
+
+		if(isShowMenu){
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = 'visible'
+		}
+
+	}, [isShowMenu])
 
 	return (
 		<>

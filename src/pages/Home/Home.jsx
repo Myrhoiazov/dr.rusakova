@@ -8,9 +8,9 @@ import AboutMe from 'pages/AboutMe/AboutMe';
 import Contact from 'pages/Contact/Contact';
 import Portfolio from 'pages/Portfolio/Portfolio';
 import Footer from 'components/footer/Footer';
-import BasketBadge from 'components/BasketBadge';
 import 'aos/dist/aos.css';
 import s from './Home.module.scss';
+import ScrollUp from 'components/ScrollUp/ScrollUp';
 
 const Home = () => {
 	const { t } = useTranslation();
@@ -26,7 +26,7 @@ const Home = () => {
 
 	return (
 		<>
-			<BasketBadge />
+			<ScrollUp />
 			<Container>
 				<section className={s.wrapper}>
 					<div className={s.info_hero}>
