@@ -19,12 +19,22 @@
 		background-color: $primary-text-color;
 	}
 
-	&:first-child{
-		color: $primary-bg-color;
-		background-color: $primary-text-color;
-		&:hover {
-			color: $primary-text-color;
-			background-color: $primary-bg-color;
+	@media screen and (max-width: 776px) {
+		width: 100%;
+
+		&:first-child{
+			margin-bottom: 10px;
 		}
+	}
+}
+
+
+.buttons{
+	display: flex;
+	justify-content: space-between;
+	margin-top: auto;
+
+	@media screen and (max-width: 776px) {
+		flex-direction: column;
 	}
 }

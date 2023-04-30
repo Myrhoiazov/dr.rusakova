@@ -1,7 +1,5 @@
-import AOS from 'aos';
 import { useTranslation } from 'react-i18next';
 import { Box, Typography } from '@mui/material';
-import { useEffect } from 'react';
 import Container from 'components/container';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -9,21 +7,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import img3 from '../../assets/lips.jpg';
 import '../../i18next';
-import s from './Portfolio.module.scss'
+import s from './Portfolio.module.scss';
 
 const Portfolio = () => {
 	const { t } = useTranslation();
-
-	useEffect(() => {
-		AOS.init({
-			offset: 120,
-			delay: 500,
-			duration: 1500,
-			easing: 'ease',
-			once: false,
-			mirror: false,
-		});
-	}, []);
 	return (
 		<section id="courses">
 			<Container>
@@ -96,14 +83,21 @@ const Portfolio = () => {
 								>
 									{t('course_1.text')}
 								</Typography>
+								<Typography
+									variant="h4"
+									sx={{
+										fontSize: '24px',
+										textAlign: 'right',
+										fontWeight: 700,
+										marginTop: '20px',
+										color: 'white',
+										textTransform: 'uppercase',
+									}}
+								>
+									200$
+								</Typography>
 							</CardContent>
-							<CardActions
-								sx={{
-									display: 'flex',
-									justifyContent: 'space-between',
-									marginTop: 'auto',
-								}}
-							>
+							<CardActions className={s.buttons}>
 								<button className={s.buy}>
 									{t('course_1.buy')}
 								</button>
@@ -153,14 +147,21 @@ const Portfolio = () => {
 								>
 									{t('course_2.text')}
 								</Typography>
+								<Typography
+									variant="h4"
+									sx={{
+										fontSize: '24px',
+										textAlign: 'right',
+										fontWeight: 700,
+										marginTop: '20px',
+										color: 'white',
+										textTransform: 'uppercase',
+									}}
+								>
+									200$
+								</Typography>
 							</CardContent>
-							<CardActions
-								sx={{
-									display: 'flex',
-									justifyContent: 'space-between',
-									marginTop: 'auto',
-								}}
-							>
+							<CardActions className={s.buttons}>
 								<button className={s.buy}>
 									{t('course_1.buy')}
 								</button>
@@ -209,14 +210,21 @@ const Portfolio = () => {
 								>
 									{t('course_3.text')}
 								</Typography>
+								<Typography
+									variant="h4"
+									sx={{
+										fontSize: '24px',
+										textAlign: 'right',
+										fontWeight: 700,
+										marginTop: '20px',
+										color: 'white',
+										textTransform: 'uppercase',
+									}}
+								>
+									200$
+								</Typography>
 							</CardContent>
-							<CardActions
-								sx={{
-									display: 'flex',
-									justifyContent: 'space-between',
-									marginTop: 'auto',
-								}}
-							>
+							<CardActions className={s.buttons}>
 								<button className={s.buy}>
 									{t('course_1.buy')}
 								</button>
@@ -266,14 +274,21 @@ const Portfolio = () => {
 								>
 									{t('course_4.text')}
 								</Typography>
+								<Typography
+									variant="h4"
+									sx={{
+										fontSize: '24px',
+										textAlign: 'right',
+										fontWeight: 700,
+										marginTop: '20px',
+										color: 'white',
+										textTransform: 'uppercase',
+									}}
+								>
+									200$
+								</Typography>
 							</CardContent>
-							<CardActions
-								sx={{
-									display: 'flex',
-									justifyContent: 'space-between',
-									marginTop: 'auto',
-								}}
-							>
+							<CardActions className={s.buttons}>
 								<button className={s.buy}>
 									{t('course_1.buy')}
 								</button>

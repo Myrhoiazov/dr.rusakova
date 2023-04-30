@@ -30,7 +30,7 @@ const Contact = () => {
 										<LocalPostOfficeIcon
 											className={s.icon}
 										/>
-										example@gmail.com
+										krusakov08@gmail.com
 									</a>
 								</li>
 								<li className={s.contactItem}>
@@ -42,7 +42,7 @@ const Contact = () => {
 								<li className={s.contactItem}>
 									<a href="/">
 										<AccessTimeIcon className={s.icon} />
-										M-F 9am - 5:30pm EST
+										M-F 9am - 21:00pm
 									</a>
 								</li>
 							</ul>
@@ -51,8 +51,7 @@ const Contact = () => {
 							<h3 className={s.subtitle}>Social links</h3>
 							<ul className={s.contactList}>
 								<li className={s.contactItem}>
-									<a href="/">
-										
+									<a href="https://instagram.com/dr.rusakova?igshid=YmMyMTA2M2Y=" rel="noreferrer" target='_blank'>
 										<InstagramIcon
 											className={s.icon}
 										/>

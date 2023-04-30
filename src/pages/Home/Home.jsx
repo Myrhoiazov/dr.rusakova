@@ -7,10 +7,10 @@ import Liza from '../../assets/dr-rusakova.png';
 import AboutMe from 'pages/AboutMe/AboutMe';
 import Contact from 'pages/Contact/Contact';
 import Portfolio from 'pages/Portfolio/Portfolio';
+import Footer from 'components/footer/Footer';
+import BasketBadge from 'components/BasketBadge';
 import 'aos/dist/aos.css';
 import s from './Home.module.scss';
-import Footer from 'components/footer/Footer';
-import BasketBadge from 'components/BasketBadge/BasketBadge';
 
 const Home = () => {
 	const { t } = useTranslation();
@@ -21,8 +21,6 @@ const Home = () => {
 			delay: 500,
 			duration: 1500,
 			easing: 'ease',
-			once: false,
-			mirror: false,
 		});
 	}, []);
 
@@ -46,7 +44,7 @@ const Home = () => {
 							<h1 className={s.name} data-aos="fade-right">
 								{t('hero.name')}
 							</h1>
-							<a href="#course" className={s.buy}>
+							<a href="#courses" className={s.buy}>
 								{t('button.buy')}
 							</a>
 						</div>
