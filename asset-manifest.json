@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/dr.rusakova/static/css/main.dba34f86.css",
-    "main.js": "/dr.rusakova/static/js/main.b3d363cd.js",
-    "static/css/80.7eac25de.chunk.css": "/dr.rusakova/static/css/80.7eac25de.chunk.css",
-    "static/js/80.fbb9b9b4.chunk.js": "/dr.rusakova/static/js/80.fbb9b9b4.chunk.js",
+    "main.js": "/dr.rusakova/static/js/main.4259391f.js",
+    "static/css/783.9209fa59.chunk.css": "/dr.rusakova/static/css/783.9209fa59.chunk.css",
+    "static/js/783.b86c8719.chunk.js": "/dr.rusakova/static/js/783.b86c8719.chunk.js",
     "static/media/Promo_Insta.mp4": "/dr.rusakova/static/media/Promo_Insta.4c2d7cd863eb62bc261d.mp4",
     "static/media/bcg-video.png": "/dr.rusakova/static/media/bcg-video.842f517ec822489e31ac.png",
     "static/media/dr-rusakova.png": "/dr.rusakova/static/media/dr-rusakova.04d7b93d9d92447f59ea.png",
@@ -15,12 +15,12 @@
     "index.html": "/dr.rusakova/index.html",
     "static/media/getFetch.cjs": "/dr.rusakova/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.dba34f86.css.map": "/dr.rusakova/static/css/main.dba34f86.css.map",
-    "main.b3d363cd.js.map": "/dr.rusakova/static/js/main.b3d363cd.js.map",
-    "80.7eac25de.chunk.css.map": "/dr.rusakova/static/css/80.7eac25de.chunk.css.map",
-    "80.fbb9b9b4.chunk.js.map": "/dr.rusakova/static/js/80.fbb9b9b4.chunk.js.map"
+    "main.4259391f.js.map": "/dr.rusakova/static/js/main.4259391f.js.map",
+    "783.9209fa59.chunk.css.map": "/dr.rusakova/static/css/783.9209fa59.chunk.css.map",
+    "783.b86c8719.chunk.js.map": "/dr.rusakova/static/js/783.b86c8719.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dba34f86.css",
-    "static/js/main.b3d363cd.js"
+    "static/js/main.4259391f.js"
   ]
 }
