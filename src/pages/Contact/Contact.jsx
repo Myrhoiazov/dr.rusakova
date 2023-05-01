@@ -1,4 +1,4 @@
-import { useState } from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Container from 'components/container';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
@@ -7,23 +7,20 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import s from './Contact.module.scss';
-import Modal from 'components/modal';
+import { useTranslation } from 'react-i18next';
+import '../../i18next';
 
 const Contact = () => {
-	const [isOpenModal, setIasOpenModal] = useState(false);
-
-	const handleOpenModal = () => {
-		setIasOpenModal(!isOpenModal);
-	};
+	const { t } = useTranslation();
 
 	return (
 		<section id="contact" className={s.section}>
 			<Container>
 				<div className={s.inner_wrapper}>
-					<h1 className={s.title}>Contacts</h1>
+					<h1 className={s.title}>{t('contacts.title')}</h1>
 					<ul className={s.items}>
 						<li className={s.item}>
-							<h3 className={s.subtitle}>Need Help?</h3>
+							<h3 className={s.subtitle}>{t('contacts.block_1')}</h3>
 							<ul className={s.contactList}>
 								<li className={s.contactItem}>
 									<a href="mailto:example@gmail.com">
@@ -48,25 +45,26 @@ const Contact = () => {
 							</ul>
 						</li>
 						<li className={s.item}>
-							<h3 className={s.subtitle}>Social links</h3>
+							<h3 className={s.subtitle}>{t('contacts.block_2')}</h3>
 							<ul className={s.contactList}>
 								<li className={s.contactItem}>
-									<a href="https://instagram.com/dr.rusakova?igshid=YmMyMTA2M2Y=" rel="noreferrer" target='_blank'>
-										<InstagramIcon
-											className={s.icon}
-										/>
+									<a
+										href="https://instagram.com/dr.rusakova?igshid=YmMyMTA2M2Y="
+										rel="noreferrer"
+										target="_blank"
+									>
+										<InstagramIcon className={s.icon} />
 										Instagram
 									</a>
 								</li>
 								<li className={s.contactItem}>
-									<a href="/">
-										
+									<a href="#">
 										<TelegramIcon className={s.icon} />
 										Telegram
 									</a>
 								</li>
 								<li className={s.contactItem}>
-									<a href="/">
+									<a href="#">
 										<WhatsAppIcon className={s.icon} />
 										WhatsApp
 									</a>
@@ -74,26 +72,22 @@ const Contact = () => {
 							</ul>
 						</li>
 						<li className={s.item}>
-							<h3 className={s.subtitle}>Politics</h3>
+							<h3 className={s.subtitle}>{t('contacts.block_3')}</h3>
 							<ul className={s.contactList}>
 								<li className={s.contactItem}>
-									<a href="/">Policy</a>
+									<p>{t('politics.text_1')}</p>
 								</li>
 								<li className={s.contactItem}>
-									<a href="/">Condition</a>
+									<p> {t('politics.text_2')}</p>
 								</li>
 								<li className={s.contactItem}>
-									<a href="/">Example</a>
+									{t('politics.text_3')}
+									<p></p>
 								</li>
 							</ul>
 						</li>
 					</ul>
 				</div>
-				{isOpenModal && (
-					<Modal onClose={handleOpenModal}>
-						<h1>Sorry soon i do it ...</h1>
-					</Modal>
-				)}
 			</Container>
 		</section>
 	);

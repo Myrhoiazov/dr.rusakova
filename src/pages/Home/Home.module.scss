@@ -3,7 +3,7 @@
 .wrapper {
 	position: relative;
 	padding-top: 60px;
-	min-height: 82vh;
+	min-height: 85vh;
 	overflow: hidden;
 }
 
@@ -102,9 +102,7 @@
 	}
 }
 @media screen and (max-width: 767px) {
-	.wrapper {
-		min-height: 62vh;
-	}
+
 	.info_hero {
 		padding-top: 30px
 	}
@@ -149,7 +147,7 @@
 @media screen and (max-width: 992px) {
 	.wrapper {
 		padding-top: 100px;
-		min-height: 82vh;
+		min-height: 84vh;
 	}
 
 	.text {
@@ -180,7 +178,7 @@
 	}
 	.wrapper {
 		padding-top: 100px;
-		min-height: 82vh;
+		min-height: 84vh;
 	}
 
 	

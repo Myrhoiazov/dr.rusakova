@@ -24,18 +24,29 @@ const Portfolio = () => {
 					}}
 				>
 					<Typography
-						variant="h4"
+						variant="h2"
 						sx={{
 							fontSize: '48px',
 							textAlign: 'center',
 							fontWeight: 700,
-							marginBottom: '60px',
+							marginBottom: '10px',
 							textTransform: 'uppercase',
 						}}
 					>
 						{t('section.products')}
 					</Typography>
-
+					<Typography
+						variant="h4"
+						sx={{
+							fontSize: '18px',
+							textAlign: 'center',
+							fontWeight: 300,
+							marginBottom: '60px',
+							maxWidth: '600px',
+						}}
+					>
+						{t('section.subtext')}
+					</Typography>
 					<Box
 						sx={{
 							display: 'flex',
@@ -98,12 +109,12 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy}>
+								<button className={s.buy} disabled>
 									{t('course_1.buy')}
 								</button>
-								<button className={s.buy}>
+								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
-								</button>
+								</a>
 							</CardActions>
 						</Card>
 						<Card
@@ -162,12 +173,12 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy}>
+								<button className={s.buy} disabled>
 									{t('course_1.buy')}
 								</button>
-								<button className={s.buy}>
+								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
-								</button>
+								</a>
 							</CardActions>
 						</Card>
 						<Card
@@ -225,12 +236,12 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy}>
+								<button className={s.buy} disabled>
 									{t('course_1.buy')}
 								</button>
-								<button className={s.buy}>
+								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
-								</button>
+								</a>
 							</CardActions>
 						</Card>
 						<Card
@@ -289,12 +300,12 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy}>
+								<button className={s.buy} disabled>
 									{t('course_1.buy')}
 								</button>
-								<button className={s.buy}>
+								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
-								</button>
+								</a>
 							</CardActions>
 						</Card>
 					</Box>

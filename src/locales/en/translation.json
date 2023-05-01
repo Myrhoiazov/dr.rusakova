@@ -22,7 +22,8 @@
 		"text3": "In this course, Elizaveta has invested the basic and individual developments of her work. The course was created for cosmetologists to share information and experience, for specialists who cannot attend training in person. The courses are introductory in nature with the technique of a cosmetologist."
 	},
 	"section": {
-		"products": "Products"
+		"products": "Products",
+		"subtext": "A sought-after beautician is good training and practice. Our video tutorials will help you become successful in cosmetology."
 		},
 	"course_1": {
 		"title": "Facial contouring course",
@@ -47,5 +48,17 @@
 		"text": "Theoretical part, analysis of drugs, subject of choice for the patient, mechanism of action, demonstration on the model.",
 		"buy": "Add to basket",
 		"link": "Connect with us" 
+	},
+	"politics":{
+		"text_1": "The course was created for cosmetologists to share information and experience for specialists who cannot attend training in person.",
+		"text_2": "The courses are introductory in nature with the technique of a cosmetologist.",
+		"text_3": "Distribution and sale of courses purchased on this site is prohibited."
+	},
+
+	"contacts":{
+		"title": "Contacts",
+		"block_1": "Heed Help?",
+		"block_2": "Social links",
+		"block_3": "Politics"
 	}
 }
