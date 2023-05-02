@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import SplideComponent from 'components/Splide/SplideComponent';
 import '../../i18next';
 import Video from '../../assets/Promo_Insta.mp4';
-import bckGround from '../../assets/bcg-video.png';
+import bckGround from '../../assets/bcg-video.jpg';
 import s from './AboutMe.module.scss';
 
 const AboutMe = () => {
