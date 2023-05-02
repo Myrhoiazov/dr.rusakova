@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/dr.rusakova/static/css/main.dba34f86.css",
-    "main.js": "/dr.rusakova/static/js/main.e4c2e9c1.js",
-    "static/css/783.83809d8d.chunk.css": "/dr.rusakova/static/css/783.83809d8d.chunk.css",
-    "static/js/783.b86c8719.chunk.js": "/dr.rusakova/static/js/783.b86c8719.chunk.js",
+    "main.js": "/dr.rusakova/static/js/main.629bbaf5.js",
+    "static/css/783.7ed16b73.chunk.css": "/dr.rusakova/static/css/783.7ed16b73.chunk.css",
+    "static/js/783.0355ad74.chunk.js": "/dr.rusakova/static/js/783.0355ad74.chunk.js",
     "static/media/Promo_Insta.mp4": "/dr.rusakova/static/media/Promo_Insta.4c2d7cd863eb62bc261d.mp4",
-    "static/media/bcg-video.png": "/dr.rusakova/static/media/bcg-video.842f517ec822489e31ac.png",
     "static/media/dr-rusakova.png": "/dr.rusakova/static/media/dr-rusakova.04d7b93d9d92447f59ea.png",
     "static/media/IMG_9363.PNG": "/dr.rusakova/static/media/IMG_9363.f40d7e23444d43c5448b.PNG",
     "static/media/lips.jpg": "/dr.rusakova/static/media/lips.14e55d73bcdb625e5bdd.jpg",
+    "static/media/bcg-video.jpg": "/dr.rusakova/static/media/bcg-video.fdec8d823613c69b351f.jpg",
     "static/media/ametrine.woff": "/dr.rusakova/static/media/ametrine.e27f30a3b7ac4330174a.woff",
     "static/media/ametrine.woff2": "/dr.rusakova/static/media/ametrine.0e5eace6da4e1a3788c0.woff2",
     "static/media/ametrine_italic.woff2": "/dr.rusakova/static/media/ametrine_italic.f530065c633769fd91a5.woff2",
     "index.html": "/dr.rusakova/index.html",
     "static/media/getFetch.cjs": "/dr.rusakova/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.dba34f86.css.map": "/dr.rusakova/static/css/main.dba34f86.css.map",
-    "main.e4c2e9c1.js.map": "/dr.rusakova/static/js/main.e4c2e9c1.js.map",
-    "783.83809d8d.chunk.css.map": "/dr.rusakova/static/css/783.83809d8d.chunk.css.map",
-    "783.b86c8719.chunk.js.map": "/dr.rusakova/static/js/783.b86c8719.chunk.js.map"
+    "main.629bbaf5.js.map": "/dr.rusakova/static/js/main.629bbaf5.js.map",
+    "783.7ed16b73.chunk.css.map": "/dr.rusakova/static/css/783.7ed16b73.chunk.css.map",
+    "783.0355ad74.chunk.js.map": "/dr.rusakova/static/js/783.0355ad74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dba34f86.css",
-    "static/js/main.e4c2e9c1.js"
+    "static/js/main.629bbaf5.js"
   ]
 }
