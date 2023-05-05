@@ -109,9 +109,6 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy} disabled>
-									{t('course_1.buy')}
-								</button>
 								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
 								</a>
@@ -173,9 +170,6 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy} disabled>
-									{t('course_1.buy')}
-								</button>
 								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
 								</a>
@@ -236,9 +230,6 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy} disabled>
-									{t('course_1.buy')}
-								</button>
 								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
 								</a>
@@ -300,9 +291,6 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions className={s.buttons}>
-								<button className={s.buy} disabled>
-									{t('course_1.buy')}
-								</button>
 								<a href="tel:+380(99)7438404" className={s.buy}>
 									{t('course_1.link')}
 								</a>

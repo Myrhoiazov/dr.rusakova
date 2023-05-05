@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState} from 'react';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import s from './ScrollUp.module.scss';
 

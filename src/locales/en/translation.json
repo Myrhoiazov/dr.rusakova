@@ -60,5 +60,8 @@
 		"block_1": "Heed Help?",
 		"block_2": "Social links",
 		"block_3": "Politics"
+	},
+	"shedule":{
+		"text": "M-F 9:00am - 21:00pm"
 	}
 }

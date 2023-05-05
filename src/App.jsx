@@ -1,7 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { lazy } from 'react';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import Header from 'components/header';
 
 const HomePage = lazy(() => import('./pages/Home'));
@@ -15,8 +13,6 @@ export const App = () => {
 					<Route path="*" element={<Navigate to="/" />} />
 				</Route>
 			</Routes>
-
-			<ToastContainer />
 		</BrowserRouter>
 	);
 };

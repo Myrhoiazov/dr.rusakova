@@ -39,7 +39,7 @@ const Contact = () => {
 								<li className={s.contactItem}>
 									<a href="/">
 										<AccessTimeIcon className={s.icon} />
-										M-F 9am - 21:00pm
+										{t('shedule.text')}
 									</a>
 								</li>
 							</ul>
@@ -81,8 +81,7 @@ const Contact = () => {
 									<p> {t('politics.text_2')}</p>
 								</li>
 								<li className={s.contactItem}>
-									{t('politics.text_3')}
-									<p></p>
+									<p>{t('politics.text_3')}</p>
 								</li>
 							</ul>
 						</li>
