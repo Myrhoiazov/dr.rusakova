@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dr.rusakova/static/css/main.c504940d.css",
+    "main.css": "/dr.rusakova/static/css/main.dbe94b78.css",
     "main.js": "/dr.rusakova/static/js/main.172d3316.js",
     "static/css/291.91059e39.chunk.css": "/dr.rusakova/static/css/291.91059e39.chunk.css",
     "static/js/291.14f17e4f.chunk.js": "/dr.rusakova/static/js/291.14f17e4f.chunk.js",
@@ -14,13 +14,13 @@
     "static/media/ametrine_italic.woff2": "/dr.rusakova/static/media/ametrine_italic.f530065c633769fd91a5.woff2",
     "index.html": "/dr.rusakova/index.html",
     "static/media/getFetch.cjs": "/dr.rusakova/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.c504940d.css.map": "/dr.rusakova/static/css/main.c504940d.css.map",
+    "main.dbe94b78.css.map": "/dr.rusakova/static/css/main.dbe94b78.css.map",
     "main.172d3316.js.map": "/dr.rusakova/static/js/main.172d3316.js.map",
     "291.91059e39.chunk.css.map": "/dr.rusakova/static/css/291.91059e39.chunk.css.map",
     "291.14f17e4f.chunk.js.map": "/dr.rusakova/static/js/291.14f17e4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c504940d.css",
+    "static/css/main.dbe94b78.css",
     "static/js/main.172d3316.js"
   ]
 }
