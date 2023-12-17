@@ -1,5 +1,5 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import { lazy } from 'react';
+import {BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
+import {lazy} from 'react';
 import Header from 'components/header';
 
 const HomePage = lazy(() => import('./pages/Home'));
