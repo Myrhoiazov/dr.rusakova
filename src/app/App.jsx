@@ -6,7 +6,7 @@ const HomePage = lazy(() => import('../pages/Home'));
 
 export const App = () => {
 	return (
-		<BrowserRouter basename="/dr.rusakova">
+		<BrowserRouter basename="/">
 			<Routes>
 				<Route element={<Header />}>
 					<Route path="/" element={<HomePage />} />

@@ -1,8 +1,7 @@
 {
-	"name": "react-app-dr.rusakova",
+	"name": "dr.rusakova",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://Myrhoiazov.github.io/dr.rusakova",
 	"dependencies": {
 		"@mui/icons-material": "^5.10.9",
 		"@mui/material": "^5.10.11",
