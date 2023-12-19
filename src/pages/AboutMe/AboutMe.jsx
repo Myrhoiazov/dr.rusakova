@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import {memo, useState} from 'react';
 import ReactPlayer from 'react-player';
 import Container from 'components/container';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 import SplideComponent from 'components/Splide/SplideComponent';
 import '../../i18next';
 import Video from '../../assets/Promo_Insta.mp4';
@@ -10,7 +10,7 @@ import s from './AboutMe.module.scss';
 
 const AboutMe = () => {
 	const [isPlay, setIsPlay] = useState(false);
-	const { t } = useTranslation();
+	const {t} = useTranslation();
 
 	return (
 		<>
@@ -28,8 +28,7 @@ const AboutMe = () => {
 							<div
 								className={s.videoWrapper}
 								onClick={() => setIsPlay(!isPlay)}
-								data-aos="fade-left"
-							>
+								data-aos="fade-left">
 								<ReactPlayer
 									url={Video}
 									width="300px"
@@ -47,4 +46,4 @@ const AboutMe = () => {
 	);
 };
 
-export default AboutMe;
+export default memo(AboutMe);

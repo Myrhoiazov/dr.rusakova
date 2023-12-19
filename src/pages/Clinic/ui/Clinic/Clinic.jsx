@@ -8,13 +8,13 @@ import Contact from 'pages/Contact/Contact';
 import Portfolio from 'pages/Portfolio/Portfolio';
 import Footer from 'components/footer/Footer';
 import ScrollUp from 'components/ScrollUp/ScrollUp';
-import {classNames} from 'shared/lib/classNames/classNames';
-import '../../../../i18next';
 import 'aos/dist/aos.css';
-import s from './Pacient.module.scss';
+import '../../../../i18next';
+import {classNames} from 'shared/lib/classNames/classNames';
+import s from './Clinic.module.scss';
 import Header from 'components/header';
 
-const Pacient = ({className}) => {
+const Clinic = ({className}) => {
 	const {t} = useTranslation();
 
 	useEffect(() => {
@@ -29,7 +29,7 @@ const Pacient = ({className}) => {
 	return (
 		<>
 			<Header />
-			<div className={classNames(s.Pacient, {}, [className])}>
+			<div className={classNames(s.Clinic, {}, [className])}>
 				<ScrollUp />
 				<Container>
 					<section className={s.wrapper}>
@@ -74,4 +74,4 @@ const Pacient = ({className}) => {
 	);
 };
 
-export default memo(Pacient);
+export default memo(Clinic);
