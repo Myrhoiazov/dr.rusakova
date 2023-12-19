@@ -1,7 +1,7 @@
-import { useState, memo, Suspense, useEffect } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
-import { useMediaQuery } from 'react-responsive';
-import { useTranslation } from 'react-i18next';
+import {useState, memo, Suspense, useEffect} from 'react';
+import {Link, NavLink, Outlet} from 'react-router-dom';
+import {useMediaQuery} from 'react-responsive';
+import {useTranslation} from 'react-i18next';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import headerMenu from './headermenu';
@@ -13,9 +13,9 @@ import Logo from '../../assets/IMG_9363.PNG';
 import s from '../header/header.module.scss';
 
 const Header = () => {
-	const { t } = useTranslation();
-	const isDesktop = useMediaQuery({ query: '(min-width: 1280px)' });
-	const isShowBurgerMenu = useMediaQuery({ query: '(max-width: 1279px)' });
+	const {t} = useTranslation();
+	const isDesktop = useMediaQuery({query: '(min-width: 1280px)'});
+	const isShowBurgerMenu = useMediaQuery({query: '(max-width: 1279px)'});
 	const [isShowMenu, setIsShowMenu] = useState(false);
 	const [isActive, setIsActive] = useState('');
 
@@ -40,15 +40,13 @@ const Header = () => {
 		}
 	};
 
-	useEffect(()=>{
-
-		if(isShowMenu){
+	useEffect(() => {
+		if (isShowMenu) {
 			document.body.style.overflow = 'hidden';
 		} else {
-			document.body.style.overflow = 'visible'
+			document.body.style.overflow = 'visible';
 		}
-
-	}, [isShowMenu])
+	}, [isShowMenu]);
 
 	return (
 		<>
@@ -57,21 +55,20 @@ const Header = () => {
 					<Container>
 						<div className={s.wrapper}>
 							<nav className={s.nav}>
-								<a href="/dr.rusakova">
+								<Link to="/">
 									<img
 										src={Logo}
 										alt=""
 										width="150"
 										height="150"
 									/>
-								</a>
+								</Link>
 								{isDesktop && <ToggleLang />}
 								{isShowBurgerMenu && (
 									<button
 										type="button"
 										className={s.btn_open}
-										onClick={onHandleShow}
-									>
+										onClick={onHandleShow}>
 										<MenuIcon
 											color="inherit"
 											fontSize="large"
@@ -79,7 +76,7 @@ const Header = () => {
 									</button>
 								)}
 								{isDesktop &&
-									headerMenu.map(({ name, to }) => {
+									headerMenu.map(({name, to}) => {
 										return (
 											<div key={name}>
 												<NavLink
@@ -89,8 +86,7 @@ const Header = () => {
 															? `${s.item} ${s.active}`
 															: `${s.item}`
 													}
-													onClick={() => linkTo(to)}
-												>
+													onClick={() => linkTo(to)}>
 													{t(name)}
 												</NavLink>
 											</div>
@@ -104,21 +100,18 @@ const Header = () => {
 										isShowMenu
 											? `${s.nav_mobile} ${s.showMob}`
 											: s.nav_mobile
-									}
-								>
+									}>
 									<div
 										className={
 											isShowMenu
 												? `${s.nav_mobile_wrapper} ${s.show}`
 												: s.nav_mobile_wrapper
-										}
-									>
+										}>
 										{
 											<button
 												type="button"
 												className={s.btn_close}
-												onClick={onHandleShow}
-											>
+												onClick={onHandleShow}>
 												<CloseIcon
 													color="inherit"
 													fontSize="large"
@@ -129,17 +122,15 @@ const Header = () => {
 											style={{
 												marginBottom: 40,
 												paddingTop: 20,
-											}}
-										>
+											}}>
 											<ToggleLang />
 										</div>
 
-										{headerMenu.map(({ name, to }) => {
+										{headerMenu.map(({name, to}) => {
 											return (
 												<div
 													key={name}
-													className={s.link_items}
-												>
+													className={s.link_items}>
 													<NavLink
 														to={to}
 														end
@@ -150,15 +141,15 @@ const Header = () => {
 														}
 														onClick={() =>
 															mobileShow(to)
-														}
-													>
+														}>
 														{t(name)}
 													</NavLink>
 
 													<a
 														href="/dr.rusakova"
-														className={s.mobileLogo}
-													>
+														className={
+															s.mobileLogo
+														}>
 														<img
 															src={Logo}
 															alt=""

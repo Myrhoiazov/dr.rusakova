@@ -1,7 +1,7 @@
 const headerMenu = [
 	{
 		name: 'Home',
-		to: '#home',
+		to: '/',
 	},
 	{
 		name: 'About me',
