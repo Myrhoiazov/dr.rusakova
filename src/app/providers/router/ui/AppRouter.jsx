@@ -2,8 +2,8 @@ import React, {Suspense} from 'react';
 import {Navigate, Route, Routes} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
 import Loader from 'shared/ui/Loader';
-import Clinic from 'pages/Clinic';
-import Courses from 'pages/Courses';
+import Clinic from 'pages/ClinicPage';
+import Courses from 'pages/CoursesPage';
 import ReactGA from 'react-ga';
 import Home from 'pages/Home';
 
