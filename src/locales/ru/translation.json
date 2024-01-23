@@ -6,6 +6,10 @@
 	"Prices": "Цены",
 	"Reviews": "Отзывы",
 	"Contact": "Контакты",
+	"home-button": {
+		"clinic": "/ клиника",
+		"courses": "/ курсы"
+	},
 	"hero": {
 		"clinic": {
 			"hello": "Приветствую вас, уважаемые пациенты",

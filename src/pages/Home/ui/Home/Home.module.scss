@@ -5,6 +5,7 @@
 	height: 100vh;
 	display: flex;
 	align-items: center;
+	background-color: black;
 }
 
 .wrapper {
@@ -58,11 +59,14 @@
 }
 
 .text {
-	position: relative;
+	position: absolute;
+	top: 20%;
+	left: 50%;
 	font-family: $primary-font;
 	text-align: center;
 	transform: translateY(100px);
-	font-size: 52px;
+	font-size: 100px;
+	line-height: 1.4;
 	font-weight: 400;
 	max-width: 250px;
 	margin-right: auto;
@@ -118,10 +122,6 @@
 		padding-top: 30px
 	}
 
-	.text {
-		display: none;
-	}
-
 	.buy {
 		display: inline-block;
 		text-decoration: none;
@@ -163,15 +163,9 @@
 	}
 
 	.text {
-		position: relative;
-		font-family: $primary-font;
-		text-align: center;
 		font-size: 52px;
-		font-weight: 400;
-		max-width: 250px;
-		margin-right: auto;
-		transform: translate(-200px, 180px);
-		text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
+		top: 30%;
+		left: 60%;
 	}
 
 	.thumb {

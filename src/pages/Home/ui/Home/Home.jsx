@@ -41,17 +41,16 @@ const Home = ({className}) => {
 							</h1>
 							<div className={s.buttons}>
 								<Link to="clinic" className={s.buy}>
-									clinic [trans]
+									{t('home-button.clinic')}
 								</Link>
 								<Link to="courses" className={s.buy}>
-									courses [trans]
+									{t('home-button.courses')}
 								</Link>
 							</div>
 						</div>
 
-						<p className={s.text}>{t('hero.text')}</p>
+						<p className={s.text}>{t('hero.clinic.text')}</p>
 					</div>
-					<div className={s.hero}></div>
 					<div className={s.thumb} data-aos="fade-left">
 						<img
 							src={Liza}

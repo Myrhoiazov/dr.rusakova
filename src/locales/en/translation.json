@@ -6,6 +6,10 @@
 	"Prices": "Prices",
 	"Reviews": "Reviews",
 	"Contact": "Contact",
+	"home-button": {
+		"clinic": "/ clininc",
+		"courses": "/ courses"
+	},
 	"hero": {
 		"clinic": {
 			"hello": "The best and most effective facial correction techniques from a trainer",
