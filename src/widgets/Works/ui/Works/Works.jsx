@@ -23,6 +23,9 @@ const Works = ({className}) => {
 							arrows: true,
 							gap: '20px',
 							breakpoints: {
+								920: {
+									perPage: 2,
+								},
 								640: {
 									perPage: 1,
 								},

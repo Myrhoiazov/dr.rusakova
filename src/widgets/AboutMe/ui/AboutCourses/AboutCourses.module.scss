@@ -1,4 +1,4 @@
-@import '../../shared/styles/variables';
+@import 'shared/styles/variables';
 
 .wrapper {
 	position: relative;
@@ -53,11 +53,11 @@
 	padding: 50px 10px;
 }
 
-.videoWrapper{
+.videoWrapper {
 	box-shadow: 0 10px 32px 2px #f0f8ff5c;
 	border-radius: 10px;
 	overflow: hidden;
-  }
+}
 
 
 @media screen and (max-width: 776px) {
@@ -75,12 +75,12 @@
 
 	.about {
 		max-width: 85%;
-		
-		.text{
+
+		.text {
 			text-align: center;
 			margin-bottom: 20px;
 		}
 	}
 
-	
+
 }

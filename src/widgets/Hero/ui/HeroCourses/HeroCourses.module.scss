@@ -28,7 +28,7 @@
 }
 
 .name {
-	font-size: 100px;
+	font-size: 64px;
 	font-weight: 800;
 	max-width: 600px;
 	text-transform: uppercase;
@@ -51,17 +51,13 @@
 }
 
 .text {
-	position: absolute;
-	z-index: 1;
-	bottom: 5%;
-	left: 50%;
-	transform: translateX(-50%) !important;
-	// transform: ;
+	position: relative;
 	font-family: $primary-font;
 	text-align: center;
-	font-size: 100px;
+	transform: translateY(100px);
+	font-size: 52px;
 	font-weight: 400;
-	// max-width: 250px;
+	max-width: 250px;
 	margin-right: auto;
 	transform: translate(-150px, 180px);
 	text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
@@ -69,24 +65,17 @@
 
 .thumb {
 	position: absolute;
-	top: 0;
-	left: 50%;
-	max-width: 500px;
-	width: 100%;
-	transform: translateX(-40%) !important;
+	top: 0px;
+	right: 8%;
 	pointer-events: none;
 
 	.heroImg {
-		display: block;
-		object-fit: contain;
-		width: 100%;
 		mask-image: linear-gradient(to top,
 				rgba(0, 0, 0, 0) 0%,
-				rgba(0, 0, 0, 0.8) 0%);
+				rgba(0, 0, 0, 0.8) 50%);
 		-webkit-mask-image: linear-gradient(to top,
-				rgba(0, 0, 0, 0) 20%,
+				rgba(0, 0, 0, 0) 0%,
 				rgba(0, 0, 0, 0.65) 50%);
-
 	}
 }
 
@@ -117,9 +106,9 @@
 		padding-top: 30px
 	}
 
-	// .text {
-	// 	display: none;
-	// }
+	.text {
+		display: none;
+	}
 
 	.buy {
 		display: inline-block;
@@ -161,27 +150,32 @@
 		min-height: 84vh;
 	}
 
-	// .text {
-	// 	position: relative;
-	// 	font-family: $primary-font;
-	// 	text-align: center;
-	// 	font-size: 52px;
-	// 	font-weight: 400;
-	// 	max-width: 250px;
-	// 	margin-right: auto;
-	// 	transform: translate(-200px, 180px);
-	// 	text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
-	// }
+	.text {
+		position: relative;
+		font-family: $primary-font;
+		text-align: center;
+		font-size: 52px;
+		font-weight: 400;
+		max-width: 250px;
+		margin-right: auto;
+		transform: translate(-200px, 180px);
+		text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
+	}
 
+	.thumb {
+		position: absolute;
+		top: 0;
+		right: -80px;
+	}
 }
 
 @media screen and (max-width: 776px) {
 
-	// .thumb {
-	// 	img {
-	// 		width: 300px;
-	// 	}
-	// }
+	.thumb {
+		img {
+			width: 300px;
+		}
+	}
 
 	.wrapper {
 		padding-top: 100px;

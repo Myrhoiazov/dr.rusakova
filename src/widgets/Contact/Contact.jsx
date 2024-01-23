@@ -7,11 +7,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import s from './Contact.module.scss';
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 import '../../i18next';
+import Map from 'shared/ui/Map/Map';
 
 const Contact = () => {
-	const { t } = useTranslation();
+	const {t} = useTranslation();
 
 	return (
 		<section id="contact" className={s.section}>
@@ -20,20 +21,22 @@ const Contact = () => {
 					<h1 className={s.title}>{t('contacts.title')}</h1>
 					<ul className={s.items}>
 						<li className={s.item}>
-							<h3 className={s.subtitle}>{t('contacts.block_1')}</h3>
+							<h3 className={s.subtitle}>
+								{t('contacts.block_1')}
+							</h3>
 							<ul className={s.contactList}>
 								<li className={s.contactItem}>
-									<a href="mailto:example@gmail.com">
+									<a href="mailto:dr.rusakova.info@gmail.com">
 										<LocalPostOfficeIcon
 											className={s.icon}
 										/>
-										krusakov08@gmail.com
+										dr.rusakova.info@gmail.com
 									</a>
 								</li>
 								<li className={s.contactItem}>
-									<a href="tel:+380997438404">
+									<a href="tel:+380978070507">
 										<PermPhoneMsgIcon className={s.icon} />
-										+380 (99) 743 84 04
+										+38 097 807 05 07
 									</a>
 								</li>
 								<li className={s.contactItem}>
@@ -45,14 +48,15 @@ const Contact = () => {
 							</ul>
 						</li>
 						<li className={s.item}>
-							<h3 className={s.subtitle}>{t('contacts.block_2')}</h3>
+							<h3 className={s.subtitle}>
+								{t('contacts.block_2')}
+							</h3>
 							<ul className={s.contactList}>
 								<li className={s.contactItem}>
 									<a
 										href="https://instagram.com/dr.rusakova?igshid=YmMyMTA2M2Y="
 										rel="noreferrer"
-										target="_blank"
-									>
+										target="_blank">
 										<InstagramIcon className={s.icon} />
 										Instagram
 									</a>
@@ -72,7 +76,9 @@ const Contact = () => {
 							</ul>
 						</li>
 						<li className={s.item}>
-							<h3 className={s.subtitle}>{t('contacts.block_3')}</h3>
+							<h3 className={s.subtitle}>
+								{t('contacts.block_3')}
+							</h3>
 							<ul className={s.contactList}>
 								<li className={s.contactItem}>
 									<p>{t('politics.text_1')}</p>
@@ -87,6 +93,7 @@ const Contact = () => {
 						</li>
 					</ul>
 				</div>
+				<Map />
 			</Container>
 		</section>
 	);

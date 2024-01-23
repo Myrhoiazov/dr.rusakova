@@ -1,6 +1,5 @@
 import {memo, useEffect} from 'react';
 import AOS from 'aos';
-import AboutMe from 'widgets/AboutMe/AboutMe';
 import Contact from 'widgets/Contact/Contact';
 import Footer from 'components/footer/Footer';
 import ScrollUp from 'components/ScrollUp/ScrollUp';
@@ -12,6 +11,8 @@ import HeaderClinic from 'widgets/HeaderClinic';
 import {HeroClinic} from 'widgets/Hero';
 import Works from 'widgets/Works';
 import Reviews from 'widgets/Reviews';
+import {AboutClinic} from 'widgets/AboutMe';
+import Result from 'widgets/Result';
 
 const Clinic = ({className}) => {
 	useEffect(() => {
@@ -29,7 +30,8 @@ const Clinic = ({className}) => {
 			<div className={classNames(s.Clinic, {}, [className])}>
 				<ScrollUp />
 				<HeroClinic />
-				<AboutMe />
+				<AboutClinic />
+				<Result />
 				<Works />
 				<Reviews />
 				<Contact />

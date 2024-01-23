@@ -24,6 +24,9 @@ const Reviews = ({className}) => {
 							arrows: true,
 							gap: '20px',
 							breakpoints: {
+								920: {
+									perPage: 2,
+								},
 								640: {
 									perPage: 1,
 								},
@@ -32,7 +35,7 @@ const Reviews = ({className}) => {
 						{reviewsList.map((el) => {
 							return (
 								<SplideSlide key={el.img_link}>
-									<div className={s.splideTest}>
+									<div className={s.splideWrap}>
 										<img src={el.img_link} alt="" />
 									</div>
 								</SplideSlide>

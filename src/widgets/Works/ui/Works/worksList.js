@@ -2,7 +2,6 @@ import img_1 from 'shared/assets/images/works/IMG_0099.webp';
 import img_2 from 'shared/assets/images/works/IMG_0114.webp';
 import img_3 from 'shared/assets/images/works/IMG_0297.webp';
 import img_4 from 'shared/assets/images/works/IMG_0329.webp';
-import img_5 from 'shared/assets/images/works/IMG_2826-1.webp';
 import img_6 from 'shared/assets/images/works/IMG_2826.webp';
 import img_7 from 'shared/assets/images/works/IMG_9481.webp';
 import img_8 from 'shared/assets/images/works/IMG_9499.webp';
@@ -22,9 +21,6 @@ export const worksList = [
 	},
 	{
 		img_link: img_4,
-	},
-	{
-		img_link: img_5,
 	},
 	{
 		img_link: img_6,

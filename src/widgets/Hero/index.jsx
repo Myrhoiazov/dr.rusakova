@@ -1,3 +1,4 @@
 import HeroClinic from './ui/HeroClinic/HeroClinic';
+import HeroCourses from './ui/HeroCourses/HeroCourses';
 
-export {HeroClinic};
+export {HeroClinic, HeroCourses};

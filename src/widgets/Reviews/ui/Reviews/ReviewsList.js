@@ -6,7 +6,6 @@ import img_5 from 'shared/assets/images/reviews/5.JPG';
 import img_6 from 'shared/assets/images/reviews/6.JPG';
 import img_7 from 'shared/assets/images/reviews/7.JPG';
 import img_8 from 'shared/assets/images/reviews/8.JPG';
-import img_9 from 'shared/assets/images/reviews/9.JPG';
 import img_10 from 'shared/assets/images/reviews/10.JPG';
 import img_11 from 'shared/assets/images/reviews/11.JPG';
 import img_12 from 'shared/assets/images/reviews/12.JPG';
@@ -35,9 +34,6 @@ export const reviewsList = [
 	},
 	{
 		img_link: img_8,
-	},
-	{
-		img_link: img_9,
 	},
 	{
 		img_link: img_10,

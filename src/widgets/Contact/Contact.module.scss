@@ -1,45 +1,43 @@
 @import '../../shared/styles/variables';
 
 .inner_wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  @media screen and (max-width: 767px) {
+	padding-top: 100px;
 	padding-bottom: 40px;
-  }
-
 }
 
 .title {
 	text-align: center;
-  text-transform: uppercase;
-  font-size: 48px;
-  margin-bottom: 60px;
+	text-transform: uppercase;
+	font-size: 48px;
+	margin-bottom: 60px;
 }
 
 .items {
 	display: flex;
 	justify-content: center;
 	padding: 0 30px;
+
 	@media screen and (max-width: 767px) {
 		flex-direction: column;
 		align-items: center;
-	  }
+	}
 
-	  .item{
+	.item {
 		margin-right: 150px;
-		min-width: 250px;
+		max-width: 250px;
 
-		&:last-child{
+		&:last-child {
 			margin-right: 0;
 		}
+
 		@media screen and (max-width: 767px) {
 			text-align: center;
 			margin: 0;
 			margin-bottom: 20px;
-		  }
-	  }
+		}
+	}
 
-	.subtitle{
+	.subtitle {
 		font-weight: 400;
 		line-height: 1.5;
 		letter-spacing: 0.00938em;
@@ -47,20 +45,20 @@
 		font-size: 1.1rem;
 	}
 
-	.contactList{
+	.contactList {
 		@media screen and (max-width: 767px) {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-		  }
-	
-		.contactItem{
-			
+		}
+
+		.contactItem {
+
 			font-size: 14px;
 			color: #ffffff8a;
 			margin-bottom: 10px;
 
-			a{
+			a {
 				display: flex;
 				align-items: center;
 				color: inherit;
@@ -69,15 +67,15 @@
 
 				@media screen and (max-width: 767px) {
 					text-align: center;
-				  }
+				}
 
-				.icon{
+				.icon {
 					margin-right: 10px;
 				}
 			}
 
-			&:hover{
-				a{
+			&:hover {
+				a {
 					color: $primary-text-color;
 				}
 			}
@@ -88,51 +86,51 @@
 
 
 .btn {
-  padding: 13px 28px;
-  border: none;
-  border-radius: 60px;
+	padding: 13px 28px;
+	border: none;
+	border-radius: 60px;
 
-  color: var(--main-bg);
-  background-color: var(--text-color);
+	color: var(--main-bg);
+	background-color: var(--text-color);
 }
 
 .modal_hidden {
-  transform: scale(0.5);
-  opacity: 0;
-  transition: all 0.4s linear;
+	transform: scale(0.5);
+	opacity: 0;
+	transition: all 0.4s linear;
 }
 
 .modal_show {
-  transform: scale(1);
+	transform: scale(1);
 }
 
 .socialList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 
-  padding-top: 100px;
+	padding-top: 100px;
 
-  .socialIcon {
-    cursor: pointer;
-    width: 50px;
-    margin-left: 30px;
+	.socialIcon {
+		cursor: pointer;
+		width: 50px;
+		margin-left: 30px;
 
-    transition: fill 150ms linear;
+		transition: fill 150ms linear;
 
-    fill: $primary-text-color;
+		fill: $primary-text-color;
 
-    &:first-child {
-      margin: 0;
-    }
+		&:first-child {
+			margin: 0;
+		}
 
-    &:hover {
-      fill: rgb(255, 174, 0);
-    }
+		&:hover {
+			fill: rgb(255, 174, 0);
+		}
 
-    @media screen and (max-width: 767px) {
-      width: 40px;
-    }
-  }
+		@media screen and (max-width: 767px) {
+			width: 40px;
+		}
+	}
 }
