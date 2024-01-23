@@ -1,13 +1,24 @@
 {
 	"Home": "Home",
 	"About me": "About me",
+	"Work": "Work examples",
 	"Courses": "Сourses",
+	"Prices": "Prices",
+	"Reviews": "Reviews",
 	"Contact": "Contact",
 	"hero": {
-		"hello": "The best and most effective facial correction techniques from a trainer",
-		"hello-accent": "international level",
-		"name": "Online course in contouring",
-		"text": "Dr. Rusakova"
+		"clinic": {
+			"hello": "The best and most effective facial correction techniques from a trainer",
+			"hello-accent": "international level",
+			"name": "Online course in contouring",
+			"text": "Dr. Rusakova"
+		},
+		"courses": {
+			"hello": "The best and most effective facial correction techniques from a trainer",
+			"hello-accent": "international level",
+			"name": "Online course in contouring",
+			"text": "Dr. Rusakova"
+		}
 	},
 	"button": {
 		"buy": "Buy training videos"
@@ -21,47 +32,53 @@
 		"text2": "Owns personal safety techniques",
 		"text3": "In this course, Elizaveta has invested the basic and individual developments of her work. The course was created for cosmetologists to share information and experience, for specialists who cannot attend training in person. The courses are introductory in nature with the technique of a cosmetologist."
 	},
+	"works": {
+		"title": "Results of our work"
+	},
+	"reviews": {
+		"title": "Reviews from our clients",
+		"text": "8.000+ satisfied clients"
+	},
 	"section": {
 		"products": "Products",
 		"subtext": "A sought-after beautician is good training and practice. Our video tutorials will help you become successful in cosmetology."
-		},
+	},
 	"course_1": {
 		"title": "Facial contouring course",
 		"text": "Theoretical part, analysis of preparations, review of needles, insertion techniques, analysis of correction methods, demonstration on models.",
 		"buy": "Add to basket",
-		"link": "Connect with us" 
+		"link": "Connect with us"
 	},
 	"course_2": {
 		"title": "Flat bow technique course",
 		"text": "Theoretical part, disassembly of drugs, injection techniques, schematic demonstration, demonstration on models.",
 		"buy": "Add to basket",
-		"link": "Connect with us" 
+		"link": "Connect with us"
 	},
 	"course_3": {
 		"title": "Botulinum therapy course",
 		"text": "Theoretical part, dosage calculation, counting the number of units, injection anatomy for botulinum toxin, demonstration on models.",
 		"buy": "Add to basket",
-		"link": "Connect with us" 
+		"link": "Connect with us"
 	},
 	"course_4": {
 		"title": "Course of biorevitalization, lipolytics, scalp mesotherapy",
 		"text": "Theoretical part, analysis of drugs, subject of choice for the patient, mechanism of action, demonstration on the model.",
 		"buy": "Add to basket",
-		"link": "Connect with us" 
+		"link": "Connect with us"
 	},
-	"politics":{
+	"politics": {
 		"text_1": "The course was created for cosmetologists to share information and experience for specialists who cannot attend training in person.",
 		"text_2": "The courses are introductory in nature with the technique of a cosmetologist.",
 		"text_3": "Distribution and sale of courses purchased on this site is prohibited."
 	},
-
-	"contacts":{
+	"contacts": {
 		"title": "Contacts",
 		"block_1": "Heed Help?",
 		"block_2": "Social links",
 		"block_3": "Politics"
 	},
-	"shedule":{
-		"text": "M-F 9:00am - 21:00pm"
+	"shedule": {
+		"text": "Tu-Sat 12:00 - 18:00"
 	}
 }
