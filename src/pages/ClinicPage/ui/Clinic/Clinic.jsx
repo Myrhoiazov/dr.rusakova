@@ -13,6 +13,7 @@ import Works from 'widgets/Works';
 import Reviews from 'widgets/Reviews';
 import {AboutClinic} from 'widgets/AboutMe';
 import Result from 'widgets/Result';
+import Price from 'widgets/Price';
 
 const Clinic = ({className}) => {
 	useEffect(() => {
@@ -34,6 +35,7 @@ const Clinic = ({className}) => {
 				<Result />
 				<Works />
 				<Reviews />
+				<Price />
 				<Contact />
 				<Footer />
 			</div>
