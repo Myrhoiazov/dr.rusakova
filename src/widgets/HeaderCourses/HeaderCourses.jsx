@@ -7,7 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import headerMenu from './headermenu';
 import Container from 'shared/ui/container';
 import ToggleLang from 'shared/ui/toggle-lang';
-import Loader from 'shared/ui/loader';
+import Loader from 'shared/ui/Loader';
 import '../../i18next';
 import Logo from 'shared/assets/IMG_9363.PNG';
 import s from './HeaderCourses.module.scss';
