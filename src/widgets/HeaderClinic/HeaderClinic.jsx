@@ -5,11 +5,11 @@ import {useTranslation} from 'react-i18next';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import headerMenu from './headermenu';
-import Container from 'components/container';
-import ToggleLang from 'components/toggle-lang';
-import Loader from 'components/loader';
+import Container from 'shared/ui/container';
+import ToggleLang from 'shared/ui/toggle-lang';
+import Loader from 'shared/ui/loader';
 import '../../i18next';
-import Logo from '../../assets/IMG_9363.PNG';
+import Logo from 'shared/assets/IMG_9363.PNG';
 import s from './HeaderClinic.module.scss';
 
 const HeaderClinic = () => {
@@ -86,7 +86,11 @@ const HeaderClinic = () => {
 															? `${s.item} ${s.active}`
 															: `${s.item}`
 													}
-													onClick={() => linkTo(to)}>
+													onClick={() => {
+														return to !== '/'
+															? linkTo(to)
+															: null;
+													}}>
 													{t(name)}
 												</NavLink>
 											</div>

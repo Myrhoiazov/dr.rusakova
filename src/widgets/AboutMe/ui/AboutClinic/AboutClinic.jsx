@@ -1,5 +1,5 @@
 import {memo} from 'react';
-import Container from 'components/container';
+import Container from 'shared/ui/container';
 import {useTranslation} from 'react-i18next';
 import 'i18next';
 import {classNames} from 'shared/lib/classNames/classNames';

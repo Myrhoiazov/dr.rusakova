@@ -1,6 +1,5 @@
-import {memo} from 'react';
 import style from './Loader.module.scss';
-import {ThreeDots} from 'react-loader-spinner';
+import { ThreeDots } from 'react-loader-spinner';
 
 function Loader() {
 	return (
@@ -10,4 +9,4 @@ function Loader() {
 	);
 }
 
-export default memo(Loader);
+export default Loader;

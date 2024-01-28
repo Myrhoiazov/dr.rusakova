@@ -34,6 +34,7 @@
 
 .text_name {
 	position: absolute;
+	z-index: 1 !important;
 	top: 60px;
 	left: 50%;
 	z-index: -1;
@@ -51,7 +52,6 @@
 	align-items: center;
 	justify-content: space-around;
 	gap: 10px;
-	// background-color: #0000005c;
 	padding: 50px;
 }
 
