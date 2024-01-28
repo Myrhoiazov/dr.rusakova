@@ -1,11 +1,11 @@
 import {memo, useState} from 'react';
 import ReactPlayer from 'react-player';
-import Container from 'components/container';
+import Container from 'shared/ui/container';
 import {useTranslation} from 'react-i18next';
-import SplideComponent from 'components/Splide/SplideComponent';
+import SplideComponent from 'shared/ui/Splide/SplideComponent';
 import 'i18next';
-import Video from 'assets/Promo_Insta.mp4';
-import bckGround from 'assets/bcg-video.jpg';
+import Video from 'shared/assets/Promo_Insta.mp4';
+import bckGround from 'shared/assets/bcg-video.jpg';
 import {classNames} from 'shared/lib/classNames/classNames';
 import s from './AboutCourses.module.scss';
 
@@ -17,12 +17,12 @@ const AboutCourses = ({className}) => {
 			<SplideComponent />
 			<Container>
 				<div className={s.wrapper}>
-					<h1 className={s.title}>{t('about.title')}</h1>
+					<h1 className={s.title}>{t('about.courses.title')}</h1>
 					<div className={s.content}>
 						<div className={s.about} data-aos="fade-right">
-							<p className={s.text}>{t('about.text1')}</p>
-							<p className={s.text}>{t('about.text2')}</p>
-							<p className={s.text}>{t('about.text3')}</p>
+							<p className={s.text}>{t('about.courses.text1')}</p>
+							<p className={s.text}>{t('about.courses.text2')}</p>
+							<p className={s.text}>{t('about.courses.text3')}</p>
 						</div>
 						<div
 							className={s.videoWrapper}
@@ -37,7 +37,7 @@ const AboutCourses = ({className}) => {
 							/>
 						</div>
 					</div>
-					<p className={s.text_name}>{t('hero.text')}</p>
+					<p className={s.text_name}>{t('hero.courses.text')}</p>
 				</div>
 			</Container>
 		</div>

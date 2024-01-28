@@ -1,7 +1,7 @@
 import React, {Suspense} from 'react';
 import {Navigate, Route, Routes} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
-import Loader from 'shared/ui/Loader';
+import Loader from 'shared/ui/loader';
 import Clinic from 'pages/ClinicPage';
 import Courses from 'pages/CoursesPage';
 import ReactGA from 'react-ga';

@@ -7,8 +7,12 @@
 	"Reviews": "Reviews",
 	"Contact": "Contact",
 	"home-button": {
-		"clinic": "/ clininc",
-		"courses": "/ courses"
+		"clinic": "/ patients",
+		"courses": "/ cosmetologists"
+	},
+	"home": {
+		"title": "Dr.Rusakova",
+		"text": ""
 	},
 	"hero": {
 		"clinic": {
@@ -31,14 +35,377 @@
 		"splide": "Buy 2 items and get 10% discount"
 	},
 	"about": {
-		"title": "About me",
-		"text1": "Elizaveta Rusakova Dermatovenereologist, cosmetologist, owner of a popular clinic in the city of Dnipro. Elizaveta has passed more than 30 advanced trainings, not only from Ukrainian specialists, but also from the European",
-		"text2": "Owns personal safety techniques",
-		"text3": "In this course, Elizaveta has invested the basic and individual developments of her work. The course was created for cosmetologists to share information and experience, for specialists who cannot attend training in person. The courses are introductory in nature with the technique of a cosmetologist."
+		"clinic": {
+			"title": "Greetings, dear patients!",
+			"subtitle": "I am Elizaveta Sergeevna Rusakova, a dermatologist, practicing in the field of cometology since 2017.",
+			"text1": "My work philosophy is individuality, not following templates.",
+			"text2": "I never consult patients with flashy slogans “-10 years in one procedure.”»",
+			"text3": "Working with me is a systematic, clearly formulated, specific protocol.",
+			"text4": "We do not have franchises, a huge uncontrolled team. We create a brand, a culture of healthy, young, and most importantly aesthetic appearance",
+			"text5": "I am individual and perfectionist in my work, I have the highest possible requirements for the quality of the procedures we provide."
+		},
+		"courses": {
+			"title": "About me",
+			"text1": "Elizaveta Rusakova Dermatovenereologist, cosmetologist, owner of a popular clinic in the city of Dnipro. Elizaveta has passed more than 30 advanced trainings, not only from Ukrainian specialists, but also from the European",
+			"text2": "Owns personal safety techniques",
+			"text3": "In this course, Elizaveta has invested the basic and individual developments of her work. The course was created for cosmetologists to share information and experience, for specialists who cannot attend training in person. The courses are introductory in nature with the technique of a cosmetologist."
+		}
 	},
 	"price": {
 		"title": "Price",
-		"subtitle": ""
+		"subtitle": "",
+		"list": [
+			{
+				"title": "Collegan simulaton",
+				"services": [
+					{
+						"name": "Radiesse",
+						"desc": "calcium hydroxyapatite 1.5 ml",
+						"price": "8000"
+					},
+					{
+						"name": "Radiesse",
+						"desc": "calcium hydroxyapatite 3 ml",
+						"price": "14,000"
+					},
+					{
+						"name": "Gana V",
+						"desc": "polylactic acid South Korea 210 mg",
+						"price": "14,000"
+					}
+				]
+			},
+			{
+				"title": "Face acothetics",
+				"services": [
+					{
+						"name": "Cleansing with Obagi peeling",
+						"desc": "10 stages",
+						"price": "1200"
+					},
+					{
+						"name": "Peeling Prx-133",
+						"desc": "",
+						"price": "1200"
+					},
+					{
+						"name": "Peeling Cassmara",
+						"desc": "",
+						"price": "1500"
+					}
+				]
+			},
+			{
+				"title": "Lips Augmentetion",
+				"services": [
+					{
+						"name": "Belotero Intense",
+						"desc": "Germany 1ml",
+						"price": "6500"
+					},
+					{
+						"name": "Stylage M",
+						"desc": "France 1ml",
+						"price": "5800"
+					},
+					{
+						"name": "Revolax deep",
+						"desc": "Japan 1ml",
+						"price": "4500"
+					},
+					{
+						"name": "Revolax deep",
+						"desc": "Japan 0.5ml",
+						"price": "2500"
+					},
+					{
+						"name": "Dissolving filler",
+						"desc": "",
+						"price": "1500"
+					}
+				]
+			},
+			{
+				"title": "Botox",
+				"services": [
+					{
+						"name": "Forehead + Glabella",
+						"desc": "",
+						"price": "3500"
+					},
+					{
+						"name": "Glabella",
+						"desc": "",
+						"price": "2500"
+					},
+					{
+						"name": "Eyes",
+						"desc": "",
+						"price": "2500"
+					},
+					{
+						"name": "Forehead + Glabella + Eyes",
+						"desc": "",
+						"price": "4500"
+					},
+					{
+						"name": "Bite-Relaxation Splint",
+						"desc": "",
+						"price": "700"
+					},
+					{
+						"name": "Platysma",
+						"desc": "",
+						"price": "4500"
+					},
+					{
+						"name": "DAO",
+						"desc": "",
+						"price": "500"
+					},
+					{
+						"name": "Chin",
+						"desc": "",
+						"price": "500"
+					},
+					{
+						"name": "Clear Smile",
+						"desc": "",
+						"price": "500"
+					},
+					{
+						"name": "Jaw muscles",
+						"desc": "",
+						"price": "3500"
+					},
+					{
+						"name": "FullFace",
+						"desc": "",
+						"price": "9000"
+					},
+					{
+						"name": "Hyperhidrosis Refinex",
+						"desc": "",
+						"price": "5000"
+					},
+					{
+						"name": "For men",
+						"desc": "+ 1000 to the cost",
+						"price": ""
+					}
+				]
+			},
+			{
+				"title": "Smag lifting Semits",
+				"services": [
+					{
+						"name": "Middle and lower third",
+						"price": "5000",
+						"desc": ""
+					},
+					{
+						"name": "Lower third",
+						"price": "3000",
+						"desc": ""
+					},
+					{
+						"name": "Upper third",
+						"price": "3000",
+						"desc": ""
+					},
+					{
+						"name": "Full face",
+						"price": "6000",
+						"desc": ""
+					},
+					{
+						"name": "Neck",
+						"price": "3000",
+						"desc": ""
+					},
+					{
+						"name": "Face + neck",
+						"price": "7000",
+						"desc": ""
+					}
+				]
+			},
+			{
+				"title": "Agnes",
+				"services": [
+					{
+						"name": "Lower eyelid hernias",
+						"price": "9000",
+						"desc": ""
+					},
+					{
+						"name": "Chin",
+						"price": "7000",
+						"desc": ""
+					},
+					{
+						"name": "Chin + glasses",
+						"price": "9000",
+						"desc": ""
+					},
+					{
+						"name": "Glasses",
+						"price": "7000",
+						"desc": ""
+					},
+					{
+						"name": "Nasolabial folds",
+						"price": "7000",
+						"desc": ""
+					},
+					{
+						"name": "Chin + glasses + nasolabial folds",
+						"price": "11 000",
+						"desc": ""
+					}
+				]
+			},
+			{
+				"title": "Triton",
+				"services": [
+					{
+						"name": "Morpheus 8 face",
+						"price": "9000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 neck",
+						"price": "9000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 décolleté",
+						"price": "9000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 neck + décolleté",
+						"price": "11 000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 face + neck + décolleté",
+						"price": "14 000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 eyes",
+						"price": "8000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 chin",
+						"price": "7000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 abdomen",
+						"price": "10 000",
+						"desc": ""
+					},
+					{
+						"name": "Morpheus 8 thighs",
+						"price": "10 000",
+						"desc": ""
+					},
+					{
+						"name": "Lumecca pigment",
+						"price": "10 000",
+						"desc": ""
+					},
+					{
+						"name": "Lumecca couperose",
+						"price": "2500",
+						"desc": ""
+					},
+					{
+						"name": "Lumecca photorejuvenation",
+						"price": "3000",
+						"desc": ""
+					},
+					{
+						"name": "Lumecca area up to 2*2 cm",
+						"price": "1500",
+						"desc": ""
+					}
+				]
+			},
+			{
+				"title": "Consultations",
+				"services": [
+					{
+						"name": "Doctor's consultation OFFLINE in the clinic 20 min.",
+						"price": "1000",
+						"desc": "if a procedure is performed, this amount is included in your deposit"
+					},
+					{
+						"name": "Doctor's consultation ONLINE 30 min.",
+						"price": "2000",
+						"desc": "via video communication at the time specified by the doctor"
+					}
+				]
+			},
+			{
+				"title": "Brantlezaton",
+				"services": [
+					{
+						"name": "Lalest Mastelli Italy 2 ml",
+						"desc": "moisturizing dry dehydrated skin",
+						"price": "4000"
+					},
+					{
+						"name": "Plinest Mastelli Italy 2 ml",
+						"desc": "for thin, fine-wrinkled skin",
+						"price": "4000"
+					},
+					{
+						"name": "Rejuran HB Korea 1 ml",
+						"desc": "for young skin up to 30 years old",
+						"price": "3500"
+					},
+					{
+						"name": "Rejuran PN Korea 2 ml",
+						"desc": "for oily, dense skin, prone to couperose, and skin with post-acne",
+						"price": "4500"
+					},
+					{
+						"name": "Vitaran Whitening Korea 2 ml",
+						"desc": "for skin prone to pigmentation",
+						"price": "4500"
+					},
+					{
+						"name": "Plinest hair Italy 2 ml",
+						"desc": "treatment for hair loss and stimulation of growth",
+						"price": "3000"
+					},
+					{
+						"name": "Corabanic USA 2 ml",
+						"desc": "for the skin of the décolleté, neck, and hands",
+						"price": "5000"
+					},
+					{
+						"name": "Rejuran | Korea 1 ml",
+						"desc": "thin, dry skin around the eyes, densification of the orbital area, combating dark circles",
+						"price": "3000"
+					},
+					{
+						"name": "Twac eyes Korea 1 ml",
+						"desc": "for skin around the eyes prone to swelling",
+						"price": "3000"
+					},
+					{
+						"name": "* BIOREVITALIZATION COURSE CONSISTS OF 3-4 PROCEDURES, INTERVAL BETWEEN PROCEDURES 3 WEEKS",
+						"desc": "",
+						"price": ""
+					}
+				]
+			}
+		]
 	},
 	"works": {
 		"title": "Results of our work"

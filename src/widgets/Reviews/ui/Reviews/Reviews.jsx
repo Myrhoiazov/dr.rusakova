@@ -1,7 +1,7 @@
 import React, {memo} from 'react';
 import {classNames} from 'shared/lib/classNames/classNames';
 import s from './Reviews.module.scss';
-import Container from 'components/container';
+import Container from 'shared/ui/container';
 import {useTranslation} from 'react-i18next';
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import {reviewsList} from './ReviewsList';

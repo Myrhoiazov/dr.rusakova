@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import {useTranslation} from 'react-i18next';
 import {classNames} from 'shared/lib/classNames/classNames';
 import s from './Price.module.scss';
-import Container from 'components/container';
+import Container from 'shared/ui/container';
 import Accordion from 'shared/ui/Accordion';
 import 'i18next';
 

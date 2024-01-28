@@ -1,7 +1,7 @@
 import React, {memo} from 'react';
 import {classNames} from 'shared/lib/classNames/classNames';
 import s from './Result.module.scss';
-import Container from 'components/container';
+import Container from 'shared/ui/container';
 
 const Result = ({className}) => {
 	return (

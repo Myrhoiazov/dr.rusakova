@@ -1,5 +1,5 @@
-import { memo, useState } from 'react';
-import Container from 'components/container';
+import {memo, useState} from 'react';
+import Container from 'shared/ui/container';
 import s from './Footer.module.scss';
 
 const getFullYear = () => {

@@ -1,8 +1,8 @@
 import {memo, useEffect} from 'react';
 import AOS from 'aos';
 import Contact from 'widgets/Contact/Contact';
-import Footer from 'components/footer/Footer';
-import ScrollUp from 'components/ScrollUp/ScrollUp';
+import Footer from 'shared/ui/footer/Footer';
+import ScrollUp from 'shared/ui/ScrollUp/ScrollUp';
 import 'aos/dist/aos.css';
 import '../../../../i18next';
 import {classNames} from 'shared/lib/classNames/classNames';

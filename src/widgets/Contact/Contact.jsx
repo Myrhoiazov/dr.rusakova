@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Container from 'components/container';
+import Container from 'shared/ui/container';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
 import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
