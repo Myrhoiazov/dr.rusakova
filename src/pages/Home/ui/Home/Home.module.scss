@@ -43,6 +43,8 @@
 	text-transform: uppercase;
 	animation: lighting 2000ms alternate infinite ease;
 	margin-bottom: 20px;
+	position: relative;
+	z-index: 2;
 }
 
 @keyframes lighting {
@@ -87,7 +89,7 @@
 				rgba(0, 0, 0, 0.8) 50%);
 		-webkit-mask-image: linear-gradient(to top,
 				rgba(0, 0, 0, 0) 0%,
-				rgba(0, 0, 0, 0.65) 50%);
+				rgba(0, 0, 0, 0.85) 50%);
 	}
 }
 
@@ -96,6 +98,8 @@
 	display: flex;
 	align-items: center;
 	gap: 20px;
+	position: relative;
+	z-index: 2;
 }
 
 .buy {
@@ -199,17 +203,12 @@
 
 @media screen and (max-width: 776px) {
 
-	.thumb {
-		img {
-			width: 375px;
-		}
-	}
-
 	.text {
 		font-size: 52px;
 		top: 0%;
 		left: 30%;
 		font-size: 36px;
+		z-index: 2;
 	}
 
 	.wrapper {

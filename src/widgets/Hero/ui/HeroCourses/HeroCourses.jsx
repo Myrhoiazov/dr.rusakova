@@ -34,7 +34,6 @@ const HeroClinic = ({className}) => {
 
 						<p className={s.text}>{t('hero.courses.text')}</p>
 					</div>
-					<div className={s.hero}></div>
 					<div className={s.thumb} data-aos="fade-left">
 						<img
 							src={Liza}

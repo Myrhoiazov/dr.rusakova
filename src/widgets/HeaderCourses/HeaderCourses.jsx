@@ -143,14 +143,16 @@ const HeaderCourses = () => {
 																? `${s.item} ${s.active}`
 																: `${s.item}`
 														}
-														onClick={() =>
-															mobileShow(to)
-														}>
+														onClick={() => {
+															return to !== '/'
+																? mobileShow(to)
+																: null;
+														}}>
 														{t(name)}
 													</NavLink>
 
-													<a
-														href="/dr.rusakova"
+													<Link
+														to="/courses"
 														className={
 															s.mobileLogo
 														}>
@@ -160,7 +162,7 @@ const HeaderCourses = () => {
 															width="150"
 															height="150"
 														/>
-													</a>
+													</Link>
 												</div>
 											);
 										})}

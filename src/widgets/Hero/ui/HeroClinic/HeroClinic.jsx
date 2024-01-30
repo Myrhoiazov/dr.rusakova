@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import {useTranslation} from 'react-i18next';
 import {classNames} from 'shared/lib/classNames/classNames';
 import Container from 'shared/ui/container';
-import Liza from 'shared/assets/dr-rusakova.png';
+import Liza from 'shared/assets/images/liza/liza_3.png';
 import s from './HeroClinic.module.scss';
 import '../../../../i18next';
 

@@ -143,14 +143,16 @@ const HeaderClinic = () => {
 																? `${s.item} ${s.active}`
 																: `${s.item}`
 														}
-														onClick={() =>
-															mobileShow(to)
-														}>
+														onClick={() => {
+															return to !== '/'
+																? mobileShow(to)
+																: null;
+														}}>
 														{t(name)}
 													</NavLink>
 
-													<a
-														href="/dr.rusakova"
+													<Link
+														to="/clinic"
 														className={
 															s.mobileLogo
 														}>
@@ -160,7 +162,7 @@ const HeaderClinic = () => {
 															width="150"
 															height="150"
 														/>
-													</a>
+													</Link>
 												</div>
 											);
 										})}

@@ -3,7 +3,7 @@ import {useEffect} from 'react';
 import AOS from 'aos';
 import '../../../../i18next';
 import Container from 'shared/ui/container';
-import Liza from 'shared/assets/dr-rusakova.png';
+import Liza from 'shared/assets/images/liza/liza_2.png';
 import 'aos/dist/aos.css';
 import s from './Home.module.scss';
 import {classNames} from 'shared/lib/classNames/classNames';
@@ -46,7 +46,7 @@ const Home = ({className}) => {
 						<img
 							src={Liza}
 							alt="Фото Лизы"
-							width="370"
+							width="500"
 							className={s.heroImg}
 						/>
 					</div>
