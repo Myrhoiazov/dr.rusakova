@@ -1,17 +1,19 @@
+@import 'shared/styles/_variables.scss';
+
 .container {
-  padding: 20px 0;
-  background-color: rgba(0, 0, 0, 0.297);
+	padding: 20px 0;
+	background-color: rgba(0, 0, 0, 0.297);
 
 }
 
 .content {
 	display: flex;
 	justify-content: center;
+
 	.text {
 		text-align: center;
 		font-size: 12px;
-		color: white;
+		color: $primary-color-light;
 		margin: 0 auto;
 	}
 }
-

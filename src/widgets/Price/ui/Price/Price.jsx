@@ -12,8 +12,7 @@ const Price = ({className}) => {
 	return (
 		<div className={classNames(s.Price, {}, [className])} id="prices">
 			<Container>
-				<h1 className={s.title}>{t('price.title')}</h1>
-
+				<h2 className={s.title}>{t('price.title')}</h2>
 				<Accordion />
 			</Container>
 		</div>

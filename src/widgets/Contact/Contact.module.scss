@@ -55,7 +55,7 @@
 		.contactItem {
 
 			font-size: 14px;
-			color: #ffffff8a;
+			color: $primary-color-light;
 			margin-bottom: 10px;
 
 			a {
@@ -67,6 +67,7 @@
 
 				@media screen and (max-width: 767px) {
 					text-align: center;
+					justify-content: center;
 				}
 
 				.icon {

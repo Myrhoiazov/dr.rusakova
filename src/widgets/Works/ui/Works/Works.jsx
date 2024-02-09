@@ -1,8 +1,9 @@
 import React, {memo} from 'react';
+import ReactCompareImage from 'react-compare-image';
+import {useTranslation} from 'react-i18next';
 import {classNames} from 'shared/lib/classNames/classNames';
 import s from './Works.module.scss';
 import Container from 'shared/ui/container';
-import {useTranslation} from 'react-i18next';
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import {worksList} from './worksList';
 
@@ -13,11 +14,12 @@ const Works = ({className}) => {
 		<div className={classNames(s.Works, {}, [className])} id="work">
 			<Container>
 				<div className={s.inner_wrapper}>
-					<h1 className={s.title}>{t('works.title')}</h1>
+					<h2 className={s.title}>{t('works.title')}</h2>
+					<p className={s.subtitle}>{t('works.subtitle')}</p>
 					<Splide
 						options={{
 							type: 'loop',
-							drag: 'free',
+							drag: false,
 							perPage: 4,
 							pagination: false,
 							arrows: true,
@@ -35,7 +37,11 @@ const Works = ({className}) => {
 							return (
 								<SplideSlide key={el.img_link}>
 									<div className={s.splideTest}>
-										<img src={el.img_link} alt="" />
+										{/* <img src={el.img_link} alt="" /> */}
+										<ReactCompareImage
+											leftImage={el.before}
+											rightImage={el.affter}
+										/>
 									</div>
 								</SplideSlide>
 							);

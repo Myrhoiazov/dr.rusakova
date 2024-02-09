@@ -56,7 +56,7 @@
 		"subtitle": "",
 		"list": [
 			{
-				"title": "Collegan simulaton",
+				"title": "Collagen stimulaton",
 				"services": [
 					{
 						"name": "Radiesse",
@@ -76,7 +76,7 @@
 				]
 			},
 			{
-				"title": "Face acothetics",
+				"title": "Face aesthetics",
 				"services": [
 					{
 						"name": "Cleansing with Obagi peeling",
@@ -196,7 +196,7 @@
 				]
 			},
 			{
-				"title": "Smag lifting Semits",
+				"title": "Smag lifting Zemits",
 				"services": [
 					{
 						"name": "Middle and lower third",
@@ -315,7 +315,7 @@
 					},
 					{
 						"name": "Lumecca pigment",
-						"price": "10 000",
+						"price": "2500",
 						"desc": ""
 					},
 					{
@@ -351,7 +351,7 @@
 				]
 			},
 			{
-				"title": "Brantlezaton",
+				"title": "Biorevitalization",
 				"services": [
 					{
 						"name": "Lalest Mastelli Italy 2 ml",
@@ -404,11 +404,82 @@
 						"price": ""
 					}
 				]
+			},
+			{
+				"title": "Correction with fillers",
+				"services": [
+					{
+						"name": "Celosome implant 1ml",
+						"desc": "(Korea)",
+						"price": "4000"
+					},
+					{
+						"name": "Celosome implant 2ml",
+						"desc": "(Korea)",
+						"price": "7000"
+					},
+					{
+						"name": "Celosome implant 3ml",
+						"desc": "(Korea)",
+						"price": "9000"
+					},
+					{
+						"name": "Celosome implant 4ml",
+						"desc": "(Korea)",
+						"price": "11 000"
+					},
+					{
+						"name": "Saypha Volume 1ml",
+						"desc": "(Austria)",
+						"price": "5000"
+					},
+					{
+						"name": "Saypha Volume 2ml",
+						"desc": "(Austria)",
+						"price": "9000"
+					},
+					{
+						"name": "Saypha Volume 3ml",
+						"desc": "(Austria)",
+						"price": "12 000"
+					},
+					{
+						"name": "Saypha Volume 4ml",
+						"desc": "(Austria)",
+						"price": "15 000"
+					},
+					{
+						"name": "Chin 1 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Nasolabial folds 1 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Angles of the lower jaw 2 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Cheekbones 2 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Full face 3-4 ml",
+						"desc": "",
+						"price": ""
+					}
+				]
 			}
 		]
 	},
 	"works": {
-		"title": "Results of our work"
+		"title": "Results of our work",
+		"subtitle": "We take pride in sharing the amazing transformations of our clients. In this 'Results of Our Work' section, you'll find before-and-after photos showcasing the outcomes of our innovative cosmetic procedures."
 	},
 	"reviews": {
 		"title": "Reviews from our clients",
@@ -455,5 +526,14 @@
 	},
 	"shedule": {
 		"text": "Tu-Sat 12:00 - 18:00"
+	},
+	"image": {
+		"title": "Studio image gallery",
+		"subtitle": ""
+	},
+	"result": {
+		"year": "years of experience",
+		"pacient": "patients",
+		"study": "training"
 	}
 }

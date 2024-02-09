@@ -9,7 +9,7 @@ import Container from 'shared/ui/container';
 import ToggleLang from 'shared/ui/toggle-lang';
 import Loader from 'shared/ui/Loader';
 import '../../i18next';
-import Logo from 'shared/assets/IMG_9363.PNG';
+import Logo from 'shared/assets/dr.rusakova-logo.png';
 import s from './HeaderCourses.module.scss';
 
 const HeaderCourses = () => {

@@ -1,5 +1,12 @@
 @import 'shared/styles/variables';
 
+.Price {
+	position: relative;
+	background-color: black;
+	padding: 60px 0;
+	min-height: 100vh;
+}
+
 
 .title {
 	text-align: center;

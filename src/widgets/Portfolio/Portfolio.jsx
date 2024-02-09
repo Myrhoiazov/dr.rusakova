@@ -5,7 +5,10 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import img3 from 'shared/assets/lips.jpg';
+import img1 from 'shared/assets/images/course/course_1.jpg';
+import img2 from 'shared/assets/images/course/course_2.jpg';
+import img3 from 'shared/assets/images/course/course_3.jpg';
+import img4 from 'shared/assets/images/course/course_4.jpg';
 import '../../i18next';
 import s from './Portfolio.module.scss';
 
@@ -65,7 +68,7 @@ const Portfolio = () => {
 								component="img"
 								alt={t('course_1.title')}
 								height="140"
-								image={img3}
+								image={img1}
 							/>
 							<CardContent>
 								<Typography
@@ -120,7 +123,7 @@ const Portfolio = () => {
 								component="img"
 								alt={t('course_2.title')}
 								height="140"
-								image={img3}
+								image={img2}
 							/>
 							<CardContent>
 								<Typography
@@ -233,7 +236,7 @@ const Portfolio = () => {
 								component="img"
 								alt={t('course_4.title')}
 								height="140"
-								image={img3}
+								image={img4}
 							/>
 							<CardContent>
 								<Typography

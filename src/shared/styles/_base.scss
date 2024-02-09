@@ -11,7 +11,7 @@ body {
 	font-style: normal;
 	margin: 0;
 	color: $primary-text-color;
-	background-color: $primary-bg-color;
+	background-color: black;
 	transition: 0.3s ease-in-out;
 }
 
@@ -51,4 +51,8 @@ ul {
 
 .active {
 	color: $secondary-text-color;
+}
+
+.splide__pagination {
+	bottom: -2.5em !important;
 }

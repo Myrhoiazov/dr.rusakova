@@ -39,6 +39,7 @@ const HeroClinic = ({className}) => {
 							className={s.heroImg}
 						/>
 					</div>
+					<div className={s.gradient}></div>
 				</section>
 			</Container>
 		</div>

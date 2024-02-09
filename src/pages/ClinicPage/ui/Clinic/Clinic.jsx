@@ -14,6 +14,7 @@ import Reviews from 'widgets/Reviews';
 import {AboutClinic} from 'widgets/AboutMe';
 import Result from 'widgets/Result';
 import Price from 'widgets/Price';
+import ImageGallery from 'widgets/ImageGallery';
 
 const Clinic = ({className}) => {
 	useEffect(() => {
@@ -26,9 +27,10 @@ const Clinic = ({className}) => {
 	}, []);
 
 	return (
-		<>
-			<HeaderClinic />
-			<div className={classNames(s.Clinic, {}, [className])}>
+		<div className={classNames(s.Clinic, {}, [className])}>
+			<div className={s.backdrop} id="backdrop"></div>
+			<div className={s.inner}>
+				<HeaderClinic />
 				<ScrollUp />
 				<HeroClinic />
 				<AboutClinic />
@@ -36,10 +38,11 @@ const Clinic = ({className}) => {
 				<Works />
 				<Reviews />
 				<Price />
+				<ImageGallery />
 				<Contact />
 				<Footer />
 			</div>
-		</>
+		</div>
 	);
 };
 

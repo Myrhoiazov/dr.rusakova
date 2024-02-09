@@ -17,9 +17,9 @@ function logPageView() {
 const AppRouter = () => (
 	<Suspense fallback={<Loader />}>
 		<Routes history={createBrowserHistory()} onUpdate={logPageView}>
-			<Route path="/" element={<Home />} />
-			<Route path="clinic" element={<Clinic />} />
-			<Route path="courses" element={<Courses />} />
+			<Route index element={<Home />} />
+			<Route path="/clinic" element={<Clinic />} />
+			<Route path="/courses" element={<Courses />} />
 			<Route path="*" element={<Navigate to="/" />} />
 		</Routes>
 	</Suspense>

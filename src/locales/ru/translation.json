@@ -56,7 +56,7 @@
 		"subtitle": "",
 		"list": [
 			{
-				"title": "Collegan simulaton",
+				"title": "Collagen stimulaton",
 				"services": [
 					{
 						"name": "Radiesse",
@@ -76,7 +76,7 @@
 				]
 			},
 			{
-				"title": "Face acothetics",
+				"title": "Face aesthetics",
 				"services": [
 					{
 						"name": "Чистка с пилингом Obagi",
@@ -196,7 +196,7 @@
 				]
 			},
 			{
-				"title": "Smag lifting Semits",
+				"title": "Smag lifting Zemits",
 				"services": [
 					{
 						"name": "Средняя и нижняя треть",
@@ -315,7 +315,7 @@
 					},
 					{
 						"name": "Lumecca пигментация",
-						"price": "10 000",
+						"price": "2500",
 						"desc": ""
 					},
 					{
@@ -351,7 +351,7 @@
 				]
 			},
 			{
-				"title": "Brantlezaton",
+				"title": "Biorevitalization",
 				"services": [
 					{
 						"name": "Lalest Mastelli Италия 2 мл",
@@ -404,11 +404,82 @@
 						"price": ""
 					}
 				]
+			},
+			{
+				"title": "Correction with fillers",
+				"services": [
+					{
+						"name": "Celosome implant 1ml",
+						"desc": "(Korea)",
+						"price": "4000"
+					},
+					{
+						"name": "Celosome implant 2ml",
+						"desc": "(Korea)",
+						"price": "7000"
+					},
+					{
+						"name": "Celosome implant 3ml",
+						"desc": "(Korea)",
+						"price": "9000"
+					},
+					{
+						"name": "Celosome implant 4ml",
+						"desc": "(Korea)",
+						"price": "11 000"
+					},
+					{
+						"name": "Saypha Volume 1ml",
+						"desc": "(Austria)",
+						"price": "5000"
+					},
+					{
+						"name": "Saypha Volume 2ml",
+						"desc": "(Austria)",
+						"price": "9000"
+					},
+					{
+						"name": "Saypha Volume 3ml",
+						"desc": "(Austria)",
+						"price": "12 000"
+					},
+					{
+						"name": "Saypha Volume 4ml",
+						"desc": "(Austria)",
+						"price": "15 000"
+					},
+					{
+						"name": "Подбородок 1 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Носогубные складки 1 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Углы нижней челюсти 2 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Скулы 2 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Full face 3-4 ml",
+						"desc": "",
+						"price": ""
+					}
+				]
 			}
 		]
 	},
 	"works": {
-		"title": "Результаты нашей работы"
+		"title": "Результаты нашей работы",
+		"subtitle": "Я горжусь удивительными трансформациями наших клиентов. В этом блоке 'Результаты нашей работы' вы увидите фотографии до и после наших инновационных косметологических процедур."
 	},
 	"reviews": {
 		"title": "Отзывы наших клиентов",
@@ -451,5 +522,14 @@
 	},
 	"shedule": {
 		"text": "Вт.-Сб. 12:00 - 18:00"
+	},
+	"image": {
+		"title": "Наша галлерея",
+		"subtitle": ""
+	},
+	"result": {
+		"year": "лет опыта",
+		"pacient": "пациентов",
+		"study": "обучений"
 	}
 }

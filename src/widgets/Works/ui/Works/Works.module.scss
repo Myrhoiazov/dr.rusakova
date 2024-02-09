@@ -12,7 +12,17 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 48px;
+		margin-bottom: 20px;
+	}
+
+	.subtitle {
+		text-align: center;
+		font-weight: 300;
+		font-size: 18px;
+		max-width: 600px;
+		margin: 0 auto;
 		margin-bottom: 60px;
+		color: $primary-color-light;
 	}
 
 }

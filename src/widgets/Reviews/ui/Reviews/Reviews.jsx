@@ -13,8 +13,8 @@ const Reviews = ({className}) => {
 		<div className={classNames(s.Reviews, {}, [className])} id="reviews">
 			<Container>
 				<div className={s.inner_wrapper}>
-					<h1 className={s.title}>{t('reviews.title')}</h1>
-					<h1 className={s.text}>{t('reviews.text')}</h1>
+					<h2 className={s.title}>{t('reviews.title')}</h2>
+					<p className={s.text}>{t('reviews.text')}</p>
 					<Splide
 						options={{
 							type: 'loop',
