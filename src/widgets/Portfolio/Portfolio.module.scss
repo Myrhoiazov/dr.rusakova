@@ -1,10 +1,12 @@
 @import '../../shared/styles/variables';
 
-
 .buy {
 	font-size: 14px;
 	text-align: center;
-	display: inline-block;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 	text-decoration: none;
 	padding: 13px 18px;
 	border: none;
@@ -23,8 +25,7 @@
 	}
 }
 
-
-.buttons{
+.buttons {
 	display: flex;
 	justify-content: space-between;
 	margin-top: auto;

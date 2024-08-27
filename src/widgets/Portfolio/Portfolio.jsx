@@ -1,3 +1,4 @@
+import {useEffect, useState} from 'react';
 import {useTranslation} from 'react-i18next';
 import {Box, Typography} from '@mui/material';
 import Container from 'shared/ui/container';
@@ -5,15 +6,19 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import img1 from 'shared/assets/images/course/course_1.jpg';
-import img2 from 'shared/assets/images/course/course_2.jpg';
-import img3 from 'shared/assets/images/course/course_3.jpg';
-import img4 from 'shared/assets/images/course/course_4.jpg';
+import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
 import '../../i18next';
 import s from './Portfolio.module.scss';
 
 const Portfolio = () => {
-	const {t} = useTranslation();
+	const [courses, setCourses] = useState([]);
+	const {t, i18n} = useTranslation();
+
+	useEffect(() => {
+		let res = t('courses.list', {returnObjects: true});
+		setCourses(res);
+	}, [i18n.language, t]);
+
 	return (
 		<section id="courses">
 			<Container>
@@ -34,7 +39,7 @@ const Portfolio = () => {
 							marginBottom: '10px',
 							textTransform: 'uppercase',
 						}}>
-						{t('section.products')}
+						{t('courses.title')}
 					</Typography>
 					<Typography
 						variant="h4"
@@ -45,7 +50,7 @@ const Portfolio = () => {
 							marginBottom: '60px',
 							maxWidth: '600px',
 						}}>
-						{t('section.subtext')}
+						{t('courses.subtitle')}
 					</Typography>
 					<Box
 						sx={{
@@ -54,231 +59,84 @@ const Portfolio = () => {
 							justifyContent: 'center',
 							gap: 3,
 						}}>
-						<Card
-							sx={{
-								maxWidth: 350,
-								display: 'flex',
-								flexDirection: 'column',
-								backgroundColor: 'transparent',
-								paddingBottom: 2,
-							}}
-							data-aos="fade-up"
-							data-aos-delay="300">
-							<CardMedia
-								component="img"
-								alt={t('course_1.title')}
-								height="140"
-								image={img1}
-							/>
-							<CardContent>
-								<Typography
-									gutterBottom
+						{courses.map((item, index) => (
+							<Card
+								key={item.title}
+								sx={{
+									maxWidth: 350,
+									display: 'flex',
+									flexDirection: 'column',
+									backgroundColor: 'transparent',
+									paddingBottom: 2,
+								}}
+								data-aos="fade-up"
+								data-aos-delay="300">
+								<CardMedia
+									component="img"
+									alt={item.title}
+									height="140"
+									image={`assets/course/${item.img}`}
+								/>
+								<CardContent
 									sx={{
-										fontSize: '1.5rem',
-										marginBottom: 3,
-										fontWeight: 700,
-										textTransform: 'uppercase',
-										color: 'white',
+										display: 'flex',
+										flexDirection: 'column',
+										height: '100%',
 									}}>
-									{t('course_1.title')}
-								</Typography>
-								<Typography
-									variant="body2"
-									color="text.secondary"
-									sx={{
-										color: '#ffffff8a',
-									}}>
-									{t('course_1.text')}
-								</Typography>
-								<Typography
-									variant="h4"
-									sx={{
-										fontSize: '24px',
-										textAlign: 'right',
-										fontWeight: 700,
-										marginTop: '20px',
-										color: 'white',
-										textTransform: 'uppercase',
-									}}>
-									200$
-								</Typography>
-							</CardContent>
-							<CardActions className={s.buttons}>
-								<a href="tel:+380(99)7438404" className={s.buy}>
-									{t('course_1.link')}
-								</a>
-							</CardActions>
-						</Card>
-						<Card
-							sx={{
-								maxWidth: 350,
-								display: 'flex',
-								flexDirection: 'column',
-								backgroundColor: 'transparent',
-								paddingBottom: 2,
-							}}
-							data-aos="fade-up"
-							data-aos-delay="400">
-							<CardMedia
-								component="img"
-								alt={t('course_2.title')}
-								height="140"
-								image={img2}
-							/>
-							<CardContent>
-								<Typography
-									gutterBottom
-									sx={{
-										fontSize: '1.5rem',
-										marginBottom: 3,
-										fontWeight: 700,
-										textTransform: 'uppercase',
-										color: 'white',
-
-										minHeight: '72px',
-									}}>
-									{t('course_2.title')}
-								</Typography>
-								<Typography
-									variant="body2"
-									color="text.secondary"
-									sx={{
-										color: '#ffffff8a',
-									}}>
-									{t('course_2.text')}
-								</Typography>
-								<Typography
-									variant="h4"
-									sx={{
-										fontSize: '24px',
-										textAlign: 'right',
-										fontWeight: 700,
-										marginTop: '20px',
-										color: 'white',
-										textTransform: 'uppercase',
-									}}>
-									200$
-								</Typography>
-							</CardContent>
-							<CardActions className={s.buttons}>
-								<a href="tel:+380(99)7438404" className={s.buy}>
-									{t('course_1.link')}
-								</a>
-							</CardActions>
-						</Card>
-						<Card
-							sx={{
-								maxWidth: 350,
-								display: 'flex',
-								flexDirection: 'column',
-								backgroundColor: 'transparent',
-								paddingBottom: 2,
-							}}
-							data-aos="fade-up"
-							data-aos-delay="500">
-							<CardMedia
-								component="img"
-								alt={t('course_3.title')}
-								height="140"
-								image={img3}
-							/>
-							<CardContent>
-								<Typography
-									gutterBottom
-									sx={{
-										fontSize: '1.5rem',
-										marginBottom: 3,
-										fontWeight: 700,
-										textTransform: 'uppercase',
-										color: 'white',
-										minHeight: '72px',
-									}}>
-									{t('course_3.title')}
-								</Typography>
-								<Typography
-									variant="body2"
-									color="text.secondary"
-									sx={{
-										color: '#ffffff8a',
-									}}>
-									{t('course_3.text')}
-								</Typography>
-								<Typography
-									variant="h4"
-									sx={{
-										fontSize: '24px',
-										textAlign: 'right',
-										fontWeight: 700,
-										marginTop: '20px',
-										color: 'white',
-										textTransform: 'uppercase',
-									}}>
-									200$
-								</Typography>
-							</CardContent>
-							<CardActions className={s.buttons}>
-								<a href="tel:+380(99)7438404" className={s.buy}>
-									{t('course_1.link')}
-								</a>
-							</CardActions>
-						</Card>
-						<Card
-							sx={{
-								maxWidth: 350,
-								display: 'flex',
-								flexDirection: 'column',
-								backgroundColor: 'transparent',
-								paddingBottom: 2,
-							}}
-							data-aos="fade-up"
-							data-aos-delay="600">
-							<CardMedia
-								component="img"
-								alt={t('course_4.title')}
-								height="140"
-								image={img4}
-							/>
-							<CardContent>
-								<Typography
-									gutterBottom
-									sx={{
-										fontSize: '1.2rem',
-										marginBottom: 3,
-										fontWeight: 700,
-										textTransform: 'uppercase',
-										color: 'white',
-
-										minHeight: '72px',
-									}}>
-									{t('course_4.title')}
-								</Typography>
-								<Typography
-									variant="body2"
-									color="text.secondary"
-									sx={{
-										color: '#ffffff8a',
-									}}>
-									{t('course_4.text')}
-								</Typography>
-								<Typography
-									variant="h4"
-									sx={{
-										fontSize: '24px',
-										textAlign: 'right',
-										fontWeight: 700,
-										marginTop: '20px',
-										color: 'white',
-										textTransform: 'uppercase',
-									}}>
-									200$
-								</Typography>
-							</CardContent>
-							<CardActions className={s.buttons}>
-								<a href="tel:+380(99)7438404" className={s.buy}>
-									{t('course_1.link')}
-								</a>
-							</CardActions>
-						</Card>
+									<Typography
+										gutterBottom
+										sx={{
+											fontSize: '1.2rem',
+											marginBottom: 3,
+											fontWeight: 700,
+											textTransform: 'uppercase',
+											color: 'white',
+										}}>
+										{item.title}
+									</Typography>
+									<Typography
+										variant="body2"
+										color="text.secondary"
+										sx={{
+											color: '#ffffff8a',
+											flexShrink: 1,
+										}}>
+										- {item.description['1']}
+									</Typography>
+									{item.description['2'] && (
+										<Typography
+											variant="body2"
+											color="text.secondary"
+											sx={{
+												color: '#ffffff8a',
+												flexShrink: 1,
+											}}>
+											- {item.description['2']}
+										</Typography>
+									)}
+									<Typography
+										variant="h4"
+										sx={{
+											fontSize: '24px',
+											textAlign: 'right',
+											fontWeight: 700,
+											marginTop: 'auto',
+											color: 'white',
+											textTransform: 'uppercase',
+										}}>
+										{item.price}
+									</Typography>
+								</CardContent>
+								<CardActions className={s.buttons}>
+									<a
+										href="tel:+380(99)7438404"
+										className={s.buy}>
+										{t('courses.link')}
+										<PhoneEnabledIcon />
+									</a>
+								</CardActions>
+							</Card>
+						))}
 					</Box>
 				</Box>
 			</Container>

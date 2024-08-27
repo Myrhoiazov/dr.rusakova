@@ -2,6 +2,7 @@ import React, {memo} from 'react';
 import {useTranslation} from 'react-i18next';
 import {classNames} from 'shared/lib/classNames/classNames';
 import Container from 'shared/ui/container';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Liza from 'shared/assets/dr-rusakova.png';
 import s from './HeroCourses.module.scss';
 import '../../../../i18next';
@@ -29,6 +30,7 @@ const HeroClinic = ({className}) => {
 							</h1>
 							<a href="#courses" className={s.buy}>
 								{t('button.buy')}
+								<ShoppingCartIcon />
 							</a>
 						</div>
 

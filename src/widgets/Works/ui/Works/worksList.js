@@ -10,6 +10,14 @@ import img1_5 from 'shared/assets/images/works/img1_5.jpg';
 import img2_5 from 'shared/assets/images/works/img2_5.jpg';
 import img1_6 from 'shared/assets/images/works/img1_6.jpg';
 import img2_6 from 'shared/assets/images/works/img2_6.jpg';
+import img1_7 from 'shared/assets/images/works/img1_7.webp';
+import img2_7 from 'shared/assets/images/works/img2_7.webp';
+import img1_8 from 'shared/assets/images/works/img1_8.webp';
+import img2_8 from 'shared/assets/images/works/img2_8.webp';
+import img1_9 from 'shared/assets/images/works/img1_9.webp';
+import img2_9 from 'shared/assets/images/works/img2_9.webp';
+import img3_0 from 'shared/assets/images/works/img3_0.webp';
+import img3_1 from 'shared/assets/images/works/img3_1.webp';
 
 export const worksList = [
 	{
@@ -35,5 +43,21 @@ export const worksList = [
 	{
 		before: img1_6,
 		affter: img2_6,
+	},
+	{
+		before: img1_7,
+		affter: img2_7,
+	},
+	{
+		before: img1_8,
+		affter: img2_8,
+	},
+	{
+		before: img1_9,
+		affter: img2_9,
+	},
+	{
+		before: img3_0,
+		affter: img3_1,
 	},
 ];

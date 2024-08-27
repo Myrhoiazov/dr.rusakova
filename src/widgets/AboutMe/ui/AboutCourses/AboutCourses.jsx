@@ -4,8 +4,8 @@ import Container from 'shared/ui/container';
 import {useTranslation} from 'react-i18next';
 import SplideComponent from 'shared/ui/Splide/SplideComponent';
 import 'i18next';
-import Video from 'shared/assets/Promo_Insta.mp4';
-import bckGround from 'shared/assets/bcg-video.jpg';
+import Video from 'shared/assets/video/Liza-website.mp4';
+import bckGround from 'shared/assets/Liza-bcg.webp';
 import {classNames} from 'shared/lib/classNames/classNames';
 import s from './AboutCourses.module.scss';
 

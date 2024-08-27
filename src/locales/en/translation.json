@@ -76,7 +76,7 @@
 				]
 			},
 			{
-				"title": "Face aesthetics",
+				"title": "Face aesthetics / Consultations",
 				"services": [
 					{
 						"name": "Cleansing with Obagi peeling",
@@ -92,6 +92,16 @@
 						"name": "Peeling Cassmara",
 						"desc": "",
 						"price": "1500"
+					},
+					{
+						"name": "Doctor's consultation OFFLINE in the clinic 20 min.",
+						"price": "1000",
+						"desc": "if a procedure is performed, this amount is included in your deposit"
+					},
+					{
+						"name": "Doctor's consultation ONLINE 30 min.",
+						"price": "2000",
+						"desc": "via video communication at the time specified by the doctor"
 					}
 				]
 			},
@@ -196,7 +206,7 @@
 				]
 			},
 			{
-				"title": "Smag lifting Zemits",
+				"title": "Smas lifting / Agnes",
 				"services": [
 					{
 						"name": "Middle and lower third",
@@ -227,12 +237,7 @@
 						"name": "Face + neck",
 						"price": "7000",
 						"desc": ""
-					}
-				]
-			},
-			{
-				"title": "Agnes",
-				"services": [
+					},
 					{
 						"name": "Lower eyelid hernias",
 						"price": "9000",
@@ -266,7 +271,7 @@
 				]
 			},
 			{
-				"title": "Triton",
+				"title": "Triton / Lumecca",
 				"services": [
 					{
 						"name": "Morpheus 8 face",
@@ -332,21 +337,6 @@
 						"name": "Lumecca area up to 2*2 cm",
 						"price": "1500",
 						"desc": ""
-					}
-				]
-			},
-			{
-				"title": "Consultations",
-				"services": [
-					{
-						"name": "Doctor's consultation OFFLINE in the clinic 20 min.",
-						"price": "1000",
-						"desc": "if a procedure is performed, this amount is included in your deposit"
-					},
-					{
-						"name": "Doctor's consultation ONLINE 30 min.",
-						"price": "2000",
-						"desc": "via video communication at the time specified by the doctor"
 					}
 				]
 			},
@@ -489,29 +479,66 @@
 		"products": "Products",
 		"subtext": "A sought-after beautician is good training and practice. Our video tutorials will help you become successful in cosmetology."
 	},
-	"course_1": {
-		"title": "Facial contouring course",
-		"text": "Theoretical part, analysis of preparations, review of needles, insertion techniques, analysis of correction methods, demonstration on models.",
-		"buy": "Add to basket",
-		"link": "Connect with us"
-	},
-	"course_2": {
-		"title": "Flat bow technique course",
-		"text": "Theoretical part, disassembly of drugs, injection techniques, schematic demonstration, demonstration on models.",
-		"buy": "Add to basket",
-		"link": "Connect with us"
-	},
-	"course_3": {
-		"title": "Botulinum therapy course",
-		"text": "Theoretical part, dosage calculation, counting the number of units, injection anatomy for botulinum toxin, demonstration on models.",
-		"buy": "Add to basket",
-		"link": "Connect with us"
-	},
-	"course_4": {
-		"title": "Course of biorevitalization, lipolytics, scalp mesotherapy",
-		"text": "Theoretical part, analysis of drugs, subject of choice for the patient, mechanism of action, demonstration on the model.",
-		"buy": "Add to basket",
-		"link": "Connect with us"
+	"courses": {
+		"title": "Webinars",
+		"subtitle": "A sought-after cosmetologist needs good training and practice. Our video lessons will help you become successful in cosmetology.",
+		"list": [
+			{
+				"title": "Facial Contour Plastic Surgery Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: analysis of preparations, needle review, injection techniques, analysis of correction methods, demonstration on models."
+				},
+				"img": "full-face.webp",
+				"price": "200$"
+			},
+			{
+				"title": "Flat Bow Technique Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: analysis of preparations, injection techniques, schematic demonstration, demonstration on models."
+				},
+				"img": "lips.webp",
+				"price": "200$"
+			},
+			{
+				"title": "Botulinum Therapy Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Correction of the forehead, glabella, orbit area, processing of the temporal fascia, brow lift, correction of the nasal dorsum. Correction of the masticatory muscles, correction of the sternocleidomastoid muscle of the neck / chin, DAO, gummy smile / nasolabial fold, perioral wrinkles."
+				},
+				"img": "botox.webp",
+				"price": "230$"
+			},
+			{
+				"title": "Biorevitalization, Lipolytics, Scalp Mesotherapy Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Analysis of preparations, selection criteria for patients, mechanism of action, demonstration on models."
+				},
+				"img": "biorevitalization.webp",
+				"price": "100$"
+			},
+			{
+				"title": "Radiesse Collagen Stimulation",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Vector lifting of the midface. Correction of the nasolabial fold / marionette zone camouflage. Contouring of the jawline. Restoration of the preauricular fat pad. Camouflage of the jowl area."
+				},
+				"img": "radiesse.webp",
+				"price": "250$"
+			},
+			{
+				"title": "Polylactic Acid",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Processing of the cheekbone area, preauricular depression, temporal lifting, contouring of the jawline, nasolabial fold, labiomental angle, neck treatment."
+				},
+				"img": "polil-lacticacid.webp",
+				"price": "250$"
+			}
+		],
+		"link": "Contact Us"
 	},
 	"politics": {
 		"text_1": "The course was created for cosmetologists to share information and experience for specialists who cannot attend training in person.",

@@ -40,6 +40,9 @@ const Home = ({className}) => {
 								<Link to="courses" className={s.buy}>
 									{t('home-button.courses')}
 								</Link>
+								<Link to="cosmetics" className={s.buy}>
+									[cosmetics]
+								</Link>
 							</div>
 						</div>
 
