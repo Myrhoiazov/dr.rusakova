@@ -6,6 +6,7 @@ import Products from 'widgets/Products';
 import {HeroCosmetics} from 'widgets/Hero';
 import Contact from 'widgets/Contact';
 import Footer from 'shared/ui/footer';
+import {AboutCosmetics} from 'widgets/AboutMe';
 
 const Cosmetics = ({className}) => {
 	return (
@@ -13,6 +14,7 @@ const Cosmetics = ({className}) => {
 			<HeaderCosmetics />
 			<div className={classNames(s.Cosmetics, {}, [className])}>
 				<HeroCosmetics />
+				<AboutCosmetics />
 				<Products />
 				<Contact />
 				<Footer />

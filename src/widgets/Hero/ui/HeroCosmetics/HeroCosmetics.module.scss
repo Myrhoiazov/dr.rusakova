@@ -8,11 +8,13 @@
 }
 
 .info_hero {
-	padding: 20px 0 30px;
-	min-height: 250px;
+	position: relative;
+	z-index: 10;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px 0 30px;
+	min-height: 250px;
 }
 
 .name_text {
@@ -167,8 +169,9 @@
 
 @media screen and (max-width: 776px) {
 	.thumb {
+		right: -10%;
 		img {
-			width: 300px;
+			max-width: 500px;
 		}
 	}
 
