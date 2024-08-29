@@ -1,14 +1,18 @@
 {
 	"Home": "Home",
 	"About me": "About me",
+	"About cosmetics": "Abouts cosmetics",
+	"Brends": "Brends",
+	"Products": "Products",
 	"Work": "Work examples",
-	"Courses": "Сourses",
+	"Courses": "Courses",
 	"Prices": "Prices",
 	"Reviews": "Reviews",
 	"Contact": "Contact",
 	"home-button": {
 		"clinic": "/ patients",
-		"courses": "/ cosmetologists"
+		"courses": "/ cosmetologists",
+		"cosmetics": "/ cosmetics"
 	},
 	"home": {
 		"title": "Dr.Rusakova",
@@ -26,6 +30,12 @@
 			"hello-accent": "international level",
 			"name": "Online course in contouring",
 			"text": "Dr. Rusakova"
+		},
+		"cosmetics": {
+			"hello": "Welcome to our special space for beauty and skincare",
+			"hello-accent": "cosmetics from the best brands",
+			"name": "Cosmetics you deserve",
+			"text": "Dr. Rusakova cosmetics"
 		}
 	},
 	"button": {
@@ -539,6 +549,131 @@
 			}
 		],
 		"link": "Contact Us"
+	},
+	"cosmetics": {
+		"title": "Products",
+		"subtitle": "Discover the world of our skincare products, designed to deliver deep cleansing and visible improvements for your skin. Our formulations are crafted to achieve maximum results and noticeable effects.",
+		"list": [
+			{
+				"title": "Zein Obagi Hydrating Cleanser",
+				"subtitle": "Moisturizing cleansing gel for the face, for dry and sensitive skin.",
+				"liters": "200 ml.",
+				"description": {
+					"opis": [
+						"provides gentle cleansing of the skin;",
+						"has a pH of 6.5;",
+						"maintains the optimal state of the hydrolipid layer;",
+						"retains natural moisture inside the cellular structures;",
+						"has sebum-regulating, anti-age, anti-inflammatory, regenerative, soothing, and antioxidant effects;",
+						"evens out skin tone and texture."
+					]
+				},
+				"img": "zein-obagi-hydrating-cleanser.webp",
+				"price": "2000 uah"
+			},
+			{
+				"title": "Zein Obagi Gentle Cleanser",
+				"subtitle": "Cleansing gel for all skin types",
+				"liters": "200 ml.",
+				"description": {
+					"opis": [
+						"gently cleanses facial skin without irritation or tightness;",
+						"maintains optimal hydrolipid layer condition (including sealing natural moisture within the cellular structure);",
+						"optimizes sebaceous gland activity;",
+						"reduces puffiness;",
+						"enhances barrier functions against external stress factors;",
+						"neutralizes oxidative stress and slows down aging processes;",
+						"provides softening, toning, and soothing effects."
+					]
+				},
+				"img": "zein-obagi-gentle-cleanser.webp",
+				"price": "2000 uah"
+			},
+			{
+				"title": "Zein Obagi Exfoliating Polish",
+				"subtitle": "Exfoliating scrub for all skin types",
+				"liters": "200 ml.",
+				"description": {
+					"opis": [
+						"provides exfoliating and antioxidant action;",
+						"maintains optimal hydrolipid balance (including creating a breathable veil to retain natural moisture in cells);",
+						"helps to fight against pigmentation spots;",
+						"has brightening, antioxidant, and strengthening properties;",
+						"normalizes the functioning of sebaceous glands;",
+						"positively affects the skin's natural barrier functions;",
+						"stimulates the process of cell renewal, making the skin smooth and radiant."
+					]
+				},
+				"img": "zein-obagi-exfoliating-polish.webp",
+				"price": "900 uah"
+			},
+			{
+				"title": "Zein Obagi Rozatrol",
+				"subtitle": "Soothing serum for rosacea-prone skin",
+				"liters": "50 ml.",
+				"description": {
+					"opis": [
+						"helps reduce existing skin redness and prevents future redness caused by UV exposure;",
+						"stimulates microcirculation to optimize healthy vascular functions and restore the skin's radiant appearance."
+					]
+				},
+				"img": "zein-obagi-rozatrol.webp",
+				"price": "2000 uah"
+			},
+			{
+				"title": "Zein Obagi Pigment Control Creme",
+				"subtitle": "Whitening cream for facial skin.",
+				"liters": "30 ml.",
+				"description": {
+					"opis": [
+						"promotes the elimination and prevention of pigmentation spots;",
+						"used in combination with tretinoin treatment;",
+						"helps to effectively distribute melanin on keratinocytes, providing a therapeutic effect from mixing;",
+						"prevents moisture loss, being an effective hydrator with added lipid filler;",
+						"minimizes skin redness, preventing future pigmentation."
+					]
+				},
+				"img": "zein-obagi-pigment-control-creme.webp",
+				"price": "2000 uah"
+			},
+			{
+				"title": "Zein Obagi Calming Toner",
+				"subtitle": "Calming lotion for dry, weakened, and sensitive facial skin.",
+				"liters": "180 ml.",
+				"description": {
+					"opis": [
+						"provides powerful soothing and antibacterial action;",
+						"promotes additional cleansing and pore tightening;",
+						"neutralizes redness and irritation;",
+						"maintains optimal hydrolipid balance (including creating a breathable veil to retain natural moisture in cells);",
+						"stimulates regeneration and renewal processes;",
+						"enhances barrier functions against external stress factors."
+					]
+				},
+				"img": "zein-obagi-calming-toner.webp",
+				"price": "1800 uah"
+			},
+			{
+				"title": "Zein Obagi Exfoliating Cleanser",
+				"subtitle": "Cleansing gel for normal and oily skin prone to acne.",
+				"liters": "200 ml.",
+				"description": {
+					"opis": [
+						"has a neutral pH — 6.0;",
+						"gently cleanses facial skin;",
+						"provides exfoliating action — removes the keratinized layer (due to chemical, non-abrasive impact on the skin);",
+						"maintains optimal hydrolipid balance (in particular, creates a breathable veil to retain natural moisture in cells);",
+						"enhances barrier functions against external stress factors;",
+						"normalizes sebaceous gland function;",
+						"neutralizes oxidative stress and slows down aging processes;",
+						"stimulates the processes of skin renewal and regeneration."
+					]
+				},
+				"img": "zein-obagi-exfoliating-cleanser.webp",
+				"price": "1800 uah"
+			}
+		],
+		"link": "Learn more..."
 	},
 	"politics": {
 		"text_1": "The course was created for cosmetologists to share information and experience for specialists who cannot attend training in person.",
