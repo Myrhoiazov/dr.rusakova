@@ -18,7 +18,7 @@ const AboutCosmetics = ({className}) => {
 						<div className={s.thumb}>
 							<img src={Cosmetics} alt="Liza Cosmetics" />
 						</div>
-						<div className={s.about} data-aos="fade-right">
+						<div className={s.about}>
 							<p className={s.text}>
 								{t('about.cosmetics.text1')}
 							</p>

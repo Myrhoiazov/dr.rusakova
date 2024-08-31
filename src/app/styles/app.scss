@@ -1,17 +1,12 @@
 @import-normalize;
 @import './fonts/fonts';
 @import './variables/base';
-@import "reset";
-@import "variables/global";
-@import "themes/dark";
-@import "themes/normal";
-@import "fonts/fonts.scss";
+@import 'reset';
+@import 'variables/global';
+@import 'themes/dark';
+@import 'themes/normal';
+@import 'fonts/fonts.scss';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap');
-
-body {
-	// font: var(--font-m);
-	// color: var(--primary-color);
-}
 
 .app {
 	// background: var(--bg-color);

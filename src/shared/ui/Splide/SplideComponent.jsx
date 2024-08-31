@@ -1,13 +1,12 @@
 import React from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
-import { useTranslation } from 'react-i18next';
+import {Splide, SplideSlide} from '@splidejs/react-splide';
+import {AutoScroll} from '@splidejs/splide-extension-auto-scroll';
+import {useTranslation} from 'react-i18next';
 import LoyaltyIcon from '@mui/icons-material/Loyalty';
-import '@splidejs/react-splide/css';
 import s from './Splide.module.scss';
 
 const SplideComponent = () => {
-	const { t } = useTranslation();
+	const {t} = useTranslation();
 
 	return (
 		<div className={s.test}>
@@ -28,8 +27,7 @@ const SplideComponent = () => {
 						},
 					},
 				}}
-				extensions={{ AutoScroll }}
-			>
+				extensions={{AutoScroll}}>
 				<SplideSlide>
 					<p className={s.splideTest}>
 						{t('action.splide')} <LoyaltyIcon className={s.icon} />

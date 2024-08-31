@@ -7,6 +7,7 @@ import {HeroCosmetics} from 'widgets/Hero';
 import Contact from 'widgets/Contact';
 import Footer from 'shared/ui/footer';
 import {AboutCosmetics} from 'widgets/AboutMe';
+import Brands from 'widgets/Brands';
 
 const Cosmetics = ({className}) => {
 	return (
@@ -16,6 +17,7 @@ const Cosmetics = ({className}) => {
 				<HeroCosmetics />
 				<AboutCosmetics />
 				<Products />
+				<Brands />
 				<Contact />
 				<Footer />
 			</div>

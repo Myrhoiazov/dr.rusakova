@@ -69,9 +69,7 @@ const Products = () => {
 									flexDirection: 'column',
 									backgroundColor: 'transparent',
 									paddingBottom: 2,
-								}}
-								data-aos="fade-up"
-								data-aos-delay="300">
+								}}>
 								<Box
 									sx={{
 										position: 'relative',
@@ -128,6 +126,7 @@ const Products = () => {
 										sx={{
 											color: '#ffffff8a',
 											flexShrink: 1,
+											marginBottom: 2,
 										}}>
 										{item.subtitle}
 									</Typography>
@@ -151,12 +150,6 @@ const Products = () => {
 										padding: 0,
 										textTransform: 'lowercase',
 									}}>
-									{/* <a
-										href="tel:+380(99)7438404"
-										className={s.buy}>
-										{t('courses.link')}
-										<PhoneEnabledIcon />
-									</a> */}
 									<Button
 										className={s.btn}
 										sx={{

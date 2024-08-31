@@ -2,7 +2,7 @@
 	"Home": "Home",
 	"About me": "About me",
 	"About cosmetics": "Abouts cosmetics",
-	"Brends": "Brends",
+	"Brands": "Brands",
 	"Products": "Products",
 	"Work": "Work examples",
 	"Courses": "Courses",
@@ -702,5 +702,27 @@
 		"year": "years of experience",
 		"pacient": "patients",
 		"study": "training"
+	},
+	"brands": {
+		"title": "Бренды",
+		"subtitle": "",
+		"list": [
+			{
+				"brandName": "Zein Obagi",
+				"brandImg": ""
+			},
+			{
+				"brandName": "Medik 8",
+				"brandImg": ""
+			},
+			{
+				"brandName": "Redjuran",
+				"brandImg": ""
+			},
+			{
+				"brandName": "Hydropeptide",
+				"brandImg": ""
+			}
+		]
 	}
 }

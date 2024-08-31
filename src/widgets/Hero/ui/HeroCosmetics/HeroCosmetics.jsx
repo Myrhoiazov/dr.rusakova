@@ -15,23 +15,20 @@ const HeroCosmetics = ({className}) => {
 				<section className={s.wrapper}>
 					<div className={s.info_hero}>
 						<div className={s.hero_title}>
-							<p
-								className={s.name_text}
-								data-aos="fade-up"
-								data-aos-delay="700">
+							<p className={s.name_text}>
 								{t('hero.cosmetics.hello')}
 								<span className={s.name_accent}>
 									{t('hero.cosmetics.hello-accent')}
 								</span>
 							</p>
-							<h1 className={s.name} data-aos="fade-right">
+							<h1 className={s.name}>
 								{t('hero.cosmetics.name')}
 							</h1>
 						</div>
 
 						<p className={s.text}>{t('hero.cosmetics.text')}</p>
 					</div>
-					<div className={s.thumb} data-aos="fade-left">
+					<div className={s.thumb}>
 						<img
 							src={Liza}
 							alt="Фото Лизы"
