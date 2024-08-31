@@ -1,4 +1,4 @@
-import React, {memo, useEffect, useState} from 'react';
+import React, {memo, useEffect, useMemo, useState} from 'react';
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import {classNames} from 'shared/lib/classNames/classNames';
 import Container from 'shared/ui/container';
@@ -14,6 +14,22 @@ const Brands = ({className}) => {
 		let res = t('brands.list', {returnObjects: true});
 		setBrands(res);
 	}, [i18n.language, t]);
+
+	const brandsGallery = useMemo(() => {
+		return brands.map((brand, i) => {
+			return (
+				<SplideSlide key={brand.brandName}>
+					<div className={s.thumb}>
+						<img
+							alt={brand.brandName}
+							src={`assets/brands/${brand.brandImg}`}
+							className={s.splideTest}
+						/>
+					</div>
+				</SplideSlide>
+			);
+		});
+	}, [brands]);
 
 	return (
 		<div className={classNames(s.Brands, {}, [className])} id="brands">
@@ -34,15 +50,7 @@ const Brands = ({className}) => {
 							},
 						},
 					}}>
-					{brands.map((brand, i) => {
-						return (
-							<SplideSlide key={brand.brandName}>
-								<p className={s.splideTest}>
-									{brand.brandName}
-								</p>
-							</SplideSlide>
-						);
-					})}
+					{brandsGallery}
 				</Splide>
 			</div>
 		</div>

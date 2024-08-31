@@ -563,6 +563,7 @@
 				"title": "Zein Obagi Hydrating Cleanser",
 				"subtitle": "Moisturizing cleansing gel for the face, for dry and sensitive skin.",
 				"liters": "200 ml.",
+				"id": "1",
 				"description": {
 					"opis": [
 						"provides gentle cleansing of the skin;",
@@ -580,6 +581,7 @@
 				"title": "Zein Obagi Gentle Cleanser",
 				"subtitle": "Cleansing gel for all skin types",
 				"liters": "200 ml.",
+				"id": "2",
 				"description": {
 					"opis": [
 						"gently cleanses facial skin without irritation or tightness;",
@@ -598,6 +600,7 @@
 				"title": "Zein Obagi Exfoliating Polish",
 				"subtitle": "Exfoliating scrub for all skin types",
 				"liters": "200 ml.",
+				"id": "3",
 				"description": {
 					"opis": [
 						"provides exfoliating and antioxidant action;",
@@ -616,6 +619,7 @@
 				"title": "Zein Obagi Rozatrol",
 				"subtitle": "Soothing serum for rosacea-prone skin",
 				"liters": "50 ml.",
+				"id": "4",
 				"description": {
 					"opis": [
 						"helps reduce existing skin redness and prevents future redness caused by UV exposure;",
@@ -629,6 +633,7 @@
 				"title": "Zein Obagi Pigment Control Creme",
 				"subtitle": "Whitening cream for facial skin.",
 				"liters": "30 ml.",
+				"id": "5",
 				"description": {
 					"opis": [
 						"promotes the elimination and prevention of pigmentation spots;",
@@ -645,6 +650,7 @@
 				"title": "Zein Obagi Calming Toner",
 				"subtitle": "Calming lotion for dry, weakened, and sensitive facial skin.",
 				"liters": "180 ml.",
+				"id": "6",
 				"description": {
 					"opis": [
 						"provides powerful soothing and antibacterial action;",
@@ -662,6 +668,7 @@
 				"title": "Zein Obagi Exfoliating Cleanser",
 				"subtitle": "Cleansing gel for normal and oily skin prone to acne.",
 				"liters": "200 ml.",
+				"id": "7",
 				"description": {
 					"opis": [
 						"has a neutral pH — 6.0;",
@@ -709,19 +716,19 @@
 		"list": [
 			{
 				"brandName": "Zein Obagi",
-				"brandImg": ""
+				"brandImg": "zoskin.webp"
 			},
 			{
 				"brandName": "Medik 8",
-				"brandImg": ""
+				"brandImg": "medike8.webp"
 			},
 			{
 				"brandName": "Redjuran",
-				"brandImg": ""
+				"brandImg": "rejuran.webp"
 			},
 			{
 				"brandName": "Hydropeptide",
-				"brandImg": ""
+				"brandImg": "hydropetide.webp"
 			}
 		]
 	}

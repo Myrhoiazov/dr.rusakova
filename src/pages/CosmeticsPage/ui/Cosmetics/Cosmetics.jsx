@@ -8,12 +8,14 @@ import Contact from 'widgets/Contact';
 import Footer from 'shared/ui/footer';
 import {AboutCosmetics} from 'widgets/AboutMe';
 import Brands from 'widgets/Brands';
+import ScrollUp from 'shared/ui/ScrollUp/ScrollUp';
 
 const Cosmetics = ({className}) => {
 	return (
 		<>
 			<HeaderCosmetics />
 			<div className={classNames(s.Cosmetics, {}, [className])}>
+				<ScrollUp />
 				<HeroCosmetics />
 				<AboutCosmetics />
 				<Products />

@@ -563,6 +563,7 @@
 				"title": "Zein Obagi Hydrating Cleanser",
 				"subtitle": "Увлажняющий очищающий гель для лица, для сухой и чувствительной кожи.",
 				"liters": "200 мл.",
+				"id": "1",
 				"description": {
 					"opis": [
 						"обеспечивает мягкое очищение кожного покрова;",
@@ -580,6 +581,7 @@
 				"title": "Zein Obagi Gentle Cleanser",
 				"subtitle": "Очищающий гель для всех типов кожи",
 				"liters": "200 мл.",
+				"id": "2",
 				"description": {
 					"opis": [
 						"очищает кожу лица мягко и без раздражения и стянутости;",
@@ -598,6 +600,7 @@
 				"title": "Zein Obagi Exfoliating Polish",
 				"subtitle": "Скраб отшелушивающий, для всех типов кожи",
 				"liters": "200 мл.",
+				"id": "3",
 				"description": {
 					"opis": [
 						"оказывает эксфолиирующее и антиоксидантное действие;",
@@ -616,6 +619,7 @@
 				"title": "Zein Obagi Rozatrol",
 				"subtitle": "Сыворотка успокаивающая для кожи лица с розацеа",
 				"liters": "50 мл.",
+				"id": "4",
 				"description": {
 					"opis": [
 						"помогает уменьшить уже существующие покраснения кожи, а также предотвращает появление в будущем покраснений от ультрафиолетового облучения;",
@@ -629,6 +633,7 @@
 				"title": "Zein Obagi Pigment Control Creme",
 				"subtitle": "Крем отбеливающий для кожи лица.",
 				"liters": "30 мл.",
+				"id": "5",
 				"description": {
 					"opis": [
 						"способствует устранению и профилактике пигментных пятен;",
@@ -645,6 +650,7 @@
 				"title": "Zein Obagi Calming Toner",
 				"subtitle": "Успокаивающий лосьон для сухой ослабленной и чувствительной кожи лица.",
 				"liters": "180 мл.",
+				"id": "6",
 				"description": {
 					"opis": [
 						"оказывает мощное успокаивающее и антибактериальное действие;",
@@ -662,6 +668,7 @@
 				"title": "Zein Obagi Exfoliating Cleanser",
 				"subtitle": "Очищуючий гель для нормальной и жирной кожи склонной к акне.",
 				"liters": "200 мл.",
+				"id": "7",
 				"description": {
 					"opis": [
 						"имеет нейтральный pH — 6.0;",
@@ -709,19 +716,19 @@
 		"list": [
 			{
 				"brandName": "Zein Obagi",
-				"brandImg": ""
+				"brandImg": "zoskin.webp"
 			},
 			{
 				"brandName": "Medik 8",
-				"brandImg": ""
+				"brandImg": "medike8.webp"
 			},
 			{
 				"brandName": "Redjuran",
-				"brandImg": ""
+				"brandImg": "rejuran.webp"
 			},
 			{
 				"brandName": "Hydropeptide",
-				"brandImg": ""
+				"brandImg": "hydropetide.webp"
 			}
 		]
 	}
