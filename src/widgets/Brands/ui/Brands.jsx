@@ -1,5 +1,6 @@
 import React, {memo, useEffect, useMemo, useState} from 'react';
 import {Splide, SplideSlide} from '@splidejs/react-splide';
+import {AutoScroll} from '@splidejs/splide-extension-auto-scroll';
 import {classNames} from 'shared/lib/classNames/classNames';
 import Container from 'shared/ui/container';
 import 'i18next';
@@ -38,15 +39,21 @@ const Brands = ({className}) => {
 					<h2 className={s.title}>{t('brands.title')}</h2>
 				</Container>
 				<Splide
+					extensions={{AutoScroll}}
 					options={{
 						type: 'loop',
 						drag: 'free',
 						perPage: 4,
 						pagination: false,
 						arrows: false,
+						autoScroll: {
+							rewind: false,
+							speed: 0.2,
+						},
 						breakpoints: {
 							640: {
 								perPage: 1,
+								arrows: true,
 							},
 						},
 					}}>

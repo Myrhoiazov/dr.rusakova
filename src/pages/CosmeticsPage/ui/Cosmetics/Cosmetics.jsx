@@ -18,8 +18,8 @@ const Cosmetics = ({className}) => {
 				<ScrollUp />
 				<HeroCosmetics />
 				<AboutCosmetics />
-				<Products />
 				<Brands />
+				<Products />
 				<Contact />
 				<Footer />
 			</div>

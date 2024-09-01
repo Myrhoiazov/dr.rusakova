@@ -113,6 +113,7 @@ const Products = () => {
 					sx={{
 						padding: 0,
 						textTransform: 'lowercase',
+						alignItems: 'flex-start',
 					}}>
 					<Button
 						onClick={() => getProduct(item.id)}
@@ -192,7 +193,9 @@ const Products = () => {
 						{productsGallery}
 					</Box>
 					<CardActions className={s.buttons}>
-						<a href="tel:+380(99)7438404" className={s.buy}>
+						<a
+							href="https://www.instagram.com/dr.rusakova.clinic?igsh=bDBpZjJteGE1bm9i"
+							className={s.buy}>
 							{t('courses.link')}
 							<PhoneEnabledIcon />
 						</a>
@@ -205,7 +208,81 @@ const Products = () => {
 				onClose={closeModal}
 				className={s.imgModal}>
 				{selectProduct && (
-					<div className={s.modal}>Yes {productId}</div>
+					<div className={s.modal}>
+						<div className={s.modal}>
+							<div className={s.data}>
+								<Box
+									sx={{
+										position: 'relative',
+										paddingBottom: '100%',
+										overflow: 'hidden',
+										borderRadius: '7px',
+									}}>
+									<CardMedia
+										sx={{
+											position: 'absolute',
+											top: 0,
+											bottom: 0,
+											left: 0,
+											right: 0,
+											objectFit: 'cover',
+											objectPosition: 'center',
+										}}
+										component="img"
+										alt={selectProduct.title}
+										height="140"
+										image={`assets/cosmetics/${selectProduct.img}`}
+									/>
+									<Typography
+										className={s.litters}
+										sx={{
+											position: 'absolute',
+											bottom: '10px',
+											right: '10px',
+											fontSize: '20px',
+										}}>
+										{selectProduct.liters}
+									</Typography>
+								</Box>
+
+								<h3 className={s.title}>
+									{selectProduct.title}
+								</h3>
+								<h3 className={s.subtitle}>
+									{selectProduct.subtitle}
+								</h3>
+								<ul className={s.desc}>
+									{selectProduct.description.opis.map(
+										(item) => {
+											return <li>{item}</li>;
+										}
+									)}
+								</ul>
+								<Typography
+									variant="h4"
+									sx={{
+										fontSize: '24px',
+										textAlign: 'right',
+										fontWeight: 700,
+										marginTop: 'auto',
+										color: 'black',
+										textTransform: 'uppercase',
+									}}>
+									{selectProduct.price}
+								</Typography>
+								<CardActions className={s.buttons}>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.instagram.com/dr.rusakova.clinic?igsh=bDBpZjJteGE1bm9i"
+										className={s.buy}>
+										{t('courses.link')}
+										<PhoneEnabledIcon />
+									</a>
+								</CardActions>
+							</div>
+						</div>
+					</div>
 				)}
 			</Modal>
 		</section>
