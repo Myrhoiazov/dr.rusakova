@@ -1,4 +1,4 @@
-@import 'shared/styles/variables';
+@import 'app/styles/app';
 
 .inner_wrapper {
 	padding-top: 100px;
@@ -24,5 +24,4 @@
 		margin-bottom: 60px;
 		color: $primary-color-light;
 	}
-
 }

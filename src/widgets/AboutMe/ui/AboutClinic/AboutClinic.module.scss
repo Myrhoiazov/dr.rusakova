@@ -1,4 +1,4 @@
-@import 'shared/styles/variables';
+@import 'app/styles/app';
 
 .wrapper {
 	position: relative;
@@ -63,10 +63,7 @@
 	overflow: hidden;
 }
 
-
 @media screen and (max-width: 776px) {
-
-
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -91,6 +88,4 @@
 			margin-bottom: 20px;
 		}
 	}
-
-
 }

@@ -10,27 +10,13 @@ body {
 	font-family: $main-font;
 	font-style: normal;
 	margin: 0;
-	color: $black;
-	background-color: $white;
+	color: $primary-text-color;
+	background-color: black;
 	transition: 0.3s ease-in-out;
-	height: 100%;
 }
-
-#root {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-
-	main {
-		flex: 1;
-	}
-}
-
-
 
 html {
 	scroll-behavior: smooth;
-	height: 100%;
 }
 
 svg {
@@ -65,4 +51,8 @@ ul {
 
 .active {
 	color: $secondary-text-color;
+}
+
+.splide__pagination {
+	bottom: -2.5em !important;
 }

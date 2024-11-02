@@ -1,4 +1,4 @@
-@import 'shared/styles/variables';
+@import 'app/styles/app';
 
 .inner_wrapper {
 	padding-top: 100px;
@@ -45,13 +45,10 @@
 			object-position: center;
 		}
 	}
-
 }
 
 .splide {
-
 	.splide__pagination {
 		bottom: -20px !important;
 	}
-
 }

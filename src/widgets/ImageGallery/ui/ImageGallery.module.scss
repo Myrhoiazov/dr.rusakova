@@ -1,7 +1,6 @@
-@import 'shared/styles/_variables.scss';
+@import 'app/styles/app';
 
 .ImageGallery {
-
 	padding: 100px 0;
 
 	&.open {
@@ -53,7 +52,6 @@
 		}
 
 		&:hover {
-
 			&::after {
 				background-color: rgba(0, 0, 0, 0.1);
 			}
@@ -66,7 +64,6 @@
 			height: 100% !important;
 			object-fit: cover;
 			object-position: center;
-
 		}
 	}
 
@@ -96,7 +93,6 @@
 			opacity: 1;
 			transform: scale(1);
 			visibility: visible;
-
 		}
 
 		.inner {
@@ -107,10 +103,6 @@
 				object-fit: contain;
 				object-position: center;
 			}
-
 		}
-
-
-
 	}
 }

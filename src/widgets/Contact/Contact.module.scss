@@ -1,4 +1,4 @@
-@import '../../shared/styles/variables';
+@import 'app/styles/app';
 
 .inner_wrapper {
 	padding-top: 100px;
@@ -53,7 +53,6 @@
 		}
 
 		.contactItem {
-
 			font-size: 14px;
 			color: $primary-color-light;
 			margin-bottom: 10px;
@@ -81,10 +80,8 @@
 				}
 			}
 		}
-
 	}
 }
-
 
 .btn {
 	padding: 13px 28px;

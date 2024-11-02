@@ -1,4 +1,4 @@
-@import 'shared/styles/variables';
+@import 'app/styles/app';
 
 .Result {
 	padding: 60px 0;
@@ -28,7 +28,6 @@
 				background-color: $primary-text-color;
 				box-shadow: $primary-text-color 0px 0px 25px 0px;
 
-
 				h2 {
 					color: #392e19;
 					text-align: center;
@@ -44,7 +43,6 @@
 					font-size: 18px;
 					font-weight: 400;
 				}
-
 			}
 
 			.text {
@@ -53,6 +51,5 @@
 				text-transform: uppercase;
 			}
 		}
-
 	}
 }

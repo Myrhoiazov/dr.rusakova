@@ -1,5 +1,4 @@
-@import 'shared/styles/variables';
-
+@import 'app/styles/app';
 
 .wrapper {
 	color: rgb(183, 183, 183);
@@ -29,7 +28,12 @@
 		}
 
 		&:hover {
-			background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.04), transparent);
+			background-image: linear-gradient(
+				90deg,
+				transparent,
+				rgba(0, 0, 0, 0.04),
+				transparent
+			);
 		}
 
 		.question_content {
@@ -45,7 +49,7 @@
 
 	.arrow {
 		font-size: 2rem;
-		transition: .5s ease-in-out;
+		transition: 0.5s ease-in-out;
 
 		&.active {
 			transform: rotate(180deg);
@@ -54,7 +58,7 @@
 
 	.answer_container {
 		padding: 0 1rem;
-		transition: height .7s ease-in-out;
+		transition: height 0.7s ease-in-out;
 
 		.item {
 			display: flex;
@@ -66,7 +70,12 @@
 
 			&:hover {
 				cursor: pointer;
-				background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.04), transparent);
+				background-image: linear-gradient(
+					90deg,
+					transparent,
+					rgba(0, 0, 0, 0.04),
+					transparent
+				);
 			}
 
 			.data {

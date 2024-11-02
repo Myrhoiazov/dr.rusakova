@@ -1,4 +1,4 @@
-@import 'shared/styles/variables';
+@import 'app/styles/app';
 
 .Price {
 	position: relative;
@@ -6,7 +6,6 @@
 	padding: 60px 0;
 	min-height: 100vh;
 }
-
 
 .title {
 	text-align: center;
