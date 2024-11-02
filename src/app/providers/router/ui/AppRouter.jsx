@@ -1,9 +1,10 @@
 import React, {Suspense} from 'react';
 import {Navigate, Route, Routes} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
-import Loader from 'shared/ui/loader';
+import Loader from 'shared/ui/Loader';
 import Clinic from 'pages/ClinicPage';
 import Courses from 'pages/CoursesPage';
+import Cosmetics from 'pages/CosmeticsPage';
 import ReactGA from 'react-ga';
 import Home from 'pages/Home';
 
@@ -17,9 +18,10 @@ function logPageView() {
 const AppRouter = () => (
 	<Suspense fallback={<Loader />}>
 		<Routes history={createBrowserHistory()} onUpdate={logPageView}>
-			<Route path="/" element={<Home />} />
-			<Route path="clinic" element={<Clinic />} />
-			<Route path="courses" element={<Courses />} />
+			<Route index element={<Home />} />
+			<Route path="/clinic" element={<Clinic />} />
+			<Route path="/courses" element={<Courses />} />
+			<Route path="/cosmetics" element={<Cosmetics />} />
 			<Route path="*" element={<Navigate to="/" />} />
 		</Routes>
 	</Suspense>

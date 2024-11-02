@@ -7,9 +7,9 @@ import CloseIcon from '@mui/icons-material/Close';
 import headerMenu from './headermenu';
 import Container from 'shared/ui/container';
 import ToggleLang from 'shared/ui/toggle-lang';
-import Loader from 'shared/ui/loader';
+import Loader from 'shared/ui/Loader';
 import '../../i18next';
-import Logo from 'shared/assets/IMG_9363.PNG';
+import Logo from 'shared/assets/dr.rusakova-logo.png';
 import s from './HeaderCourses.module.scss';
 
 const HeaderCourses = () => {
@@ -143,14 +143,16 @@ const HeaderCourses = () => {
 																? `${s.item} ${s.active}`
 																: `${s.item}`
 														}
-														onClick={() =>
-															mobileShow(to)
-														}>
+														onClick={() => {
+															return to !== '/'
+																? mobileShow(to)
+																: null;
+														}}>
 														{t(name)}
 													</NavLink>
 
-													<a
-														href="/dr.rusakova"
+													<Link
+														to="/courses"
 														className={
 															s.mobileLogo
 														}>
@@ -160,7 +162,7 @@ const HeaderCourses = () => {
 															width="150"
 															height="150"
 														/>
-													</a>
+													</Link>
 												</div>
 											);
 										})}

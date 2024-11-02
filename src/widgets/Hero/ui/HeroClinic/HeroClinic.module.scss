@@ -1,5 +1,33 @@
 @import 'shared/styles/variables';
 
+.HeroClinic {
+	// position: relative;
+	// background: rgb(3, 3, 3);
+	// background: linear-gradient(to top, rgba(3, 3, 3, 1) 100%, rgba(24, 24, 25, 1) 33%, rgba(9, 213, 255, 0) 30%);
+
+
+
+	// .backdrop {
+	// 	position: absolute;
+	// 	z-index: 0;
+	// 	top: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	right: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+
+	// 	background-image: url("../../../../shared/assets/mobile-bg.jpg");
+	// 	background-position: center;
+	// 	background-repeat: no-repeat;
+	// 	background-size: cover;
+
+	// 	opacity: 0.1;
+	// 	filter: blur(3px);
+	// }
+
+}
+
 .wrapper {
 	position: relative;
 	padding-top: 60px;
@@ -27,14 +55,24 @@
 	}
 }
 
-.name {
-	font-size: 100px;
-	font-weight: 800;
-	max-width: 600px;
-	text-transform: uppercase;
-	animation: lighting 2000ms alternate infinite ease;
-	margin-bottom: 20px;
-}
+// .name {
+// 	font-size: 100px;
+// 	font-weight: 800;
+// 	max-width: 600px;
+// 	text-transform: uppercase;
+// 	animation: lighting 2000ms alternate infinite ease;
+// 	margin-bottom: 20px;
+
+// 	background-image: linear-gradient(to right,
+// 			#462523 0,
+// 			#cb9b51 22%,
+// 			#f6e27a 45%,
+// 			#f6f2c0 50%,
+// 			#f6e27a 55%,
+// 			#cb9b51 78%,
+// 			#462523 100%);
+// 	color: transparent;
+// }
 
 @keyframes lighting {
 
@@ -57,12 +95,12 @@
 	left: 50%;
 	transform: translateX(-50%) !important;
 	text-transform: uppercase;
-	font-family: $main-font;
+	// font-family: $main-font;
 	text-align: left;
 	font-size: 100px;
 	font-weight: 900;
 	margin-right: auto;
-	animation: lighting 2000ms alternate infinite ease;
+	animation: lighting 1500ms alternate infinite ease;
 	transform: translate(-150px, 180px);
 	text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
 }
@@ -76,30 +114,32 @@
 	}
 
 	100% {
-		color: #f6c2b6;
-		text-shadow: 0 0 5px #f6c2b6, 0 0 3px #f6c2b6;
+		color: $primary-color-light;
+		text-shadow: 0 0 5px #e8ca91, 0 0 5px #e8ca91;
 	}
 }
 
 .thumb {
 	position: absolute;
+	z-index: 2;
 	top: 0;
 	left: 50%;
-	max-width: 500px;
+	max-width: 600px;
 	width: 100%;
-	transform: translateX(-40%) !important;
+	transform: translateX(-50%) !important;
 	pointer-events: none;
 
 	.heroImg {
 		display: block;
 		object-fit: contain;
-		width: 100%;
+		object-position: center;
+		width: 90%;
 		mask-image: linear-gradient(to top,
 				rgba(0, 0, 0, 0) 0%,
 				rgba(0, 0, 0, 0.8) 0%);
 		-webkit-mask-image: linear-gradient(to top,
 				rgba(0, 0, 0, 0) 20%,
-				rgba(0, 0, 0, 0.65) 50%);
+				rgba(0, 0, 0, 0.85) 50%);
 
 	}
 }
@@ -127,12 +167,18 @@
 
 @media screen and (max-width: 767px) {
 
+	.wrapper {
+		padding-top: 100px;
+		min-height: 84vh;
+	}
+
 	.info_hero {
 		padding-top: 30px
 	}
 
 	.text {
 		font-size: 56px;
+		bottom: 15%;
 
 	}
 
@@ -167,6 +213,14 @@
 		margin-bottom: 20px;
 	}
 
+	.thumb {
+		top: 5%;
+
+		.heroImg {
+			width: 100%;
+		}
+	}
+
 
 }
 
@@ -176,32 +230,44 @@
 		min-height: 84vh;
 	}
 
-	// .text {
-	// 	position: relative;
-	// 	font-family: $primary-font;
-	// 	text-align: center;
-	// 	font-size: 52px;
-	// 	font-weight: 400;
-	// 	max-width: 250px;
-	// 	margin-right: auto;
-	// 	transform: translate(-200px, 180px);
-	// 	text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
-	// }
-
 }
 
-@media screen and (max-width: 776px) {
 
-	// .thumb {
-	// 	img {
-	// 		width: 300px;
-	// 	}
-	// }
-
-	.wrapper {
-		padding-top: 100px;
-		min-height: 84vh;
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
 	}
 
-
+	100% {
+		transform: rotate(360deg);
+	}
 }
+
+// .gradient {
+// 	--size: 230px;
+// 	--speed: 50s;
+// 	--easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+// 	background-color: #222;
+// 	position: absolute;
+// 	z-index: 1;
+// 	top: 20%;
+// 	left: 27%;
+// 	display: flex;
+// 	place-content: center;
+// 	align-items: center;
+// 	overflow: hidden;
+
+// 	width: var(--size);
+// 	height: var(--size);
+// 	filter: blur(calc(var(--size) / 5));
+// 	background-image: linear-gradient(rgba(32, 144, 196, 0.7), rgb(240, 169, 152));
+// 	animation: rotate var(--speed) var(--easing) alternate infinite;
+// 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+// }
+
+// @media (min-width: 720px) {
+// 	.gradient {
+// 		--size: 500px;
+// 	}
+// }

@@ -20,6 +20,7 @@
 		font-weight: 300;
 		font-size: 24px;
 		margin-bottom: 60px;
+		color: $primary-color-light;
 	}
 
 	.splideWrap {
@@ -29,8 +30,8 @@
 		border-radius: 35px;
 		background-color: black;
 		margin: 10px;
-		border: 1px solid rgb(231, 180, 168);
-		box-shadow: rgb(231, 180, 168) 0px 0px 12px 0px;
+		border: 1px solid $primary-text-color;
+		box-shadow: $primary-color-light 0px 0px 12px 0px;
 
 		img {
 			position: absolute;

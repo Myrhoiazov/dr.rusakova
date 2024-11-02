@@ -1,43 +1,63 @@
-import img_1 from 'shared/assets/images/works/IMG_0099.webp';
-import img_2 from 'shared/assets/images/works/IMG_0114.webp';
-import img_3 from 'shared/assets/images/works/IMG_0297.webp';
-import img_4 from 'shared/assets/images/works/IMG_0329.webp';
-import img_6 from 'shared/assets/images/works/IMG_2826.webp';
-import img_7 from 'shared/assets/images/works/IMG_9481.webp';
-import img_8 from 'shared/assets/images/works/IMG_9499.webp';
-import img_9 from 'shared/assets/images/works/IMG_9588.webp';
-import img_10 from 'shared/assets/images/works/IMG_9646.webp';
-import img_11 from 'shared/assets/images/works/IMG_9744.webp';
+import img1_1 from 'shared/assets/images/works/img1_1.jpg';
+import img2_1 from 'shared/assets/images/works/img2_1.jpg';
+import img1_2 from 'shared/assets/images/works/img1_2.jpg';
+import img2_2 from 'shared/assets/images/works/img2_2.jpg';
+import img1_3 from 'shared/assets/images/works/img1_3.jpg';
+import img2_3 from 'shared/assets/images/works/img2_3.jpg';
+import img1_4 from 'shared/assets/images/works/img1_4.jpg';
+import img2_4 from 'shared/assets/images/works/img2_4.jpg';
+import img1_5 from 'shared/assets/images/works/img1_5.jpg';
+import img2_5 from 'shared/assets/images/works/img2_5.jpg';
+import img1_6 from 'shared/assets/images/works/img1_6.jpg';
+import img2_6 from 'shared/assets/images/works/img2_6.jpg';
+import img1_7 from 'shared/assets/images/works/img1_7.webp';
+import img2_7 from 'shared/assets/images/works/img2_7.webp';
+import img1_8 from 'shared/assets/images/works/img1_8.webp';
+import img2_8 from 'shared/assets/images/works/img2_8.webp';
+import img1_9 from 'shared/assets/images/works/img1_9.webp';
+import img2_9 from 'shared/assets/images/works/img2_9.webp';
+import img3_0 from 'shared/assets/images/works/img3_0.webp';
+import img3_1 from 'shared/assets/images/works/img3_1.webp';
 
 export const worksList = [
 	{
-		img_link: img_1,
+		before: img1_1,
+		affter: img2_1,
 	},
 	{
-		img_link: img_2,
+		before: img1_2,
+		affter: img2_2,
 	},
 	{
-		img_link: img_3,
+		before: img1_3,
+		affter: img2_3,
 	},
 	{
-		img_link: img_4,
+		before: img1_4,
+		affter: img2_4,
 	},
 	{
-		img_link: img_6,
+		before: img1_5,
+		affter: img2_5,
 	},
 	{
-		img_link: img_7,
+		before: img1_6,
+		affter: img2_6,
 	},
 	{
-		img_link: img_8,
+		before: img1_7,
+		affter: img2_7,
 	},
 	{
-		img_link: img_9,
+		before: img1_8,
+		affter: img2_8,
 	},
 	{
-		img_link: img_10,
+		before: img1_9,
+		affter: img2_9,
 	},
 	{
-		img_link: img_11,
+		before: img3_0,
+		affter: img3_1,
 	},
 ];

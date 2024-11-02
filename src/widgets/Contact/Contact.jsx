@@ -1,15 +1,27 @@
+import {useTranslation} from 'react-i18next';
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Container from 'shared/ui/container';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
 import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import s from './Contact.module.scss';
-import {useTranslation} from 'react-i18next';
-import '../../i18next';
 import Map from 'shared/ui/Map/Map';
+import 'i18next';
+
+const TiktikIcon = ({color = '#e8ca91'}) => {
+	return (
+		<svg
+			className={s.icon}
+			fill={color}
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 50 50"
+			width="10%"
+			height="10%">
+			<path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z" />
+		</svg>
+	);
+};
 
 const Contact = () => {
 	const {t} = useTranslation();
@@ -62,15 +74,9 @@ const Contact = () => {
 									</a>
 								</li>
 								<li className={s.contactItem}>
-									<a href="#">
-										<TelegramIcon className={s.icon} />
-										Telegram
-									</a>
-								</li>
-								<li className={s.contactItem}>
-									<a href="#">
-										<WhatsAppIcon className={s.icon} />
-										WhatsApp
+									<a href="https://www.tiktok.com/@dr.rusakova_liza">
+										<TiktikIcon className={s.icon} />
+										TikTok
 									</a>
 								</li>
 							</ul>
