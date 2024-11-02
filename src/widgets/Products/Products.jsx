@@ -6,7 +6,6 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
 import '../../i18next';
 import s from './Products.module.scss';
 import Modal from 'shared/ui/Modals/Modal';
@@ -197,7 +196,6 @@ const Products = () => {
 							href="https://www.instagram.com/dr.rusakova.clinic?igsh=bDBpZjJteGE1bm9i"
 							className={s.buy}>
 							{t('courses.link')}
-							<PhoneEnabledIcon />
 						</a>
 					</CardActions>
 				</Box>
@@ -277,7 +275,6 @@ const Products = () => {
 										href="https://www.instagram.com/dr.rusakova.clinic?igsh=bDBpZjJteGE1bm9i"
 										className={s.buy}>
 										{t('courses.link')}
-										<PhoneEnabledIcon />
 									</a>
 								</CardActions>
 							</div>
