@@ -1,4 +1,4 @@
-@import 'app/styles/app';
+@use 'app/styles/app' as *;
 
 .wrapper {
 	color: rgb(183, 183, 183);

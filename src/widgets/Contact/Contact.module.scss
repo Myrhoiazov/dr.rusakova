@@ -1,4 +1,4 @@
-@import 'app/styles/app';
+@use 'app/styles/app' as *;
 
 .inner_wrapper {
 	padding-top: 100px;
