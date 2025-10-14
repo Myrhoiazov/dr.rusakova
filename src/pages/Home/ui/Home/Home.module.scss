@@ -79,6 +79,11 @@
 	z-index: 2;
 }
 
+.extratext {
+	font-size: 24px;
+	font-weight: 300;
+}
+
 @keyframes lighting {
 	0%,
 	85% {
@@ -219,7 +224,7 @@
 	.text {
 		font-size: 52px;
 		top: 0%;
-		left: 30%;
+		left: 39%;
 		font-size: 36px;
 		z-index: 2;
 	}

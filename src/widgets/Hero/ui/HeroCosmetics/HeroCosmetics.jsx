@@ -4,7 +4,6 @@ import {classNames} from 'shared/lib/classNames/classNames';
 import Container from 'shared/ui/container';
 import Liza from 'shared/assets/liza-cosmetics.png';
 import s from './HeroCosmetics.module.scss';
-import '../../../../i18next';
 
 const HeroCosmetics = ({className}) => {
 	const {t} = useTranslation();

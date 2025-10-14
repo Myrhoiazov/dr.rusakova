@@ -1,0 +1,257 @@
+@import 'app/styles/variables/variables';
+
+.ContactPage {
+	position: relative;
+	background-color: $cl-black;
+
+	background-color: rgb(3, 3, 3);
+	background: linear-gradient(
+		to top,
+		rgba(3, 3, 3, 0.1) 100%,
+		rgba(24, 24, 25, 1) 100%,
+		rgba(111, 106, 36, 0.8) 30%
+	);
+
+	.container {
+		max-width: 1640px;
+		width: 100%;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+
+	.backdrop {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+
+		background-image: url('../../../shared/assets/mobile-bg.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		opacity: 0.1;
+		filter: blur(4px);
+	}
+
+	.inner {
+		padding: 20px 0;
+		a {
+			display: inline-block;
+		}
+	}
+
+	.wrapper {
+		padding-top: 100px;
+		position: relative;
+
+		.titleWrapper {
+			position: relative;
+			display: inline-block;
+			.title {
+				font-family: $primary-font-accent;
+				font-size: 100px;
+				text-transform: uppercase;
+				letter-spacing: -6px;
+				animation: lighting 1500ms alternate infinite ease;
+				margin-bottom: 20px;
+				background: linear-gradient(90deg, #d9ad5a, #735c30);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+
+				text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
+			}
+
+			.nameaccent {
+				position: absolute;
+				z-index: 10;
+				top: 0;
+				right: 0;
+				z-index: 2;
+				font-family: $primary-font;
+				color: $white;
+				font-size: 32px;
+				line-height: 1.4;
+				text-shadow: 0px 3px 5px rgba(231, 180, 168, 0.47);
+			}
+		}
+
+		.subtitle {
+			line-height: 1.3;
+			max-width: 700px;
+		}
+
+		.description {
+			margin-top: 50px;
+			max-width: 700px;
+
+			h2 {
+				text-transform: uppercase;
+				font-size: 18px;
+				margin-bottom: 10px;
+			}
+			p {
+				line-height: 1.3;
+				color: $white;
+				margin-bottom: 20px;
+			}
+			ul {
+				li {
+					margin-bottom: 25px;
+					h3 {
+						font-size: 18px;
+						text-transform: uppercase;
+						margin-bottom: 10px;
+					}
+					p {
+						position: relative;
+						margin-bottom: 10px;
+						display: flex;
+						align-items: center;
+						gap: 10px;
+					}
+
+					a {
+						text-decoration: none;
+						display: flex;
+						align-items: center;
+						gap: 10px;
+						color: $white;
+						transition: $transition;
+
+						&:hover {
+							opacity: 0.7;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.thumb {
+		position: absolute;
+		z-index: 3;
+
+		.heroImg {
+			mask-image: linear-gradient(
+				to top,
+				rgba(0, 0, 0, 0) 0%,
+				rgba(0, 0, 0, 10.5) 50%
+			);
+		}
+	}
+
+	.lodeMoreBtn {
+		margin-top: 40px !important;
+	}
+}
+
+@keyframes lighting {
+	0%,
+	85% {
+		color: $primary-text-color;
+		text-shadow: none;
+	}
+
+	100% {
+		color: $primary-color-light;
+		text-shadow: 0 0 5px #e8ca91, 0 0 5px #e8ca91;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		padding-top: 20px !important;
+		h1 {
+			font-size: 64px !important;
+			font-weight: 800;
+			margin-bottom: 20px;
+		}
+
+		.nameaccent {
+			font-size: 22px !important;
+		}
+		.description {
+			margin-top: 10px !important;
+
+			h2 {
+				text-transform: uppercase;
+				font-size: 16px !important;
+				margin-bottom: 10px;
+			}
+			p {
+				line-height: 1.3;
+				color: $white;
+				margin-bottom: 20px;
+			}
+			ul {
+				li {
+					margin-bottom: 14px !important;
+					h3 {
+						font-size: 16px !important;
+						text-transform: uppercase;
+						margin-bottom: 10px;
+					}
+					p {
+						position: relative;
+						margin-bottom: 10px;
+						display: flex;
+						align-items: center;
+						gap: 10px;
+						font-size: 0.875rem;
+					}
+					a {
+						font-size: 0.875rem;
+					}
+				}
+			}
+		}
+	}
+	.thumb {
+		display: none !important;
+		pointer-events: none !important;
+		top: auto;
+		right: 0;
+		bottom: -200px;
+		max-width: 500px !important;
+		z-index: -1;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.wrapper {
+		padding-top: 40px;
+		min-height: 84vh;
+	}
+
+	.thumb {
+		position: absolute;
+		pointer-events: none !important;
+		top: auto;
+		right: 0;
+		bottom: 0;
+		max-width: 1000px;
+		img {
+			width: 100%;
+		}
+	}
+
+	.logo {
+		margin-top: 20px;
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.thumb {
+		max-width: 1100px;
+		width: 100%;
+	}
+}

@@ -1,6 +1,6 @@
 {
-  "compilerOptions": {
-    "baseUrl": "src"
-  },
-  "include": ["src", "i18next.js"]
+	"compilerOptions": {
+		"baseUrl": "src"
+	},
+	"include": ["src", "i18next.js"]
 }

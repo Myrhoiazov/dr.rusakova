@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {useTranslation} from 'react-i18next';
-import '../../../i18next';
 import s from './ToggleLang.module.scss';
 
 const ToggleLang = () => {

@@ -2,10 +2,12 @@
 // // @import './fonts';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import '../fonts/fonts';
 
 $main-font: 'Montserrat', sans-serif;
 $primary-font: 'Ametrine', sans-serif;
+$primary-font-accent: 'Oswald', sans-serif;
 
 // $primary-text-color: #e7b4a8;
 $primary-text-color: #ca973d;

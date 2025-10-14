@@ -1,47 +1,45 @@
-import {memo, useEffect} from 'react';
-import AOS from 'aos';
-import Contact from 'widgets/Contact/Contact';
-import Footer from 'shared/ui/footer/Footer';
-import ScrollUp from 'shared/ui/ScrollUp/ScrollUp';
-import 'aos/dist/aos.css';
-import '../../../../i18next';
+import {memo, useLayoutEffect, useMemo} from 'react';
+import {gsap} from 'gsap';
 import {classNames} from 'shared/lib/classNames/classNames';
+import Logo from 'shared/assets/dr.rusakova-logo.png';
 import s from './Clinic.module.scss';
-import HeaderClinic from 'widgets/HeaderClinic';
-import {HeroClinic} from 'widgets/Hero';
-import Works from 'widgets/Works';
-import Reviews from 'widgets/Reviews';
-import {AboutClinic} from 'widgets/AboutMe';
-import Result from 'widgets/Result';
-import Price from 'widgets/Price';
-import ImageGallery from 'widgets/ImageGallery';
+import 'aos/dist/aos.css';
+import {Link} from 'react-router-dom';
+import {routeConfig} from 'shared/config/routerConfig/routerConfig';
+
+import Liza from 'shared/assets/liza1.png';
+import Kostya from 'shared/assets/kostya1.png';
 
 const Clinic = ({className}) => {
-	useEffect(() => {
-		AOS.init({
-			offset: 120,
-			delay: 500,
-			duration: 1500,
-			easing: 'ease',
-		});
+	useLayoutEffect(() => {
+		gsap.from('#logo', 2, {y: '100%', opacity: 0});
+		gsap.from('#liza', 1.5, {x: '-100%', opacity: 0, delay: 0.3});
+		gsap.from('#kostya', 1.5, {x: '100%', opacity: 0, delay: 0.3});
+		gsap.from('#backdrop', 4, {opacity: 0});
+	}, []);
+
+	const routes = useMemo(() => {
+		return Object.values(routeConfig)
+			.filter(({path}) => path !== '/' && path !== '*')
+			.map(({path, name}) => (
+				<Link key={path} to={`/clinic${path}`} className="nav-link">
+					{name}
+				</Link>
+			));
 	}, []);
 
 	return (
 		<div className={classNames(s.Clinic, {}, [className])}>
 			<div className={s.backdrop} id="backdrop"></div>
 			<div className={s.inner}>
-				<HeaderClinic />
-				<ScrollUp />
-				<HeroClinic />
-				<AboutClinic />
-				<Result />
-				<Works />
-				<Reviews />
-				<Price />
-				<ImageGallery />
-				<Contact />
-				<Footer />
+				<Link to="/" id="logo">
+					<img src={Logo} alt="Dr Rusakova logo" width="150" height="150" />
+				</Link>
 			</div>
+			<menu className={s.menu}>{routes}</menu>
+			<img src={Liza} alt="" className={s.liza} id="liza" />
+			<img src={Kostya} alt="" className={s.kostya} id="kostya" />
+			{/* <HeroClinic /> */}
 		</div>
 	);
 };

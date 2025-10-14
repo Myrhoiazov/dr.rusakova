@@ -5,7 +5,6 @@ import Container from 'shared/ui/container';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Liza from 'shared/assets/dr-rusakova.png';
 import s from './HeroCourses.module.scss';
-import '../../../../i18next';
 
 const HeroClinic = ({className}) => {
 	const {t} = useTranslation();

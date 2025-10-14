@@ -6,7 +6,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import '../../i18next';
+import '../../_i18next';
 import s from './Products.module.scss';
 import Modal from 'shared/ui/Modals/Modal';
 

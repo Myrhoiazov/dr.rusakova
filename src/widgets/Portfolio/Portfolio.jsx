@@ -7,7 +7,6 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
-import '../../i18next';
 import s from './Portfolio.module.scss';
 
 const Portfolio = () => {

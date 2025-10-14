@@ -6,8 +6,8 @@ import Liza from 'shared/assets/images/liza/liza_2.png';
 import 'aos/dist/aos.css';
 import s from './Home.module.scss';
 import {classNames} from 'shared/lib/classNames/classNames';
-import {Link} from 'react-router-dom';
-import '../../../../i18next';
+// import {Link} from 'react-router-dom';
+// import '../../../../_i18next';
 
 const Home = ({className}) => {
 	const {t} = useTranslation();
@@ -31,9 +31,13 @@ const Home = ({className}) => {
 								className={s.name}
 								// data-aos="fade-right"
 								id="text">
-								{t('home.title')}
+								Сайт перебуває на технічному обслуговуванні.{' '}
+								<br />
+								<span className={s.extratext}>
+									Ми скоро повернемося!
+								</span>
 							</h1>
-							<div className={s.buttons} id="buttons">
+							{/* <div className={s.buttons} id="buttons">
 								<Link to="clinic" className={s.buy}>
 									{t('home-button.clinic')}
 								</Link>
@@ -43,7 +47,7 @@ const Home = ({className}) => {
 								<Link to="cosmetics" className={s.buy}>
 									{t('home-button.cosmetics')}
 								</Link>
-							</div>
+							</div> */}
 						</div>
 
 						<p className={s.text} id="name">

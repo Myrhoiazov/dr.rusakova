@@ -4,7 +4,6 @@ import {classNames} from 'shared/lib/classNames/classNames';
 import Container from 'shared/ui/container';
 import Liza from 'shared/assets/images/liza/liza_3.png';
 import s from './HeroClinic.module.scss';
-import '../../../../i18next';
 
 const HeroClinic = ({className}) => {
 	const {t} = useTranslation();

@@ -2,11 +2,11 @@ import React, {Suspense} from 'react';
 import {Navigate, Route, Routes} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
 import Loader from 'shared/ui/Loader';
-import Clinic from 'pages/ClinicPage';
 import Courses from 'pages/CoursesPage';
-import Cosmetics from 'pages/CosmeticsPage';
 import ReactGA from 'react-ga';
-import Home from 'pages/Home';
+import {IntroPage} from 'pages/IntroPage';
+import {ClinicPage, ClinicPagebyIdPage} from 'pages/ClinicPage';
+import {ContactPage} from 'pages/ContactPage';
 
 ReactGA.initialize('G-N27LHHPKG4');
 
@@ -18,10 +18,12 @@ function logPageView() {
 const AppRouter = () => (
 	<Suspense fallback={<Loader />}>
 		<Routes history={createBrowserHistory()} onUpdate={logPageView}>
-			<Route index element={<Home />} />
-			<Route path="/clinic" element={<Clinic />} />
-			<Route path="/courses" element={<Courses />} />
-			<Route path="/cosmetics" element={<Cosmetics />} />
+			<Route index element={<IntroPage />} />
+			<Route path="/clinic" element={<ClinicPage />} />
+			<Route path="/clinic/:id" element={<ClinicPagebyIdPage />} />
+			<Route path="/clinic/contacts" element={<ContactPage />} />
+			{/* <Route path="/courses" element={<Courses />} /> */}
+			{/* <Route path="/cosmetics" element={<Cosmetics />} /> */}
 			<Route path="*" element={<Navigate to="/" />} />
 		</Routes>
 	</Suspense>

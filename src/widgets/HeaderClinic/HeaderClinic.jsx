@@ -8,7 +8,6 @@ import headerMenu from './headermenu';
 import Container from 'shared/ui/container';
 import ToggleLang from 'shared/ui/toggle-lang';
 import Loader from 'shared/ui/Loader';
-import '../../i18next';
 import Logo from 'shared/assets/dr.rusakova-logo.png';
 import s from './HeaderClinic.module.scss';
 

@@ -6,7 +6,6 @@ import Footer from 'shared/ui/footer/Footer';
 import 'aos/dist/aos.css';
 import ScrollUp from 'shared/ui/ScrollUp/ScrollUp';
 import {classNames} from 'shared/lib/classNames/classNames';
-import '../../../../i18next';
 import s from './Courses.module.scss';
 import HeaderCourses from 'widgets/HeaderCourses';
 import {HeroCourses} from 'widgets/Hero';

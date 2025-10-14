@@ -35,7 +35,7 @@ const Works = ({className}) => {
 						}}>
 						{worksList.map((el) => {
 							return (
-								<SplideSlide key={el.img_link}>
+								<SplideSlide key={el.before}>
 									<div className={s.splideTest}>
 										{/* <img src={el.img_link} alt="" /> */}
 										<ReactCompareImage

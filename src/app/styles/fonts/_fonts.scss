@@ -29,3 +29,19 @@
 	font-style: normal;
 	font-stretch: normal;
 }
+
+@font-face {
+	font-family: 'Ametrine';
+	src: url('./fonts/ametrine.woff') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Ametrine';
+	src: url('./fonts/ametrine-italic.woff') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+}
