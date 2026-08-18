@@ -28,7 +28,7 @@ const ContactPage = ({className}) => {
 		<div className={classNames(s.ContactPage, {}, [className])}>
 			<SeoHead
 				title="Контакти — Dr. Rusakova Clinic"
-				description="Графік роботи клініки доктора Русакової, номер телефону для запису та Instagram. Вівторок–субота, 11:00–18:00."
+				description="Графік роботи клініки доктора Русакової, номер телефону для запису та Instagram. Понеділок–субота, 11:00–18:00."
 				path="/clinic/contacts"
 			/>
 			<div className={s.backdrop} id="backdrop"></div>
@@ -46,15 +46,15 @@ const ContactPage = ({className}) => {
 				<div className={s.wrapper}>
 					<div className={s.titleWrapper}>
 						<h1 className={s.title}>Контакти</h1>
-						<span className={s.nameaccent}>
+						<span className={s.nameaccent} id="name">
 							{t('hero.clinic.text')}
 						</span>
 					</div>
-					<div className={s.description}>
+					<div className={s.description} id="text">
 						<h2>Графік роботи клініки</h2>
-						<ul>
+						<ul id="buttons">
 							<li>
-								<p>вівторок - субота з 11.00-18.00</p>
+								<p>понеділок-субота з 11.00-18.00</p>
 							</li>
 							<li>
 								<h3>Запис та відповідь на питання в діректі</h3>

@@ -77,27 +77,22 @@
                     {
                         "name": "Radiesse",
                         "desc": "гідроксіапотит кальцію 1.5 ml",
-                        "price": "10500"
+                        "price": "11 000"
                     },
                     {
                         "name": "Radiesse",
                         "desc": "гідроксіапотит кальцію 3 ml",
-                        "price": "18 000"
+                        "price": "19 000"
                     },
                     {
-                        "name": "Lenisna",
-                        "desc": "полімолочна кислота Ю.Корея 20 mg",
+                        "name": "Pila Lenisna 20 ml",
+                        "desc": "полімолочна кислота Ю.Корея / обличчя та шия",
                         "price": "15 000"
                     },
                     {
-                        "name": "Juvelook 4ml",
-                        "desc": "полімолочна кислота Ю.Корея 8 mg / для зони очей, пост акне, ущільнення тонкої шкіри",
-                        "price": "6 000"
-                    },
-                    {
-                        "name": "Juvelook 8ml",
-                        "desc": "полімолочна кислота Ю.Корея 8 mg / для зони очей, пост акне, ущільнення тонкої шкіри",
-                        "price": "12 000"
+                        "name": "Pila Sculptra",
+                        "desc": "полімолочна кислота",
+                        "price": "18 000"
                     }
                 ]
             },
@@ -157,27 +152,27 @@
                     {
                         "name": "Stylage M",
                         "desc": "Франція 1ml",
-                        "price": "5800"
+                        "price": "6500"
                     },
                     {
-                        "name": "Revolax deep",
-                        "desc": "Японія 1ml",
-                        "price": "4500"
-                    },
-                    {
-                        "name": "Revolax deep",
-                        "desc": "Японія 0.5ml",
-                        "price": "2500"
+                        "name": "Saypha lips",
+                        "desc": "Австрія 1ml",
+                        "price": "6000"
                     },
                     {
                         "name": "Aileene Vol Nº2",
                         "desc": "(Корея) 1ml",
-                        "price": "4800"
+                        "price": "5500"
+                    },
+                    {
+                        "name": "Saypha / Aileene",
+                        "desc": "0.5 ml",
+                        "price": "3500"
                     },
                     {
                         "name": "Розчинення філлеру",
                         "desc": "",
-                        "price": "1500"
+                        "price": "2000"
                     }
                 ]
             },
@@ -252,51 +247,6 @@
                     {
                         "name": "Середня та нижня третина",
                         "desc": "",
-                        "price": "10000"
-                    },
-                    {
-                        "name": "Нижня третина",
-                        "desc": "",
-                        "price": "5000"
-                    },
-                    {
-                        "name": "Все обличчя",
-                        "desc": "",
-                        "price": "12000"
-                    },
-                    {
-                        "name": "Обличчя + шия",
-                        "desc": "",
-                        "price": "15000"
-                    },
-                    {
-                        "name": "- Agnes:",
-                        "desc": "",
-                        "price": ""
-                    },
-                    {
-                        "name": "Підборіддя",
-                        "desc": "",
-                        "price": "7000"
-                    },
-                    {
-                        "name": "Підборіддя + брилі",
-                        "desc": "",
-                        "price": "9000"
-                    },
-                    {
-                        "name": "Брилі",
-                        "price": "7000",
-                        "desc": ""
-                    },
-                    {
-                        "name": "Носогубні",
-                        "desc": "",
-                        "price": "7000"
-                    },
-                    {
-                        "name": "Підборіддя + брилі + носогубні",
-                        "desc": "",
                         "price": "11 000"
                     }
                 ]
@@ -310,44 +260,29 @@
                         "price": ""
                     },
                     {
-                        "name": "Morpheus 8 обличчя",
+                        "name": "Обличчя",
                         "desc": "",
-                        "price": "10500"
+                        "price": "12500"
                     },
                     {
-                        "name": "Morpheus 8 шия",
+                        "name": "Обличчя + шия",
                         "desc": "",
-                        "price": "9000"
+                        "price": "13500"
                     },
                     {
-                        "name": "Morpheus 8 декольте",
-                        "desc": "",
-                        "price": "9000"
-                    },
-                    {
-                        "name": "Morpheus 8 шия + обличчя",
-                        "desc": "",
-                        "price": "13000"
-                    },
-                    {
-                        "name": "Morpheus 8 обличчя + шия + декольте",
-                        "desc": "",
-                        "price": "14 000"
-                    },
-                    {
-                        "name": "Morpheus 8 очі",
-                        "price": "8000",
+                        "name": "Очі",
+                        "price": "9000",
                         "desc": ""
                     },
                     {
-                        "name": "Morpheus 8 підборіддя",
+                        "name": "Тіло 1 зона",
                         "desc": "",
-                        "price": "7000"
+                        "price": "13 000"
                     },
                     {
-                        "name": "Morpheus 8 живіт / сідниці / руки внутрішня частина",
+                        "name": "Обличчя + екзосоми",
                         "desc": "",
-                        "price": "12 000"
+                        "price": "15 000"
                     },
                     {
                         "name": "",
@@ -370,14 +305,9 @@
                         "price": "2500"
                     },
                     {
-                        "name": "Lumecca фотоомолодження",
-                        "desc": "",
-                        "price": "3000"
-                    },
-                    {
                         "name": "Lumecca ділянка до 2*2 см",
                         "desc": "",
-                        "price": "1500"
+                        "price": "1000"
                     },
                     {
                         "name": "",
@@ -390,44 +320,59 @@
                 "title": "Biorevitalization",
                 "services": [
                     {
-                        "name": "Neauvia Hydro deluxe Італія 2.5 ml",
-                        "desc": "зволоження сухої зневоденної шкіри",
+                        "name": "- АМІНОКИСЛОТИ:",
+                        "desc": "",
+                        "price": ""
+                    },
+                    {
+                        "name": "Jalupro Classic",
+                        "desc": "",
                         "price": "4000"
                     },
                     {
-                        "name": "Rejuran HB Корея 1 ml",
-                        "desc": "для молодої шкіри до 30 років",
-                        "price": "3500"
+                        "name": "Jalupro Plus",
+                        "desc": "",
+                        "price": "4500"
+                    },
+                    {
+                        "name": "Jalupro Super Hydro",
+                        "desc": "",
+                        "price": "6000"
+                    },
+                    {
+                        "name": "- ПОЛІНУКЛЕОТИДИ:",
+                        "desc": "",
+                        "price": ""
                     },
                     {
                         "name": "Rejuran PN Корея 2 ml",
                         "desc": "для жирої, щільної шкіри, схильної до куперозу,та шкіри з пост акне",
-                        "price": "4500"
+                        "price": "5500"
                     },
                     {
-                        "name": "Vitaran Whitening Корея 2 ml",
-                        "desc": "для шкіри схильної до пігментації",
-                        "price": "4500"
+                        "name": "PolyPhil Next",
+                        "desc": "",
+                        "price": "5500"
                     },
                     {
                         "name": "Plinest hair Італія 2 ml",
                         "desc": "лікування випадіння волосся, та стимуляцію росту",
-                        "price": "4000"
+                        "price": "5000"
                     },
                     {
-                        "name": "Vitaran collagen Kope 2 ml",
-                        "desc": "(ущільнення зони шиї та декольте, руки)",
-                        "price": "4500"
+                        "name": "- БУСТЕРИ НА ОСНОВІ PLLA:",
+                        "desc": "",
+                        "price": ""
                     },
                     {
-                        "name": "Екзосоми ASCE + 6 ml",
-                        "desc": "(аналог стовбурових клітин обличчя + шия + декольте)",
-                        "price": "8000"
+                        "name": "Pillacube Pink Vol",
+                        "desc": "",
+                        "price": "6500"
                     },
                     {
-                        "name": "RRS long lasting Іспанія 3 мл",
-                        "desc": "(Ліфтинг в 7 точок)",
-                        "price": "5500"
+                        "name": "Pillacube Original",
+                        "desc": "",
+                        "price": "6500"
                     },
                     {
                         "name": "- ЗОНА ОРБІТИ:",
@@ -437,12 +382,17 @@
                     {
                         "name": "Rejuran I Корея 1 ml",
                         "desc": "(тонка, суха шкіра навколо очей, ущільнення зони орбіти, боротьба з темними колами)",
-                        "price": "3500"
+                        "price": "4000"
                     },
                     {
-                        "name": "Twac eyes Корея 1 ml",
+                        "name": "Jalupro eyes",
+                        "desc": "",
+                        "price": "4000"
+                    },
+                    {
+                        "name": "Twace eyes Корея 1 ml",
                         "desc": "для шкіри навколо очей схильної до набряків",
-                        "price": "3500"
+                        "price": "4000"
                     },
                     {
                         "name": "* КУРС БІОРЕВІТАЛІЗАЦІЇ СКЛАДАЄТЬСЯ З 3-4 ПРОЦЕДУР, ІНТЕРВАЛ МІЖ ПРОЦЕДУРАМИ 3 ТИЖНІ",
@@ -455,59 +405,14 @@
                 "title": "Correction with fillers",
                 "services": [
                     {
-                        "name": "Aileene Vol Nº3 ML",
+                        "name": "Aileene 1 ml",
                         "desc": "",
-                        "price": "ML"
+                        "price": "4500"
                     },
                     {
-                        "name": "4000",
+                        "name": "Saypha Volume 1 ml",
                         "desc": "",
-                        "price": "1 ml"
-                    },
-                    {
-                        "name": "7000",
-                        "desc": "",
-                        "price": "2 ml"
-                    },
-                    {
-                        "name": "9000",
-                        "desc": "",
-                        "price": "3 ml"
-                    },
-                    {
-                        "name": "11000",
-                        "desc": "",
-                        "price": "4 ml"
-                    },
-                    {
-                        "name": "Підборіддя 1 ml",
-                        "desc": "",
-                        "price": ""
-                    },
-                    {
-                        "name": "Носогубні складки 1 ml",
-                        "desc": "",
-                        "price": ""
-                    },
-                    {
-                        "name": "Вугли нижньої щелепи 2 ml",
-                        "desc": "",
-                        "price": ""
-                    },
-                    {
-                        "name": "Вилиці 2 ml",
-                        "desc": "",
-                        "price": ""
-                    },
-                    {
-                        "name": "Full face 3-4 ml",
-                        "desc": "",
-                        "price": ""
-                    },
-                    {
-                        "name": "Бланшинг заломів Aileene Vol Nº 1",
-                        "desc": "",
-                        "price": "1500 - 3000"
+                        "price": "5500"
                     }
                 ]
             }
@@ -1377,40 +1282,49 @@
                 "description": "Підбір препарату індивідуальний для пацієнта",
                 "priceList": [
                     {
-                        "title": "Зона обличчя або шия або руки:",
+                        "title": "Амінокислоти:",
                         "list": [
                             {
-                                "title": "Rejuran PN",
-                                "price": 5000
+                                "title": "Jalupro Classic",
+                                "price": 4000
                             },
                             {
-                                "title": "Vitaran collagen  / Whitening",
-                                "price": 4800
+                                "title": "Jalupro Plus",
+                                "price": 4500
                             },
                             {
                                 "title": "Jalupro Super Hydro",
                                 "price": 6000
-                            },
-                            {
-                                "title": "Neauvia Hydro",
-                                "price": 4300
-                            },
-                            {
-                                "title": "Rejuran HB",
-                                "price": 3800
-                            },
-                            {
-                                "title": "RRS long",
-                                "price": 5500
                             }
                         ]
                     },
                     {
-                        "title": "Зона волосистої частини голови:",
+                        "title": "Полінуклеотиди:",
                         "list": [
                             {
-                                "title": "Plinest hair",
-                                "price": 4000
+                                "title": "Rejuran PN",
+                                "price": 5500
+                            },
+                            {
+                                "title": "PolyPhil Next",
+                                "price": 5500
+                            },
+                            {
+                                "title": "Plinest",
+                                "price": 5000
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Бустери на основі PLLA:",
+                        "list": [
+                            {
+                                "title": "Pillacube Pink Vol",
+                                "price": 6500
+                            },
+                            {
+                                "title": "Pillacube Original",
+                                "price": 6500
                             }
                         ]
                     },
@@ -1418,12 +1332,16 @@
                         "title": "Зона очей:",
                         "list": [
                             {
-                                "title": "Rejuran",
-                                "price": 3800
+                                "title": "Rejuran I",
+                                "price": 4000
                             },
                             {
-                                "title": "Twac eyes",
-                                "price": 3800
+                                "title": "Jalupro eyes",
+                                "price": 4000
+                            },
+                            {
+                                "title": "Twace eyes",
+                                "price": 4000
                             }
                         ]
                     }
@@ -1480,19 +1398,19 @@
                         "list": [
                             {
                                 "title": "Radiesse 1.5 ml",
-                                "price": 9000
+                                "price": "11 000"
                             },
                             {
                                 "title": "Radiesse 3ml",
+                                "price": 19000
+                            },
+                            {
+                                "title": "Pila Lenisna 20 ml",
                                 "price": 15000
                             },
                             {
-                                "title": "Lenisna 12-15 ml",
-                                "price": 15000
-                            },
-                            {
-                                "title": "Juvelook 12 ml",
-                                "price": 12000
+                                "title": "Pila Sculptra",
+                                "price": 18000
                             }
                         ]
                     }
@@ -1557,12 +1475,8 @@
                                 "price": 4500
                             },
                             {
-                                "title": "2 ml Aileene #3",
-                                "price": 8000
-                            },
-                            {
-                                "title": "3 ml Aileene #3",
-                                "price": 11000
+                                "title": "Saypha Volume 1 ml",
+                                "price": 5500
                             }
                         ]
                     },
@@ -1571,15 +1485,19 @@
                         "list": [
                             {
                                 "title": "Stylage M 1ml",
-                                "price": 6300
+                                "price": 6500
                             },
                             {
-                                "title": "Aileene #2 1 ml",
-                                "price": 5300
+                                "title": "Saypha lips 1 ml",
+                                "price": 6000
                             },
                             {
-                                "title": "Revolax 1ml",
-                                "price": 5000
+                                "title": "Aileene Vol Nº2 1 ml",
+                                "price": 5500
+                            },
+                            {
+                                "title": "Saypha / Aileene 0.5 ml",
+                                "price": 3500
                             },
                             {
                                 "title": "Розчинення філеру",
@@ -1645,11 +1563,7 @@
                         "list": [
                             {
                                 "title": "Середня + нижня третина",
-                                "price": 10000
-                            },
-                            {
-                                "title": "Все обличчя",
-                                "price": 12000
+                                "price": "11 000"
                             }
                         ]
                     }
@@ -1659,7 +1573,7 @@
         {
             "id": "morpheus",
             "image": "morpheus.jpg",
-            "title": "Мorpheus 8",
+            "title": "Morpheus 8",
             "subtitle": "Робота апарату спрямована на Знижений тургор шкіри, вʼялість, дряблість, втрата еластичності. Нерівний тон та рельєф шкіри, розширені пори. Мімічні та вікові зморшки. Птоз шкіри, деформація окремих ділянок. Легке постакне, розтяжки.",
             "seoDescription": "Апаратна процедура для тургору й еластичності шкіри, зменшення пор, мімічних зморшок, птозу та наслідків постакне.",
             "description": [
@@ -1711,28 +1625,24 @@
                         "title": "",
                         "list": [
                             {
-                                "title": "Morpheus 8 обличчя",
-                                "price": 11500
+                                "title": "Обличчя",
+                                "price": 12500
                             },
                             {
-                                "title": "Morpheus 8 шия",
-                                "price": 9000
-                            },
-                            {
-                                "title": "Morpheus 8 декольте",
-                                "price": 9000
-                            },
-                            {
-                                "title": "Morpheus 8 шия + обличчя",
+                                "title": "Обличчя + шия",
                                 "price": 13500
                             },
                             {
-                                "title": "Morpheus 8 обличчя + шия + декольте",
-                                "price": 14500
+                                "title": "Очі",
+                                "price": 9000
                             },
                             {
-                                "title": "Morpheus 8 живіт / сідниці / руки внутрішня частина",
-                                "price": 12000
+                                "title": "Тіло 1 зона",
+                                "price": 13000
+                            },
+                            {
+                                "title": "Обличчя + екзосоми",
+                                "price": 15000
                             }
                         ]
                     }
@@ -1802,93 +1712,7 @@
                                 "price": 2500
                             },
                             {
-                                "title": "Lumecca фотоомолодження",
-                                "price": 3000
-                            },
-                            {
                                 "title": "Lumecca ділянка до 2*2 см",
-                                "price": 1500
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "id": "lightskin",
-            "image": "lightskin.jpg",
-            "title": "LightSkan",
-            "subtitle": "Лазер останнього покоління не обляційний . Мʼяке лазерне шліфування шкірного покриву В показаннях поверхневі зморшки,легкі шрами ,пост акне ,поверхнева пігментація, розширені пори ,тонка суха шкіра.",
-            "seoDescription": "Неабляційне лазерне шліфування шкіри: поверхневі зморшки, легкі шрами, постакне, пігментація, розширені пори.",
-            "description": [
-                {
-                    "title": "ЗОНИ ІНʼЄКЦІЇ:",
-                    "text": "обличчя / очі / шия / декольте / руки"
-                },
-                {
-                    "title": "Підготовка:",
-                    "text": "за два тижні не відвідувати солярій ,та не перебувати на відкритому сонці ,виключити засоби з ретинолом ,агресивні пілінги за 2 тижні."
-                }
-            ],
-            "contraindications": {
-                "title": "Протипоказання:",
-                "list": [
-                    "Вік до 18 років",
-                    "Вагітність та період лактації",
-                    "Шкірні висипи в активній стадії",
-                    "Прийом системних ретиноїдів",
-                    "Схильність до келоїдних рубців",
-                    "ГРВІ",
-                    "Цукровий діабет та інші хронічні захворювання в стадії загострення",
-                    "Епілепсія",
-                    "Псоріаз"
-                ]
-            },
-            "rehabilitation": {
-                "title": "Реабілітація",
-                "list": [
-                    "легке почервоніння в зоні проведення",
-                    "не має набряку",
-                    "не має слідів проведення,обовʼязково наносити SPF 50 захист на шкіру протягом тижня"
-                ]
-            },
-            "course": {
-                "title": "",
-                "desc": ""
-            },
-            "result": {
-                "title": "",
-                "list": []
-            },
-            "price": {
-                "title": "Прайс",
-                "description": "",
-                "priceList": [
-                    {
-                        "title": "",
-                        "list": [
-                            {
-                                "title": "Все обличчя",
-                                "price": 2500
-                            },
-                            {
-                                "title": "Очі",
-                                "price": 1000
-                            },
-                            {
-                                "title": "Шия",
-                                "price": 1500
-                            },
-                            {
-                                "title": "Декольте",
-                                "price": 1500
-                            },
-                            {
-                                "title": "Обличчя + шия+декольте",
-                                "price": 4000
-                            },
-                            {
-                                "title": "Руки",
                                 "price": 1000
                             }
                         ]
@@ -1960,16 +1784,12 @@
                         "title": "",
                         "list": [
                             {
-                                "title": "Підборіддя",
-                                "price": "500€"
+                                "title": "Нижня третина",
+                                "price": "700€"
                             },
                             {
-                                "title": "Нижня третина + підборіддя",
-                                "price": "600€"
-                            },
-                            {
-                                "title": "Середня третина + нижня третина + підборіддя + шия",
-                                "price": "650€"
+                                "title": "Середня третина + нижня третина",
+                                "price": "800€"
                             }
                         ]
                     }

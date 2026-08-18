@@ -7,7 +7,6 @@ export const AppRouth = {
 	SMASLIFTING: 'Smas lifting',
 	MORPHEUS: 'Мorpheus 8',
 	ENDOLIFT: 'Endolift',
-	LIGHTSKIN: 'LightSkan',
 	LUMECCA: 'Lumecca',
 	CONSULTATION: 'Консультація',
 	CONTACTS: 'Контакти',
@@ -23,7 +22,6 @@ export const RoutePath = {
 	smasLifting: '/smas-lifting',
 	morpheus: '/morpheus',
 	endolift: '/endolift',
-	lightskin: '/lightskin',
 	lumecca: '/lumecca',
 	consultation: '/consultation',
 	contacts: '/contacts',
@@ -69,11 +67,6 @@ export const routeConfig = {
 	endolift: {
 		name: AppRouth.ENDOLIFT,
 		path: RoutePath.endolift,
-		element: '',
-	},
-	lightskin: {
-		name: AppRouth.LIGHTSKIN,
-		path: RoutePath.lightskin,
 		element: '',
 	},
 	lumecca: {
