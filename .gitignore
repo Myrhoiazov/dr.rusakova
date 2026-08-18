@@ -4,3 +4,5 @@ build
 .github
 /.claude/
 .DS_Store
+CLAUDE.md
+/docs
