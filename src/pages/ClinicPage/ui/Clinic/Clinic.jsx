@@ -1,6 +1,7 @@
 import {memo, useLayoutEffect, useMemo} from 'react';
 import {gsap} from 'gsap';
 import {classNames} from 'shared/lib/classNames/classNames';
+import SeoHead from 'shared/ui/SeoHead';
 import Logo from 'shared/assets/dr.rusakova-logo.png';
 import s from './Clinic.module.scss';
 import 'aos/dist/aos.css';
@@ -30,6 +31,11 @@ const Clinic = ({className}) => {
 
 	return (
 		<div className={classNames(s.Clinic, {}, [className])}>
+			<SeoHead
+				title="Послуги клініки — Dr. Rusakova Clinic"
+				description="Повний перелік косметологічних та дерматологічних процедур клініки доктора Русакової: ботулінотерапія, контурна пластика, біоревіталізація, Morpheus8, Endolift та інші."
+				path="/clinic"
+			/>
 			<div className={s.backdrop} id="backdrop"></div>
 			<div className={s.inner}>
 				<Link to="/" id="logo">
