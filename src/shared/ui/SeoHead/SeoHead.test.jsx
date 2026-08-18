@@ -17,12 +17,15 @@ test('sets title, description and canonical for the given path', async () => {
 	await waitFor(() => expect(document.title).toBe('Test Title'));
 
 	expect(
+		// eslint-disable-next-line testing-library/no-node-access -- Helmet manages document.head directly, outside RTL's query surface
 		document.querySelector('meta[name="description"]').getAttribute('content')
 	).toBe('Test description');
 	expect(
+		// eslint-disable-next-line testing-library/no-node-access -- Helmet manages document.head directly, outside RTL's query surface
 		document.querySelector('link[rel="canonical"]').getAttribute('href')
 	).toBe(`${SITE_URL}/test-path`);
 	expect(
+		// eslint-disable-next-line testing-library/no-node-access -- Helmet manages document.head directly, outside RTL's query surface
 		document.querySelector('meta[property="og:url"]').getAttribute('content')
 	).toBe(`${SITE_URL}/test-path`);
 });
@@ -34,6 +37,7 @@ test('falls back to the default OG image when none is provided', async () => {
 
 	await waitFor(() =>
 		expect(
+			// eslint-disable-next-line testing-library/no-node-access -- Helmet manages document.head directly, outside RTL's query surface
 			document.querySelector('meta[property="og:image"]').getAttribute('content')
 		).toBe(DEFAULT_OG_IMAGE)
 	);
@@ -48,6 +52,7 @@ test('uses a provided image over the default OG image', async () => {
 
 	await waitFor(() =>
 		expect(
+			// eslint-disable-next-line testing-library/no-node-access -- Helmet manages document.head directly, outside RTL's query surface
 			document.querySelector('meta[property="og:image"]').getAttribute('content')
 		).toBe(customImage)
 	);
