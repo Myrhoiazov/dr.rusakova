@@ -10,6 +10,7 @@ import s from './ContactPage.module.scss';
 import {Link} from 'react-router-dom';
 import {useTranslation} from 'react-i18next';
 import {useScreenDetector} from 'shared/lib/hooks/useScreenDetector';
+import SeoHead from 'shared/ui/SeoHead';
 
 const ContactPage = ({className}) => {
 	const {t} = useTranslation();
@@ -25,6 +26,11 @@ const ContactPage = ({className}) => {
 
 	return (
 		<div className={classNames(s.ContactPage, {}, [className])}>
+			<SeoHead
+				title="Контакти — Dr. Rusakova Clinic"
+				description="Графік роботи клініки доктора Русакової, номер телефону для запису та Instagram. Вівторок–субота, 11:00–18:00."
+				path="/clinic/contacts"
+			/>
 			<div className={s.backdrop} id="backdrop"></div>
 			<div className={s.container}>
 				<div className={s.inner}>
