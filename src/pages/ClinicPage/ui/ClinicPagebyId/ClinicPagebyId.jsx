@@ -18,6 +18,8 @@ import Intro_Desctop from 'shared/assets/kostya_2.png';
 import s from './ClinicPagebyId.module.scss';
 import Button from 'shared/ui/Button';
 import {routeConfig} from 'shared/config/routerConfig/routerConfig';
+import SeoHead from 'shared/ui/SeoHead';
+import {SITE_URL} from 'shared/config/seo/seoConfig';
 
 const ClinicPagebyId = ({className}) => {
 	const [project, setProject] = useState([]);
@@ -119,6 +121,18 @@ const ClinicPagebyId = ({className}) => {
 
 	return (
 		<div className={classNames(s.ClinicPagebyId, {}, [className])}>
+			{project?.title && (
+				<SeoHead
+					title={`${project.title} — Dr. Rusakova Clinic`}
+					description={project.subtitle}
+					path={`/clinic/${idParams}`}
+					image={
+						project.image
+							? `${SITE_URL}${renderImage(project.image)}`
+							: undefined
+					}
+				/>
+			)}
 			<div
 				className={s.backdrop}
 				id="backdrop"
