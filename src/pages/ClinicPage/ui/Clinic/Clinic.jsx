@@ -33,7 +33,7 @@ const Clinic = ({className}) => {
 		<div className={classNames(s.Clinic, {}, [className])}>
 			<SeoHead
 				title="Послуги клініки — Dr. Rusakova Clinic"
-				description="Повний перелік косметологічних та дерматологічних процедур клініки доктора Русакової: ботулінотерапія, контурна пластика, біоревіталізація, Morpheus8, Endolift та інші."
+				description="Перелік косметологічних та дерматологічних процедур клініки доктора Русакової: ботулінотерапія, контурна пластика, біоревіталізація, Morpheus8, Endolift."
 				path="/clinic"
 			/>
 			<div className={s.backdrop} id="backdrop"></div>

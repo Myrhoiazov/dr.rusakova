@@ -124,7 +124,7 @@ const ClinicPagebyId = ({className}) => {
 			{project?.title && (
 				<SeoHead
 					title={`${project.title} — Dr. Rusakova Clinic`}
-					description={project.subtitle}
+					description={project.seoDescription || project.subtitle}
 					path={`/clinic/${idParams}`}
 					image={
 						project.image
