@@ -205,6 +205,19 @@
 	}
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+	.name {
+		font-size: 120px;
+		letter-spacing: -6px;
+	}
+
+	.nameaccent {
+		top: 30px;
+		left: 260px;
+		font-size: 24px;
+	}
+}
+
 @media screen and (min-width: 769px) {
 	.wrapper {
 		padding-top: 40px;
