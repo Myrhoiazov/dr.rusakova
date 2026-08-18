@@ -2,7 +2,6 @@ import React, {Suspense} from 'react';
 import {Navigate, Route, Routes} from 'react-router-dom';
 import {createBrowserHistory} from 'history';
 import Loader from 'shared/ui/Loader';
-import Courses from 'pages/CoursesPage';
 import ReactGA from 'react-ga';
 import {IntroPage} from 'pages/IntroPage';
 import {ClinicPage, ClinicPagebyIdPage} from 'pages/ClinicPage';
@@ -22,8 +21,6 @@ const AppRouter = () => (
 			<Route path="/clinic" element={<ClinicPage />} />
 			<Route path="/clinic/:id" element={<ClinicPagebyIdPage />} />
 			<Route path="/clinic/contacts" element={<ContactPage />} />
-			{/* <Route path="/courses" element={<Courses />} /> */}
-			{/* <Route path="/cosmetics" element={<Cosmetics />} /> */}
 			<Route path="*" element={<Navigate to="/" />} />
 		</Routes>
 	</Suspense>

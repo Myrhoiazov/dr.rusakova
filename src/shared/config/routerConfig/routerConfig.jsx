@@ -1,17 +1,3 @@
-// import HomePage from 'pages/HomePage';
-// import BotoxPage from 'pages/BotoxPage';
-// import ContourPlasticPage from 'pages/ContourPlasticPage';
-// import CollagenStimulationPage from 'pages/CollagenStimulationPage';
-// import BiorevitalizationPage from 'pages/BiorevitalizationPage';
-// import SmasLiftingPage from 'pages/SmasLiftingPage';
-// import MorpheusPage from 'pages/MorpheusPage';
-// import EndoliftPage from 'pages/EndoliftPage';
-// import LightskinPage from 'pages/LightskinPage';
-// import LumeccaPage from 'pages/LumeccaPage';
-// import ContactPage from 'pages/ContactPage';
-// import ConsultationPage from 'pages/ConsultationPage';
-// import NotFoundPage from 'pages/NotFoundPage';
-
 export const AppRouth = {
 	MAIN: '/',
 	BOTULINOTHERAPY: 'Ботулінотерапія',
