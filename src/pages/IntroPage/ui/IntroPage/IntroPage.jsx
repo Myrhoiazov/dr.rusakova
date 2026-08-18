@@ -8,6 +8,7 @@ import Logo from 'shared/assets/dr.rusakova-logo.png';
 import {Link} from 'react-router-dom';
 import s from './IntroPage.module.scss';
 import {useScreenDetector} from 'shared/lib/hooks/useScreenDetector';
+import SeoHead from 'shared/ui/SeoHead';
 
 const IntroPage = ({className}) => {
 	const {t} = useTranslation();
@@ -22,9 +23,15 @@ const IntroPage = ({className}) => {
 	}, []);
 
 	return (
-		<div className={classNames(s.IntroPage, {}, [className])}>
-			<div className={s.backdrop} id="backdrop"></div>
-			<div className={s.container}>
+		<>
+			<SeoHead
+				title="Dr. Rusakova Clinic — Клініка дерматології та косметології"
+				description="Клініка доктора Русакової: сучасна косметологія anti-aging, лікування вікових фотопошкоджень шкіри, ботулінотерапія, контурна пластика та інші процедури. Індивідуальний підхід до кожного пацієнта."
+				path="/"
+			/>
+			<div className={classNames(s.IntroPage, {}, [className])}>
+				<div className={s.backdrop} id="backdrop"></div>
+				<div className={s.container}>
 				<img
 					src={Logo}
 					alt="Dr Rusakova Logo"
@@ -82,6 +89,7 @@ const IntroPage = ({className}) => {
 				</div>
 			)}
 		</div>
+		</>
 	);
 };
 
