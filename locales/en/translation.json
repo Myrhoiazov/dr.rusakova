@@ -1,0 +1,1217 @@
+{
+	"Home": "Home",
+	"About me": "About me",
+	"About cosmetics": "Abouts cosmetics",
+	"Brands": "Brands",
+	"Products": "Products",
+	"Work": "Work examples",
+	"Courses": "Courses",
+	"Prices": "Prices",
+	"Reviews": "Reviews",
+	"Contact": "Contact",
+	"home-button": {
+		"clinic": "/ patients",
+		"courses": "/ cosmetologists",
+		"cosmetics": "/ cosmetics"
+	},
+	"home": {
+		"title": "Dr.Rusakova",
+		"text": ""
+	},
+	"hero": {
+		"clinic": {
+			"hello": "The best and most effective facial correction techniques from a trainer",
+			"hello-accent": "international level",
+			"name": "Online course in contouring",
+			"text": "Dr. Rusakova"
+		},
+		"courses": {
+			"hello": "The best and most effective facial correction techniques from a trainer",
+			"hello-accent": "international level",
+			"name": "Online course in contouring",
+			"text": "Dr. Rusakova"
+		},
+		"cosmetics": {
+			"hello": "Welcome to our special space for beauty and skincare",
+			"hello-accent": "cosmetics from the best brands",
+			"name": "Cosmetics you deserve",
+			"text": "Dr. Rusakova cosmetics"
+		}
+	},
+	"button": {
+		"buy": "Buy training videos"
+	},
+	"action": {
+		"splide": "Buy 2 items and get 10% discount"
+	},
+	"about": {
+		"clinic": {
+			"title": "Greetings, dear patients!",
+			"subtitle": "I am Elizaveta Sergeevna Rusakova, a dermatologist, practicing in the field of cometology since 2017.",
+			"text1": "My work philosophy is individuality, not following templates.",
+			"text2": "I never consult patients with flashy slogans “-10 years in one procedure.”»",
+			"text3": "Working with me is a systematic, clearly formulated, specific protocol.",
+			"text4": "We do not have franchises, a huge uncontrolled team. We create a brand, a culture of healthy, young, and most importantly aesthetic appearance",
+			"text5": "I am individual and perfectionist in my work, I have the highest possible requirements for the quality of the procedures we provide."
+		},
+		"courses": {
+			"title": "About me",
+			"text1": "Elizaveta Rusakova Dermatovenereologist, cosmetologist, owner of a popular clinic in the city of Dnipro. Elizaveta has passed more than 30 advanced trainings, not only from Ukrainian specialists, but also from the European",
+			"text2": "Owns personal safety techniques",
+			"text3": "In this course, Elizaveta has invested the basic and individual developments of her work. The course was created for cosmetologists to share information and experience, for specialists who cannot attend training in person. The courses are introductory in nature with the technique of a cosmetologist."
+		},
+		"cosmetics": {
+			"text1": "We have thoughtfully and carefully curated this selection to address any need in home skincare. You won't find an endless list of creams and serums here.",
+			"text2": "We have gathered different brands and selected only the effective formulas and products that we have personally tested.",
+			"text3": "From our range, you can create any combination for dry, oily, combination, sensitive, or pigmented skin."
+		}
+	},
+	"price": {
+		"title": "Price",
+		"subtitle": "",
+		"list": [
+			{
+				"title": "Collagen stimulaton",
+				"services": [
+					{
+						"name": "Radiesse",
+						"desc": "calcium hydroxyapatite 1.5 ml",
+						"price": "9000 uah"
+					},
+					{
+						"name": "Radiesse",
+						"desc": "calcium hydroxyapatite 3 ml",
+						"price": "15 000 uah"
+					},
+					{
+						"name": "Lenisna",
+						"desc": "polylactic acid South Korea 210 mg",
+						"price": "15 000 uah"
+					},
+					{
+						"name": "Juvelook",
+						"desc": "Polylactic acid S.Korea 8 mg / for the eye area, post-acne, thickening of thin skin",
+						"price": "12 000 uah"
+					}
+				]
+			},
+			{
+				"title": "Face aesthetics / Consultations",
+				"services": [
+					{
+						"name": "ZO OBAGI Facial Cleansing",
+						"desc": "10 steps",
+						"price": "1500 uah"
+					},
+					{
+						"name": "Prx-T33 Peeling",
+						"desc": "",
+						"price": "1200 uah"
+					},
+					{
+						"name": "Retix.C DNA Peeling + Dermastamp",
+						"desc": "",
+						"price": "2800 uah"
+					},
+					{
+						"name": "DMK Enzyme Therapy",
+						"desc": "*RECOMMENDED COURSE OF 3 OR MORE PROCEDURES",
+						"price": "2800 uah"
+					},
+					{
+						"name": "Quick Beauty Mask",
+						"desc": "",
+						"price": "1200 uah"
+					},
+					{
+						"name": "“Mother of the Bride”",
+						"desc": "",
+						"price": "2500 uah"
+					},
+					{
+						"name": "In-person Consultation for Procedure Protocol (20 min)",
+						"desc": "",
+						"price": "800 uah"
+					},
+					{
+						"name": "Doctor's ONLINE Consultation (20 min)",
+						"desc": "",
+						"price": "1500 uah"
+					},
+					{
+						"name": "Doctor's Consultation on Acne Treatment (20 min)",
+						"desc": "",
+						"price": "800 uah"
+					}
+				]
+			},
+			{
+				"title": "Lips Augmentetion",
+				"services": [
+					{
+						"name": "Stylage M",
+						"desc": "France 1 ml",
+						"price": "5800 uah"
+					},
+					{
+						"name": "Revolax deep",
+						"desc": "Japan 1 ml",
+						"price": "4500 uah"
+					},
+					{
+						"name": "Revolax deep",
+						"desc": "Japan 0.5 ml",
+						"price": "2500 uah"
+					},
+					{
+						"name": "Aileene Vol Nº2",
+						"desc": "(Korea) 1 ml",
+						"price": "4800 uah"
+					},
+					{
+						"name": "Filler Dissolution",
+						"desc": "",
+						"price": "1500 uah"
+					}
+				]
+			},
+			{
+				"title": "Botox",
+				"services": [
+					{
+						"name": "Forehead + Glabella",
+						"desc": "",
+						"price": "3500 uah"
+					},
+					{
+						"name": "Glabella",
+						"desc": "",
+						"price": "2500 uah"
+					},
+					{
+						"name": "Eyes",
+						"desc": "",
+						"price": "2500 uah"
+					},
+					{
+						"name": "Forehead + Glabella + Eyes",
+						"desc": "",
+						"price": "4500 uah"
+					},
+					{
+						"name": "Platysma",
+						"desc": "",
+						"price": "4500 uah"
+					},
+					{
+						"name": "DAO",
+						"desc": "",
+						"price": "500 uah"
+					},
+					{
+						"name": "Chin",
+						"desc": "",
+						"price": "500 uah"
+					},
+					{
+						"name": "Gummy Smile",
+						"desc": "",
+						"price": "500 uah"
+					},
+					{
+						"name": "Masticatory Muscles",
+						"desc": "",
+						"price": "2500 uah"
+					},
+					{
+						"name": "FullFace",
+						"desc": "",
+						"price": "9000 uah"
+					},
+					{
+						"name": "Hyperhidrosis Rentox",
+						"desc": "",
+						"price": "5000 uah"
+					},
+					{
+						"name": "For Men",
+						"desc": "+ 1000 to the price",
+						"price": "+1000 uah"
+					}
+				]
+			},
+			{
+				"title": "Smas lifting / Agnes",
+				"services": [
+					{
+						"name": "Middle and Lower Third",
+						"desc": "",
+						"price": "10000"
+					},
+					{
+						"name": "Lower Third",
+						"desc": "",
+						"price": "5000"
+					},
+					{
+						"name": "Full Face",
+						"desc": "",
+						"price": "12000"
+					},
+					{
+						"name": "Face + Neck",
+						"desc": "",
+						"price": "15000"
+					},
+					{
+						"name": "- Agnes:",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Chin",
+						"desc": "",
+						"price": "7000"
+					},
+					{
+						"name": "Chin + Temples",
+						"desc": "",
+						"price": "9000"
+					},
+					{
+						"name": "Temples",
+						"desc": "",
+						"price": "7000"
+					},
+					{
+						"name": "Nasolabial Folds",
+						"desc": "",
+						"price": "7000"
+					},
+					{
+						"name": "Chin + Temples + Nasolabial Folds",
+						"desc": "",
+						"price": "11000"
+					}
+				]
+			},
+			{
+				"title": "Triton / Lumecca",
+				"services": [
+					{
+						"name": "- RF LIFTING MORPHEUS:",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Morpheus 8 Face",
+						"desc": "",
+						"price": "10500"
+					},
+					{
+						"name": "Morpheus 8 Neck",
+						"desc": "",
+						"price": "9000"
+					},
+					{
+						"name": "Morpheus 8 Décolleté",
+						"desc": "",
+						"price": "9000"
+					},
+					{
+						"name": "Morpheus 8 Neck + Face",
+						"desc": "",
+						"price": "13000"
+					},
+					{
+						"name": "Morpheus 8 Face + Neck + Décolleté",
+						"desc": "",
+						"price": "14000"
+					},
+					{
+						"name": "Morpheus 8 Eyes",
+						"desc": "",
+						"price": "8000"
+					},
+					{
+						"name": "Morpheus 8 Chin",
+						"desc": "",
+						"price": "7000"
+					},
+					{
+						"name": "Morpheus 8 Abdomen",
+						"desc": "",
+						"price": "10000"
+					},
+					{
+						"name": "Morpheus 8 Buttocks",
+						"desc": "",
+						"price": "10000"
+					},
+					{
+						"name": "",
+						"desc": "* (Procedure includes rehabilitation cream, stem cell mask, and LED therapy)",
+						"price": ""
+					},
+					{
+						"name": "- LUMECCA PIGMENTATION AND COUPEROSE REMOVAL:",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Lumecca Pigmentation",
+						"desc": "",
+						"price": "2500"
+					},
+					{
+						"name": "Lumecca Couperose",
+						"desc": "",
+						"price": "2500"
+					},
+					{
+						"name": "Lumecca Photorejuvenation",
+						"desc": "",
+						"price": "3000"
+					},
+					{
+						"name": "Lumecca Area up to 2*2 cm",
+						"desc": "",
+						"price": "1500"
+					},
+					{
+						"name": "",
+						"desc": "*Treatments on the Triton device are available in courses, starting from 2 sessions",
+						"price": ""
+					}
+				]
+			},
+			{
+				"title": "Biorevitalization",
+				"services": [
+					{
+						"name": "Neauvia Hydro deluxe Italy 2.5 ml",
+						"desc": "hydration of dry, dehydrated skin",
+						"price": "4000"
+					},
+					{
+						"name": "Rejuran HB Korea 1 ml",
+						"desc": "for young skin up to 30 years",
+						"price": "3500"
+					},
+					{
+						"name": "Rejuran PN Korea 2 ml",
+						"desc": "for oily, dense skin prone to couperose and post-acne skin",
+						"price": "4500"
+					},
+					{
+						"name": "Vitaran Whitening Korea 2 ml",
+						"desc": "for skin prone to pigmentation",
+						"price": "4500"
+					},
+					{
+						"name": "Plinest hair Italy 2 ml",
+						"desc": "treatment for hair loss and stimulation of hair growth",
+						"price": "4000"
+					},
+					{
+						"name": "Vitaran collagen Kope 2 ml",
+						"desc": "(firming of the neck and décolleté area, hands)",
+						"price": "4500"
+					},
+					{
+						"name": "Exosomes ASCE + 6 ml",
+						"desc": "(stem cell analog for face + neck + décolleté)",
+						"price": "8000"
+					},
+					{
+						"name": "RRS long lasting Spain 3 ml",
+						"desc": "(lifting in 7 points)",
+						"price": "5500"
+					},
+					{
+						"name": "- ORBITAL AREA:",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Rejuran I Korea 1 ml",
+						"desc": "(thin, dry skin around the eyes, firming of the orbital area, combating dark circles)",
+						"price": "3500"
+					},
+					{
+						"name": "Twac eyes Korea 1 ml",
+						"desc": "for the skin around the eyes prone to puffiness",
+						"price": "3500"
+					},
+					{
+						"name": "* BIOREVITALIZATION COURSE CONSISTS OF 3-4 PROCEDURES, INTERVAL BETWEEN PROCEDURES 3 WEEKS",
+						"desc": "",
+						"price": ""
+					}
+				]
+			},
+			{
+				"title": "Correction with fillers",
+				"services": [
+					{
+						"name": "Aileene Vol Nº3 ML",
+						"desc": "",
+						"price": "ML"
+					},
+					{
+						"name": "1 ml",
+						"desc": "",
+						"price": "4000"
+					},
+					{
+						"name": "2 ml",
+						"desc": "",
+						"price": "7000"
+					},
+					{
+						"name": "3 ml",
+						"desc": "",
+						"price": "9000"
+					},
+					{
+						"name": "4 ml",
+						"desc": "",
+						"price": "11000"
+					},
+					{
+						"name": "Chin 1 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Nasolabial Folds 1 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Jawline Angles 2 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Cheekbones 2 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Full Face 3-4 ml",
+						"desc": "",
+						"price": ""
+					},
+					{
+						"name": "Blanching of Wrinkles Aileene Vol Nº 1",
+						"desc": "",
+						"price": "1500 - 3000"
+					}
+				]
+			}
+		]
+	},
+	"works": {
+		"title": "Results of our work",
+		"subtitle": "We take pride in sharing the amazing transformations of our clients. In this 'Results of Our Work' section, you'll find before-and-after photos showcasing the outcomes of our innovative cosmetic procedures."
+	},
+	"reviews": {
+		"title": "Reviews from our clients",
+		"text": "8.000+ satisfied clients"
+	},
+	"section": {
+		"products": "Products",
+		"subtext": "A sought-after beautician is good training and practice. Our video tutorials will help you become successful in cosmetology."
+	},
+	"courses": {
+		"title": "Webinars",
+		"subtitle": "A sought-after cosmetologist needs good training and practice. Our video lessons will help you become successful in cosmetology.",
+		"list": [
+			{
+				"title": "Facial Contour Plastic Surgery Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: analysis of preparations, needle review, injection techniques, analysis of correction methods, demonstration on models."
+				},
+				"img": "full-face.webp",
+				"price": "200$"
+			},
+			{
+				"title": "Flat Bow Technique Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: analysis of preparations, injection techniques, schematic demonstration, demonstration on models."
+				},
+				"img": "lips.webp",
+				"price": "200$"
+			},
+			{
+				"title": "Botulinum Therapy Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Correction of the forehead, glabella, orbit area, processing of the temporal fascia, brow lift, correction of the nasal dorsum. Correction of the masticatory muscles, correction of the sternocleidomastoid muscle of the neck / chin, DAO, gummy smile / nasolabial fold, perioral wrinkles."
+				},
+				"img": "botox.webp",
+				"price": "230$"
+			},
+			{
+				"title": "Biorevitalization, Lipolytics, Scalp Mesotherapy Course",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Analysis of preparations, selection criteria for patients, mechanism of action, demonstration on models."
+				},
+				"img": "biorevitalization.webp",
+				"price": "100$"
+			},
+			{
+				"title": "Radiesse Collagen Stimulation",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Vector lifting of the midface. Correction of the nasolabial fold / marionette zone camouflage. Contouring of the jawline. Restoration of the preauricular fat pad. Camouflage of the jowl area."
+				},
+				"img": "radiesse.webp",
+				"price": "250$"
+			},
+			{
+				"title": "Polylactic Acid",
+				"description": {
+					"1": "Theoretical part.",
+					"2": "Practical part: Processing of the cheekbone area, preauricular depression, temporal lifting, contouring of the jawline, nasolabial fold, labiomental angle, neck treatment."
+				},
+				"img": "polil-lacticacid.webp",
+				"price": "250$"
+			}
+		],
+		"link": "Contact Us"
+	},
+	"cosmetics": {
+		"title": "Products",
+		"subtitle": "Discover the world of our skincare products, designed to deliver deep cleansing and visible improvements for your skin. Our formulations are crafted to achieve maximum results and noticeable effects.",
+		"list": [
+			{
+				"title": "Zein Obagi Hydrating Cleanser",
+				"subtitle": "Moisturizing facial cleanser for dry and sensitive skin.",
+				"liters": "200 ml.",
+				"id": "1",
+				"description": {
+					"opis": [
+						"provides gentle skin cleansing;",
+						"has a pH of 6.5;",
+						"maintains the optimal condition of the hydrolipidic layer;",
+						"retains natural moisture within cellular structures;",
+						"has seboregulating, anti-aging, anti-inflammatory, regenerative, soothing, and antioxidant effects;",
+						"even out skin tone and texture."
+					]
+				},
+				"img": "zein-obagi-hydrating-cleanser.webp",
+				"price": "2000 UAH"
+			},
+			{
+				"title": "Zein Obagi Exfoliating Cleanser",
+				"subtitle": "Cleansing gel for normal and oily skin prone to acne.",
+				"liters": "200 ml.",
+				"id": "2",
+				"description": {
+					"opis": [
+						"has a neutral pH of 6.0;",
+						"cleanses the skin of the face delicately;",
+						"has exfoliating action — removes the keratinized layer (thanks to chemical, non-abrasive effects on the skin);",
+						"maintains the optimal state of the hydrolipidic balance (including creating a breathable veil to retain natural moisture in cells);",
+						"enhances barrier functions against external stress factors;",
+						"normalizes the work of sebaceous glands;",
+						"neutralizes oxidative stress and slows down the aging process;",
+						"stimulates skin renewal and regeneration."
+					]
+				},
+				"img": "zein-obagi-exfoliating-cleanser.webp",
+				"price": "2000 UAH"
+			},
+			{
+				"title": "Zein Obagi Gentle Cleanser",
+				"subtitle": "Cleansing gel for all skin types.",
+				"liters": "200 ml.",
+				"id": "3",
+				"description": {
+					"opis": [
+						"cleanses the skin of the face gently without irritation or tightness;",
+						"maintains the optimal condition of the hydrolipidic layer (including sealing natural moisture in the cellular structure);",
+						"optimizes the activity of sebaceous glands;",
+						"reduces puffiness;",
+						"enhances barrier functions against external stress factors;",
+						"neutralizes oxidative stress and slows down the aging process;",
+						"has a softening, toning, and soothing effect."
+					]
+				},
+				"img": "zein-obagi-gentle-cleanser.webp",
+				"price": "2000 UAH"
+			},
+			{
+				"title": "Zein Obagi Calming Toner",
+				"subtitle": "Soothing lotion for dry, weakened, and sensitive facial skin.",
+				"liters": "180 ml.",
+				"id": "4",
+				"description": {
+					"opis": [
+						"provides powerful soothing and antibacterial action;",
+						"promotes additional cleansing and pore tightening;",
+						"neutralizes redness and irritation;",
+						"maintains the optimal state of the hydrolipidic balance (including creating a breathable veil to retain natural moisture in cells);",
+						"stimulates regeneration and renewal processes;",
+						"enhances barrier functions against external stress factors."
+					]
+				},
+				"img": "zein-obagi-calming-toner.webp",
+				"price": "1800 UAH"
+			},
+			{
+				"title": "Zein Obagi Exfoliating Polish",
+				"subtitle": "Exfoliating scrub for all skin types.",
+				"liters": "16 ml.",
+				"id": "5",
+				"description": {
+					"opis": [
+						"provides exfoliating and antioxidant effects;",
+						"maintains the optimal state of the hydrolipidic balance (including creating a breathable veil to retain natural moisture in cells);",
+						"helps fight pigmentation spots;",
+						"has brightening, antioxidant, and strengthening properties;",
+						"normalizes the function of sebaceous glands;",
+						"positively impacts the skin's natural barrier functions;",
+						"stimulates cell renewal, making the skin smooth and radiant."
+					]
+				},
+				"img": "zein-obagi-exfoliating-polish.webp",
+				"price": "900 UAH"
+			},
+			{
+				"title": "Zein Obagi Instant Pore Refner",
+				"subtitle": "Instant pore tightening product.",
+				"liters": "29 ml.",
+				"id": "6",
+				"description": {
+					"opis": [
+						"Effectively cleanses clogged pores",
+						"Reduces sebum production, eliminating shine and giving the skin a matte finish",
+						"Provides the skin with an even, smooth texture, combating visible imperfections on the skin surface"
+					]
+				},
+				"img": "zein-obagi-instant-pore-refner.webp",
+				"price": "2200 UAH"
+			},
+			{
+				"title": "Zein Obagi Rozatrol",
+				"subtitle": "Soothing serum for facial skin with rosacea.",
+				"liters": "50 ml.",
+				"id": "7",
+				"description": {
+					"opis": [
+						"helps reduce existing redness and prevents future redness from ultraviolet radiation;",
+						"stimulates microcirculation to optimize healthy vascular functions and restore a glowing appearance to the skin."
+					]
+				},
+				"img": "zein-obagi-rozatrol.webp",
+				"price": "2000 UAH"
+			},
+			{
+				"title": "Zein Obagi Pigment Control Creme",
+				"subtitle": "Whitening cream for facial skin.",
+				"liters": "30 ml.",
+				"id": "8",
+				"description": {
+					"opis": [
+						"helps remove and prevent pigmentation spots;",
+						"used in combination with treatments involving tretinoin;",
+						"helps effectively distribute melanin to keratinocytes, ensuring a therapeutic effect from mixing;",
+						"protects the skin from moisture loss, acting as an effective hydrator with lipid filler;",
+						"minimizes redness on the skin, preventing future pigmentation."
+					]
+				},
+				"img": "zein-obagi-pigment-control-creme.webp",
+				"price": "2000 UAH"
+			},
+			{
+				"title": "Zein Obagi Acne Control",
+				"subtitle": "Cream for reducing inflammation for facial and body skin with acne.",
+				"liters": "60 ml.",
+				"id": "9",
+				"description": {
+					"opis": [
+						"neutralizes acne-causing bacteria",
+						"maintains the optimal state of the hydrolipidic balance (including creating a breathable veil to retain natural moisture in cells)",
+						"provides antioxidant protection, slowing down aging and improving skin elasticity (contains four natural antioxidants)",
+						"reduces sebum production",
+						"has a soothing and anti-inflammatory effect",
+						"stimulates local blood circulation and intercellular exchange",
+						"removes impurities and cleanses clogged pores."
+					]
+				},
+				"img": "zein-obagi-acne-control.webp",
+				"price": "1800 UAH"
+			},
+			{
+				"title": "Zein Obagi Hydrating Creme",
+				"subtitle": "Post-procedure cream for epidermal skin renewal.",
+				"liters": "60 ml.",
+				"id": "10",
+				"description": {
+					"opis": [
+						"helps restore the optimal water balance of the skin",
+						"provides anti-aging, moisturizing, and anti-inflammatory effects",
+						"activates intracellular renewal processes (including promoting faster recovery of the upper layers of the skin)",
+						"strengthens the skin barrier",
+						"enhances the skin's defense against external stress factors and pathogens",
+						"has powerful antioxidant effects."
+					]
+				},
+				"img": "zein-obagi-hydrating-creme.webp",
+				"price": "2300 UAH"
+			},
+			{
+				"title": "Zein Obagi Complexion Clearing Masque",
+				"subtitle": "Face mask with 10% sulfur",
+				"liters": "85 ml",
+				"id": "11",
+				"description": {
+				  "opis": [
+					"Able to absorb excess skin oil and eliminate the oily shine",
+					"Effectively cleans clogged pores",
+					"Can be used in acne therapy and on specific affected areas of the face."
+				  ]
+				},
+				"img": "zein-obagi-complexion-clearind-masque.webp",
+				"price": "1800 UAH"
+			  },
+			  {
+				"title": "GENTLE CLEANSE",
+				"subtitle": "Moisturizing cleansing foam with rosemary",
+				"liters": "150 ml",
+				"id": "12",
+				"description": {
+				  "opis": [
+					"Gentle rosemary foam carefully removes all impurities;",
+					"Does not disrupt the delicate hydro-lipid balance of the skin;",
+					"Ideal choice for sensitive and very sensitive skin."
+				  ]
+				},
+				"img": "gentle-cleanse.webp",
+				"price": "1100 UAH"
+			  },
+			  {
+				"title": "PORE CLEANSE GEL INTENSE",
+				"subtitle": "Intensive cleansing gel with almond acid",
+				"liters": "150 ml",
+				"id": "13",
+				"description": {
+				  "opis": [
+					"Gel based on AHA and BHA for intensive skin and clogged pore cleansing;",
+					"Effectively cleanses and helps narrow enlarged pores, improves skin texture."
+				  ]
+				},
+				"img": "pore-cleanse-gel-intense.webp",
+				"price": "1300 UAH"
+			  },
+			  {
+				"title": "PRESS & GLOW",
+				"subtitle": "Daily exfoliating toner with PHA acid and enzyme activator",
+				"liters": "200 ml",
+				"id": "14",
+				"description": {
+				  "opis": [
+					"Synergistically works with vitamins C and A;",
+					"Helps achieve better results without skin sensitization;",
+					"The shortest way to beautiful, radiant, healthy skin."
+				  ]
+				},
+				"img": "press-and-glow.webp",
+				"price": "1600 UAH"
+			  },
+			  {
+				"title": "HYDR8 B5 INTENSE",
+				"subtitle": "Intensive serum with hyaluronic acid and NMF",
+				"liters": "30 ml",
+				"id": "15",
+				"description": {
+				  "opis": [
+					"Stimulates the natural production of hyaluronic acid in the skin;",
+					"Prevents premature breakdown of hyaluronic acid molecules;",
+					"Provides immediate and long-lasting hydration all day."
+				  ]
+				},
+				"img": "hydr8-b5-intense.webp",
+				"price": "3300 UAH"
+			  },
+			  {
+				"title": "SUPER C FERULIC",
+				"subtitle": "Intensive brightening serum with vitamin C",
+				"liters": "30 ml",
+				"id": "16",
+				"description": {
+				  "opis": [
+					"High-concentration and highly effective vitamin C serum;",
+					"Fights pigmentation, antioxidant protection, and rejuvenation;",
+					"Significant reduction of fine lines and wrinkles, improvement of skin tone and texture."
+				  ]
+				},
+				"img": "super-c-ferulic.webp",
+				"price": "3500 UAH"
+			  },
+			  {
+				"title": "CRYSTAL RETINAL 6",
+				"subtitle": "Night serum with stable retinaldehyde",
+				"liters": "30 ml",
+				"id": "17",
+				"description": {
+				  "opis": [
+					"0.06% Serum with retinaldehyde for regular vitamin A users;",
+					"Significantly reduces fine lines and wrinkles;",
+					"Strengthens and smooths the skin surface, renews and improves skin tone and elasticity."
+				  ]
+				},
+				"img": "crystal-retinal-6.webp",
+				"price": "3300 UAH"
+			  },
+			  {
+				"title": "CRYSTAL RETINAL 3",
+				"subtitle": "Night serum with stable retinaldehyde",
+				"liters": "30 ml",
+				"id": "18",
+				"description": {
+				  "opis": [
+					"0.03% Serum with retinaldehyde for beginners in vitamin A usage",
+					"Revolutionary night serum significantly reduces fine lines and wrinkles, strengthens and smooths the skin surface, renews and improves skin tone and elasticity."
+				  ]
+				},
+				"img": "crystal-retinal-3.webp",
+				"price": "2600 UAH"
+			  },
+			  {
+				"title": "TOTAL MOISTURE DAILY FACIAL CREAM",
+				"subtitle": "Instant deep moisturizing face cream",
+				"liters": "50 ml",
+				"id": "19",
+				"description": {
+				  "opis": [
+					"Light moisturizing face cream that combines a light texture, deep hydration, restoration, and support of the skin's protective barrier."
+				  ]
+				},
+				"img": "total-moisture-daily-facial-cream.webp",
+				"price": "2200 UAH"
+			  },
+			  {
+				"title": "ADVANCED NIGHT RESTORE",
+				"subtitle": "Rejuvenating multi-ceramide night cream",
+				"liters": "50 ml",
+				"id": "20",
+				"description": {
+				  "opis": [
+					"Formula designed to support the skin during the use of vitamin A-based serums.",
+					"Provides deep hydration, nourishment, and comfort to the skin throughout the night.",
+					"Minimizes signs of aging, gives softness, firmness, and restores energy."
+				  ]
+				},
+				"img": "advanced-night-restore.webp",
+				"price": "2900 UAH"
+			  },
+			  {
+				"title": "DAILY RADIANCE VITAMIN C",
+				"subtitle": "Antioxidant Moisturizing Cream C-Tetra with SPF 30",
+				"liters": "30 ml",
+				"id": "21",
+				"description": {
+					"opis": [
+						"Upon application, it melts into the skin and is quickly absorbed, providing powerful antioxidant protection and an invisible broad-spectrum sunscreen shield with SPF 30;",
+						"Bright, even skin tone, protection from photoaging and environmental stress."
+					]
+				},
+				"img": "daily-radiance-vitamin-c-spf-30.webp",
+				"price": "3200 UAH"
+			},
+			{
+				"title": "Moisture Bubble Cleansing Foam",
+				"subtitle": "Moisturizing Cleansing Foam",
+				"liters": "150 ml",
+				"id": "22",
+				"description": {
+					"opis": [
+						"Professional yet gentle skin cleansing",
+						"Restores the natural pH level of the facial skin at 5.5",
+						"Effectively removes dirt and remnants of cosmetic products",
+						"Smoothes skin texture",
+						"Healthy and radiant appearance of your skin."
+					]
+				},
+				"img": "moisture-bubble-cleansing-foam.webp",
+				"price": "2200 UAH"
+			},
+			{
+				"title": "REJURAN Healer Rebalancing Toner",
+				"subtitle": "Skin Balance Restoring Toner",
+				"liters": "120 ml",
+				"id": "23",
+				"description": {
+					"opis": [
+						"Calms inflammation, redness, and skin irritation with tea tree extract;",
+						"Second step of deep skin cleansing and restoration;",
+						"Smoothes the skin texture, making it even, soft, and firm with gentle exfoliation and surface peeling;",
+						"Smoothness and radiance of the skin;",
+						"Evens out skin tone, reducing pigmentation spots with the PHA in the composition."
+					]
+				},
+				"img": "rejuran-healer-rebalancing-toner.webp",
+				"price": "2200 UAH"
+			},
+			{
+				"title": "REJURAN Concentrate Rejuvenating Vital Energy Booster",
+				"subtitle": "Concentrated Serum",
+				"liters": "30 ml",
+				"id": "24",
+				"description": {
+					"opis": [
+						"Activates the antioxidant system to protect the skin from the harmful effects of free radicals;",
+						"Prevents the appearance of fine lines, wrinkles, and other signs of skin aging;",
+						"Penetrates active ingredients that rejuvenate and revitalize the skin, restoring its healthy appearance;",
+						"Restores overall texture, evens out skin tone, and provides radiance."
+					]
+				},
+				"img": "rejuran-concentrate-rejuvenating-booster.webp",
+				"price": "3000 UAH"
+			},
+			{
+				"title": "Intensive Premium Activator",
+				"subtitle": "Restorative Cream",
+				"liters": "50 ml",
+				"id": "25",
+				"description": {
+					"opis": [
+						"Long-lasting moisturizing, strengthening, and skin brightening effect",
+						"Increases skin elasticity with an organic nourishing complex",
+						"Nourishes and restores dull and tired skin",
+						"Prevents early signs of aging, such as fine lines and wrinkles – restores radiance and skin health."
+					]
+				},
+				"img": "intensive-premium-activator.webp",
+				"price": "3300 UAH"
+			},
+			{
+				"title": "Healer Renew Eye Patch",
+				"subtitle": "REJURAN Eye Patches with 3 Polynucleotides",
+				"liters": "60 pcs",
+				"id": "26",
+				"description": {
+					"opis": [
+						"REJURAN patches can be used both in the morning and evening",
+						"In the morning, the patches help remove signs of sleep deprivation (dark circles, bags, and puffiness under the eyes), giving the delicate under-eye skin radiance and a healthy look",
+						"In the evening, the active components in the patches trigger cell regeneration processes, as the cosmetic polynucleotide molecule size is more than 600 times smaller than the skin pore."
+					]
+				},
+				"img": "healer-renew-eye-patch.webp",
+				"price": "2500 UAH"
+			},
+			{
+				"title": "Healing Eye Gel",
+				"subtitle": "Restorative Gel for the Eye Area",
+				"liters": "15 ml",
+				"id": "27",
+				"description": {
+					"opis": [
+						"The special restorative formula s-PDRN® + adenosine on a hypoallergenic base helps the restorative gel protect the delicate skin around the eyes, smooth and hydrate the skin, reducing the appearance of crow's feet and wrinkles",
+						"The restorative gel improves the texture and tone of the under-eye skin area",
+						"The patented organic antioxidant complex delivers active ingredients to tired and stressed skin around the eyes, improving elasticity."
+					]
+				},
+				"img": "healing-eye-gel.webp",
+				"price": "2000 UAH"
+			},
+			{
+				"title": "Healer Calming Lip Balm",
+				"subtitle": "Restorative Gel for the Eye Area",
+				"liters": "3.5g",
+				"id": "28",
+				"description": {
+					"opis": [
+						"Our balm provides immediate hydration and nourishment thanks to a unique formula developed by our specialists",
+						"The Rejuran Healer Lip Balm provides intensive care for lips. It contains active components s-PDRN and shea butter, which help maintain the necessary moisture level for lips, protect them from environmental factors, and provide softness."
+					]
+				},
+				"img": "healer-calming-lip-balm.webp",
+				"price": "2200 UAH"
+			},
+			{
+				"title": "Healer UV Protection Balm SPF50+",
+				"subtitle": "UV Protection Balm",
+				"liters": "19g",
+				"id": "29",
+				"description": {
+					"opis": [
+						"This product is perfect for daily use, especially during sunny activities",
+						"It helps preserve skin health and youth by protecting it from the harmful effects of UV rays and other external factors."
+					]
+				},
+				"img": "healer-uv-protection-balm-spf50.webp",
+				"price": "2200 UAH"
+			},
+			{
+				"title": "Solar Defense Tinted SPF 30",
+				"subtitle": "Face Sunscreen Cream",
+				"liters": "50 ml",
+				"id": "30",
+				"description": {
+					"opis": [
+						"Protects from free radicals, preventing the formation of expression and deep wrinkles;",
+						"Restores optimal skin moisture levels without heaviness;",
+						"Color spheres, when applied, even out the skin tone, giving you a beautiful healthy skin shade;",
+						"Gently conceals skin imperfections, fights inflammatory elements;",
+						"Moisturizes, tones, and provides radiance, WITHOUT weighing down or leaving white marks."
+					]
+				},
+				"img": "solar-defense-tinted-spf-30.webp",
+				"price": "1800 UAH"
+			},
+			{
+				"title": "Solar Defense SPF 50 Non-Tinted",
+				"subtitle": "Facial Sunscreen",
+				"liters": "50 ml",
+				"id": "31",
+				"description": {
+				  "opis": [
+					"Protects from free radicals, preventing the formation of fine and deep wrinkles;",
+					"Restores optimal skin hydration without feeling heavy;",
+					"Mattifies, does not give the face a 'pale' tone, does not roll, and evenly spreads over the skin without leaving traces;",
+					"Fights inflammatory elements and soothes the skin."
+				  ]
+				},
+				"img": "solar-defense-non-tinted.webp",
+				"price": "1800 UAH"
+			  },
+			  {
+				"title": "Radiance Mask",
+				"subtitle": "Brightening Mask for Glowing Skin",
+				"liters": "15 ml",
+				"id": "32",
+				"description": {
+				  "opis": [
+					"Slows down the appearance of fine and deep wrinkles;",
+					"Increases skin elasticity, making it soft and even;",
+					"Improves skin turgor and prevents sagging, providing intense hydration;",
+					"Nourishes the skin, revitalizes it, and fills it with an inner glow, normalizes melanogenesis, and brightens pigmentation of any origin."
+				  ]
+				},
+				"img": "radiance-mask.webp",
+				"price": "1500 UAH"
+			  },
+			  {
+				"title": "Miracle Mask",
+				"subtitle": "\"Miracle\" Cream Mask",
+				"liters": "30 ml",
+				"id": "33",
+				"description": {
+				  "opis": [
+					"Enzymes dissolve dead skin cells, remove impurities, and reduce pore visibility, promoting a fresher, rested complexion;",
+					"Strengthening peptides and hyaluronic acid reduce the appearance of fine lines and wrinkles, nourish the skin, and protect it from free radicals, providing an instant 'Wow-lifting effect';",
+					"Fills the skin with antioxidants, enhancing its protective functions, and has a cumulative healing effect."
+				  ]
+				},
+				"img": "miracle-mask.webp",
+				"price": "2000 UAH"
+			  },
+			  {
+				"title": "Balancing Mask",
+				"subtitle": "Soothing Anti-Stress Mask",
+				"liters": "30 ml",
+				"id": "34",
+				"description": {
+				  "opis": [
+					"Peptides stimulate the synthesis of type III collagen and control its formation quality;",
+					"Slows down the appearance of fine and deep wrinkles;",
+					"Increases and maintains skin tone;",
+					"Fights free radicals;",
+					"Quickly restores the skin and stimulates its regeneration;",
+					"Visibly improves the skin, nourishes it, and protects it from environmental aggression."
+				  ]
+				},
+				"img": "balancing-mask.webp",
+				"price": "2000 UAH"
+			  },
+			  {
+				"title": "Rejuvenating Mask",
+				"subtitle": "Blueberry Rejuvenating Mask",
+				"liters": "15 ml",
+				"id": "35",
+				"description": {
+				  "opis": [
+					"Slows down the appearance of fine and deep wrinkles;",
+					"Relieves heat, itching, and irritation;",
+					"Eliminates the visibility of the vascular network;",
+					"Nourishes, softens, and deeply hydrates;",
+					"Minimizes redness and micro-inflammation;",
+					"Evens out skin tone and increases its natural glow;",
+					"Normalizes skin's protective functions;",
+					"Has a cumulative healing effect."
+				  ]
+				},
+				"img": "rejuvenating-mask.webp",
+				"price": "1500 UAH"
+			  },
+			  {
+				"title": "Micellar Facial Cloths",
+				"subtitle": "Micellar Face Wipes",
+				"liters": "30 pcs",
+				"id": "36",
+				"description": {
+				  "opis": [
+					"The textured surface helps quickly and gently remove impurities, excess oil, sweat, and any type of makeup, while also providing care and a micro-massage for the skin;",
+					"Nourishing antioxidant (lotus extract) helps protect the skin from free radicals, and plant extracts nourish, providing a healthy glow and even skin tone."
+				  ]
+				},
+				"img": "micellar-facial-cloths-cleanse.webp",
+				"price": "800 UAH"
+			  }
+		],
+		"link": "Learn more..."
+	},
+	"politics": {
+		"text_1": "The course was created for cosmetologists to share information and experience for specialists who cannot attend training in person.",
+		"text_2": "The courses are introductory in nature with the technique of a cosmetologist.",
+		"text_3": "Distribution and sale of courses purchased on this site is prohibited."
+	},
+	"contacts": {
+		"title": "Contacts",
+		"block_1": "Heed Help?",
+		"block_2": "Social links",
+		"block_3": "Politics"
+	},
+	"shedule": {
+		"text": "Tu-Sat 12:00 - 18:00"
+	},
+	"image": {
+		"title": "Studio image gallery",
+		"subtitle": ""
+	},
+	"result": {
+		"year": "years of experience",
+		"pacient": "patients",
+		"study": "training"
+	},
+	"brands": {
+		"title": "Бренды",
+		"subtitle": "",
+		"list": [
+			{
+				"brandName": "Zein Obagi",
+				"brandImg": "zoskin.webp"
+			},
+			{
+				"brandName": "Medik 8",
+				"brandImg": "medike8.webp"
+			},
+			{
+				"brandName": "Redjuran",
+				"brandImg": "rejuran.webp"
+			},
+			{
+				"brandName": "Hydropeptide",
+				"brandImg": "hydropetide.webp"
+			}
+		]
+	}
+}
